@@ -116,20 +116,20 @@
         var data = res.list[j].arr;
         var liTmpl = "";
         for (var i = 0, len = data.link.length; i < len; i++) {
-          var minSrc = 'https://github.com/BoredLiam/photo/' + data.link[i] + '.min.jpg';
-          var src = 'https://github.com/BoredLiam/photo/' + data.link[i];
+          var minSrc = 'https://s1.ax1x.com/2023/08/22/pPJKvuT.png' + data.link[i];
+          var src = 'https://s1.ax1x.com/2023/08/22/pPJKvuT.png' + data.link[i];
           var type = data.type[i];
           var target = src + (type === 'video' ? '.mp4' : '.jpg');
-          src += '.jpg';
+          src += '';
 
           liTmpl += '<figure class="thumb" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject">\
-                <a href="' + src + '" itemprop="contentUrl" data-size="' + size + '" data-type="' + type + '" data-target="' + target + '">\
+                <a href="' + src + '" itemprop="contentUrl" data-size="' + size + '" data-type="' + type + '" data-target="' + src + '">\
                   <img class="reward-img" data-type="' + type + '" data-src="' + minSrc + '" src="/assets/img/empty.png" itemprop="thumbnail" onload="lzld(this)">\
                 </a>\
                 <figcaption style="display:none" itemprop="caption description">' + data.text[i] + '</figcaption>\
             </figure>';
         }
-        ulTmpl = ulTmpl + '<section class="archives album"><h1 class="year">' + data.year + '<em>' + data.month + '月</em></h1>\
+        ulTmpl = ulTmpl + '<section class="archives album"><h1 class="year">' + data.year + '年<em>' + data.month + '月</em></h1>\
         <ul class="img-box-ul">' + liTmpl + '</ul>\
         </section>';
       }
@@ -169,7 +169,7 @@
     function loadData(success) {
       if (!searchData) {
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', './ins.json?t=' + +new Date(), true);
+        xhr.open('GET', './data.json?t=' + +new Date(), true);
 
         xhr.onload = function() {
           if (this.status >= 200 && this.status < 300) {
