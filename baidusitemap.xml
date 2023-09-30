@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://boredliam.github.io/2023/09/30/Blog_series/blog-04/</loc>
+    <lastmod>2023-09-30</lastmod>
+  </url>
+  <url>
     <loc>https://boredliam.github.io/2023/09/29/Blog_series/blog-01/</loc>
     <lastmod>2023-09-30</lastmod>
   </url>
@@ -9,15 +13,7 @@
     <lastmod>2023-09-10</lastmod>
   </url>
   <url>
-    <loc>https://boredliam.github.io/2023/08/22/Dairy/%E9%80%90%E5%A4%A9/</loc>
-    <lastmod>2023-09-10</lastmod>
-  </url>
-  <url>
     <loc>https://boredliam.github.io/2023/08/07/dairy/%E9%9B%A8/</loc>
-    <lastmod>2023-09-10</lastmod>
-  </url>
-  <url>
-    <loc>https://boredliam.github.io/2023/08/07/Dairy/%E9%9B%A8/</loc>
     <lastmod>2023-09-10</lastmod>
   </url>
   <url>
@@ -25,15 +21,7 @@
     <lastmod>2023-09-10</lastmod>
   </url>
   <url>
-    <loc>https://boredliam.github.io/2023/08/18/Dairy/%E5%A4%9C/</loc>
-    <lastmod>2023-09-10</lastmod>
-  </url>
-  <url>
     <loc>https://boredliam.github.io/2023/09/02/dairy/%E7%9F%9B%E7%9B%BE/</loc>
-    <lastmod>2023-09-10</lastmod>
-  </url>
-  <url>
-    <loc>https://boredliam.github.io/2023/09/02/Dairy/%E7%9F%9B%E7%9B%BE/</loc>
     <lastmod>2023-09-10</lastmod>
   </url>
   <url>
@@ -41,23 +29,11 @@
     <lastmod>2023-09-10</lastmod>
   </url>
   <url>
-    <loc>https://boredliam.github.io/2023/07/25/Dairy/%E5%81%87%E5%A6%82%E7%BB%99%E6%88%91%E4%B8%80%E7%99%BE%E4%B8%87/</loc>
-    <lastmod>2023-09-10</lastmod>
-  </url>
-  <url>
     <loc>https://boredliam.github.io/2023/07/31/dairy/%E5%BA%9F%E5%9C%9F/</loc>
     <lastmod>2023-09-04</lastmod>
   </url>
   <url>
-    <loc>https://boredliam.github.io/2023/07/31/Dairy/%E5%BA%9F%E5%9C%9F/</loc>
-    <lastmod>2023-09-04</lastmod>
-  </url>
-  <url>
     <loc>https://boredliam.github.io/2023/09/03/dairy/%E4%B8%A2%E5%A4%B1%E7%9A%84%E5%BF%AB%E9%80%92/</loc>
-    <lastmod>2023-09-04</lastmod>
-  </url>
-  <url>
-    <loc>https://boredliam.github.io/2023/09/03/Dairy/%E4%B8%A2%E5%A4%B1%E7%9A%84%E5%BF%AB%E9%80%92/</loc>
     <lastmod>2023-09-04</lastmod>
   </url>
   <url>
@@ -97,15 +73,7 @@
     <lastmod>2023-08-18</lastmod>
   </url>
   <url>
-    <loc>https://boredliam.github.io/2023/08/12/Dairy/%E4%BA%BA%E7%94%9F%E7%9A%84%E8%83%9C%E8%80%85/</loc>
-    <lastmod>2023-08-18</lastmod>
-  </url>
-  <url>
     <loc>https://boredliam.github.io/2023/08/17/dairy/%E6%81%B6/</loc>
-    <lastmod>2023-08-18</lastmod>
-  </url>
-  <url>
-    <loc>https://boredliam.github.io/2023/08/17/Dairy/%E6%81%B6/</loc>
     <lastmod>2023-08-18</lastmod>
   </url>
 </urlset> 
