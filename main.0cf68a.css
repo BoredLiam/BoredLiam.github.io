@@ -4607,6 +4607,7 @@ a.tok-link:hover{
   color: #000;
 }
 
+/* 定义左渐进动画，同下 */
 @keyframes fadeInLeft {
   from {
     opacity: 0;
@@ -4629,7 +4630,8 @@ body{
   background-image: url(https://img1.imgtp.com/2023/09/29/duS6Gei6.png);
 }
 
-@keyframes fadeIn {
+/* 定义从上渐进动画 */
+@keyframes fadeInAbove {
   from {
     opacity: 0;
     transform: translate3d(0, -0.5%, 0);
@@ -4639,12 +4641,12 @@ body{
     opacity: 1;
   }
 }
-
+/* 给menu-l添加动画 */
 .menu-l{
-  animation-duration: 0.8s;
-  animation-fill-mode: both;
-  animation-name: fadeIn;
-  animation-delay: 0.2s;
+  animation-duration: 0.8s; /* 持续时间 */
+  animation-fill-mode: both; /* 是否返回 */
+  animation-name: fadeIn; /* 引入动画 */
+  animation-delay: 0.2s; /* 延迟时间 */
 }
 
 .post_amount{
