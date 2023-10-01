@@ -48,11 +48,13 @@
 <div class="overlay" style="background: #86C5EA"></div>
 <div class="intrude-less">
 	<header id="header" class="inner">
-		<a href="/" class="profilepic">
+		<a href="/about" class="profilepic">
 			<img src="https://img1.imgtp.com/2023/09/29/J1adH105.JPG" class="js-avatar">
 		</a>
 		<hgroup>
-		  <h1 class="header-author" style="font-family: Georgia, 'Times New Roman', Times, serif;text-shadow: -.1em .1em .2em #ccc;font-weight: 500;"><a href="/">BoredLiam</a></h1>
+		  <h1 class="header-author" style="font-family: Georgia, 'Times New Roman', Times, serif;text-shadow: -.1em .1em .2em #ccc;font-weight: 500;">
+			<a href="/about">BoredLiam</a>
+		  </h1>
 		</hgroup>
 		
 		<!-- <p class="header-subtitle" style="font-family: Trebuchet MS;">记录无聊的生活，汇聚精彩的人生</p> -->
@@ -72,7 +74,7 @@
 		</nav>
 		<!--文章数-->
 		<nav style="color: rgb(105, 105, 105);font-size: 14px">
-			总文章数: <span class="post_amount">19</span>篇
+			总文章数: <span class="post_amount">20</span>篇
 		</nav><br>
 		<!--文章数-->
 		<nav class="header-smart-menu">
@@ -92,7 +94,7 @@
 		</nav>
 		<nav class="header-nav">
 			<!--音乐-->
-			<iframe frameborder="yes" border="20" marginwidth="0" marginheight="0" width=250 height=80 src="//music.163.com/outchain/player?type=2&id=546730658&auto=1&height=66"></iframe>
+			<iframe frameborder="yes" border="20" marginwidth="0" marginheight="0" width=250 height=80 src="//music.163.com/outchain/player?type=2&id=546730658&auto=1&height=66" style="border-top-right-radius: 0.7em;"></iframe>
 			<!--音乐-->
 			<div class="social">
 				
@@ -180,6 +182,209 @@
           </div>
           <div id="js-content" class="content-ll">
             
+  
+    <article id="post-Blog_series/blog-07" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2023/10/01/Blog_series/blog-07/">零基础搭建个人博客（柒）</a>
+    </h1>
+  
+
+        
+        <a href="/2023/10/01/Blog_series/blog-07/" class="archive-article-date">
+  	<time datetime="2023-10-01T08:29:11.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-10-01</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>在经过千辛万苦之后，你终于建立起一个基本的网站并添加了属于自己的内容。那么剩余的只需添砖加瓦即可，现在就让我们将网站页面继续完善与美化吧。</p>
+<blockquote>
+<p>注意：以下内容并非一网站之必要，请自行斟酌添加。<br>但要牢记的是：一个博客最重要的，永远是你的文章！</p>
+</blockquote>
+<p>内容持续更新中（吧）…</p>
+<h1 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h1><h2 id="添加头像与设置网站图标"><a href="#添加头像与设置网站图标" class="headerlink" title="添加头像与设置网站图标"></a>添加头像与设置网站图标</h2><p>设置头像可以在<code>themes\yilia_config.yml</code>（记住他，后面经常用到）文件里找到此片段</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Miscellaneous</span><br><span class="line">baidu_analytics: &#x27;&#x27;</span><br><span class="line">google_analytics: &#x27;&#x27;</span><br><span class="line">favicon: /img/1favicon.ico</span><br><span class="line"></span><br><span class="line">#你的头像url</span><br><span class="line">avatar: https://img1.imgtp.com/2023/09/29/J1adH105.JPG</span><br></pre></td></tr></table></figure>
+
+<p>其中<code>favicon: /img/1favicon.ico</code>是你的网站图标的位置及名称，我的是在<code>\source\img</code>下的1favicon.ico（并不需要和我一样，写对文件位置即可）<br>头像同理，<code>avatar: </code>后面接上你的文件位置即可（我的头像放在图床上，于是接的是链接，你也可以向上文一样使用<code>\source\img</code>的格式~）</p>
+<h2 id="添加一言"><a href="#添加一言" class="headerlink" title="添加一言"></a>添加一言</h2><p>左侧栏头像下面其实可以添加你的名言描述的，在<code>themes\yilia_config.yml</code>中添加</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">author: BoredLiam</span><br><span class="line">subtitle: &#x27;记录无聊的生活，汇聚精彩的人生&#x27;</span><br></pre></td></tr></table></figure>
+
+<p>即可。<br>当然还可以用css添加一些效果，如：<br>打开<code>themes\yilia\layout\_partial\left-col.ejs</code><br>看前两行：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">&lt;% var defaultBg = &#x27;#4d4d4d&#x27;; %&gt;</span><br><span class="line">&lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;div class=&quot;intrude-less&quot;&gt;</span><br><span class="line">	&lt;header id=&quot;header&quot; class=&quot;inner&quot;&gt;</span><br><span class="line">		&lt;a href=&quot;/about&quot; class=&quot;profilepic&quot;&gt;</span><br><span class="line">			&lt;img src=&quot;&lt;%=theme.avatar%&gt;&quot; class=&quot;js-avatar&quot;&gt;</span><br><span class="line">		&lt;/a&gt;</span><br><span class="line">		&lt;hgroup&gt;</span><br><span class="line">		  &lt;h1 class=&quot;header-author&quot;&gt;</span><br><span class="line">			&lt;a href=&quot;/about&quot;&gt;&lt;%=theme.author%&gt;&lt;/a&gt;</span><br><span class="line">		  &lt;/h1&gt;</span><br><span class="line">        &lt;/hgroup&gt;</span><br><span class="line">        &lt;% if (theme.subtitle)&#123; %&gt;</span><br><span class="line">		&lt;p class=&quot;header-subtitle&quot; style=&quot;font-family: Trebuchet MS;&quot;&gt;&lt;%=theme.subtitle%&gt;&lt;/p&gt;</span><br><span class="line">		&lt;%&#125;%&gt;</span><br><span class="line">&lt;!-- .....略 --&gt;</span><br><span class="line">	&lt;/header&gt;</span><br><span class="line">&lt;/div&gt;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>我们在<code>&lt;h1 class=&quot;header-author&quot;&gt;</code>标签中添加<code>style</code>进行添加阴影、更换字体等操作，举个例子：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;h1 class=&quot;header-author&quot; style=&quot;font-family: Georgia, &#x27;Times New Roman&#x27;, Times, serif;text-shadow: -.1em .1em .2em #ccc;font-weight: 500;&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>效果就是我的标题这样啦！<br>同样，我们也可以更改<code>p class=&quot;header-subtitle&quot; style=&quot;font-family: Trebuchet MS;&quot;&gt;&lt;%=theme.subtitle%&gt;&lt;/p&gt;</code>来自定义一言的样式。</p>
+<h2 id="加入搜索引擎"><a href="#加入搜索引擎" class="headerlink" title="加入搜索引擎"></a>加入搜索引擎</h2><p>参见：<a target="_blank" rel="noopener" href="https://www.gaotianyang.top/archives/20200814f023bd8e/" title="hexo添加sitemap功能">hexo添加sitemap功能</a><br>bing的方法类同，且站点地图推送较慢，可寻找URL提交的方法</p>
+<h2 id="网易云音乐"><a href="#网易云音乐" class="headerlink" title="网易云音乐"></a>网易云音乐</h2><p>[Hexo博客yilia主题添加背景音乐 （网易云音乐）](<a target="_blank" rel="noopener" href="https://blog.csdn.net/Aoman_Hao/article/details/79484441#:~:text=Hexo%E5%8D%9A%E5%AE%A2yilia%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90">https://blog.csdn.net/Aoman_Hao/article/details/79484441#:~:text=Hexo博客yilia主题添加背景音乐</a> （网易云音乐） 1 1、 打开网易云音乐首页，然后搜索你要添加的背景音乐 http%3A%2F%2Fmusic.163.com%2F 1 2,3 3、 复制外链播放器的代码 打开yilia主题下的_partial文件夹下的left-col.ejs文件 复制文件内容到最下端 红线内的iframe框为复制的外链播放器代码，如图红线内，把代码放在div框 例如： )</p>
+<p>十分简单但有用的功能，无坑放心使用。</p>
+<blockquote>
+<p>注意：自动播放可能会出现问题，请参阅：<a target="_blank" rel="noopener" href="https://www.windeling.com.cn/2023082632320/">关于浏览器音乐自动播放的问题 | Windeling</a></p>
+</blockquote>
+<h2 id="建站运行时间"><a href="#建站运行时间" class="headerlink" title="建站运行时间"></a>建站运行时间</h2><p>参考<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/c9de55660d1b" title="大佬的代码">大佬的代码</a></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;TIMESET&quot;&gt;</span><br><span class="line">		  &lt;span id=&quot;timeDate&quot;&gt;载入天数...&lt;/span&gt;&lt;span id=&quot;times&quot;&gt;载入时分秒...&lt;/span&gt;</span><br><span class="line">		  &lt;script&gt;</span><br><span class="line">			  var now = new Date(); </span><br><span class="line">			  function createtime() &#123; </span><br><span class="line">				  var grt= new Date(&quot;08/16/2023 11:18:00&quot;);//此处修改你的建站时间或者网站上线时间 </span><br><span class="line">				  now.setTime(now.getTime()+250); </span><br><span class="line">				  days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); </span><br><span class="line">				  hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); </span><br><span class="line">				  if(String(hnum).length ==1 )&#123;hnum = &quot;0&quot; + hnum;&#125; minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); </span><br><span class="line">				  mnum = Math.floor(minutes); if(String(mnum).length ==1 )&#123;mnum = &quot;0&quot; + mnum;&#125; </span><br><span class="line">				  seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); </span><br><span class="line">				  snum = Math.round(seconds); if(String(snum).length ==1 )&#123;snum = &quot;0&quot; + snum;&#125; </span><br><span class="line">				  document.getElementById(&quot;timeDate&quot;).innerHTML = &quot;本站已「安全」运行 &quot;+dnum+&quot; 天 &quot;; </span><br><span class="line">				  document.getElementById(&quot;times&quot;).innerHTML = hnum + &quot; 小时 &quot; + mnum + &quot; 分 &quot; + snum + &quot; 秒&quot;; </span><br><span class="line">			  &#125; </span><br><span class="line">			  setInterval(&quot;createtime()&quot;,250);</span><br><span class="line">		  &lt;/script&gt;</span><br></pre></td></tr></table></figure>
+<p>在<code>\themes\yilia\layout\_partial</code>文件夹下找到你的<code>footer.ejs</code>文件，在<code>&lt;div id=&quot;footer-info&quot;&gt;&lt;/div&gt;</code>标签内添加以上代码，也就是在如下代码后面换行并粘贴。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;footer-right&quot;&gt;</span><br><span class="line">      		&lt;a href=&quot;http://hexo.io/&quot; target=&quot;_blank&quot;&gt;Hexo&lt;/a&gt;  Theme &lt;a href=&quot;https://github.com/litten/hexo-theme-yilia&quot; target=&quot;_blank&quot;&gt;Yilia&lt;/a&gt; by Litten</span><br><span class="line">      	&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+
+<h2 id="访客数量"><a href="#访客数量" class="headerlink" title="访客数量"></a>访客数量</h2><p>使用不蒜子的方法：<a target="_blank" rel="noopener" href="https://ruider.github.io/2018/06/11/%E6%B7%BB%E5%8A%A0hexo-yilia%E4%B8%BB%E9%A2%98%E7%9A%84%E8%AE%BF%E9%97%AE%E6%95%B0%E9%87%8F/">hexo+yilia主题的添加访问数量 | RuiDer的博客</a></p>
+<p>使用amazingcounters的方法：[Hexo yilia主题添加网站访客人数统计 | 陈浩的个人博客 (cighao.com)](<a target="_blank" rel="noopener" href="http://cighao.com/2015/11/30/add-counter-to-hexo/#:~:text=%E4%B8%BA%E4%BA%86%E6%96%B9%E4%BE%BF%E7%9A%84%E5%BC%80%E5%90%AF%E6%88%96%E8%80%85%E5%85%B3%E9%97%AD%E8%AE%BF%E5%AE%A2%E6%95%B0%E9%87%8F%E7%BB%9F%E8%AE%A1%E5%8A%9F%E8%83%BD%E6%88%91%E4%BB%AC%E5%8F%AF%E4%BB%A5%E5%9C%A8%E4%B8%BB%E9%A2%98%E7%9A%84%E9%85%8D%E7%BD%AE%E6%96%87">http://cighao.com/2015/11/30/add-counter-to-hexo/#:~:text=为了方便的开启或者关闭访客数量统计功能我们可以在主题的配置文</a> _config.yml 里面添加一个变量， counter%3A true,当改为false时即关闭了访客统计功能。 我们在 hexothemesyilialayout_partial 文件夹下新建一个 counter.ejs 文件，并将在前面复制到的代码粘帖在这个里面。)</p>
+<hr>
+<h1 id="文章设置"><a href="#文章设置" class="headerlink" title="文章设置"></a>文章设置</h1><p>这里我们会讲述一些帮助你整理文章内容，提升文章阅读体验的美化内容！</p>
+<h2 id="配置所有文章"><a href="#配置所有文章" class="headerlink" title="配置所有文章"></a>配置所有文章</h2><p>一般你会发现点击侧边栏的所有文章按钮会显示缺失模块：<br><img src="https://s1.ax1x.com/2020/07/17/UyEc8g.png" alt="插件缺失"><br>其实按照上面的步骤安装插件即可，在你的blog（博客文件夹）文件夹右键打开Git Bash，输入</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-generator-json-content --save</span><br></pre></td></tr></table></figure>
+
+<p>若出现add XXX packages from XXX contributors in XXXs即为成功。<br>接下来在博客根目录（还是刚刚的博客文件夹）的_config.yml文件下添加如下代码</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">jsonContent:</span><br><span class="line">  meta: false</span><br><span class="line">  pages: false</span><br><span class="line">  posts:</span><br><span class="line">    title: true</span><br><span class="line">    date: true</span><br><span class="line">    path: true</span><br><span class="line">    text: false</span><br><span class="line">    raw: false</span><br><span class="line">    content: false</span><br><span class="line">    slug: false</span><br><span class="line">    updated: false</span><br><span class="line">    comments: false</span><br><span class="line">    link: false</span><br><span class="line">    permalink: false</span><br><span class="line">    excerpt: false</span><br><span class="line">    categories: false</span><br><span class="line">    tags: true</span><br></pre></td></tr></table></figure>
+
+<p>之后清除缓存并提交即可。<br>在成功后有时会出现过段时间又显示缺失插件的情况，一般刷新网页或重装插件后即可解决。</p>
+<h2 id="文章展开全文"><a href="#文章展开全文" class="headerlink" title="文章展开全文"></a>文章展开全文</h2><p>我们写文章时用<code>&lt;!-- more --&gt;</code>截断文本时会发现文章下方出现了“more &gt;&gt;”的超链接，但是标签旁边已经有了一个“展开全文&gt;&gt;”了<br><img src="https://s1.ax1x.com/2020/07/17/UyeQDs.png" alt="重复" title="重复了看见没"><br>显然下面按钮样式的展开全文正好看些，，于是我们就把蓝色的超链接去除：<br>打开博客文件夹下的<code>themes/yilia/_config.yml</code>，搜索定位到</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">excerpt_link: more</span><br></pre></td></tr></table></figure>
+
+<p>把他注释掉：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># excerpt_link: more</span><br></pre></td></tr></table></figure>
+<p>即可<br><img src="https://s1.ax1x.com/2020/07/17/Uye6PK.png" alt="效果" title="效果针不戳"></p>
+<h2 id="文章目录"><a href="#文章目录" class="headerlink" title="文章目录"></a>文章目录</h2><p>首先我们要添加目录，还是打开配置文件<code>themes/yilia/_config.yml</code>，找到这一部分</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># 目录</span><br><span class="line"># 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录</span><br><span class="line">toc: 1</span><br><span class="line"># 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false</span><br><span class="line">toc_hide_index: true</span><br><span class="line"># 目录为空时的提示</span><br><span class="line">toc_empty_wording: &#x27;目录，不存在的…&#x27;</span><br><span class="line"></span><br><span class="line"># 是否有快速回到顶部的按钮</span><br><span class="line">top: 1</span><br></pre></td></tr></table></figure>
+
+<p>按照注释的提示将toc值更改即可。<br>在写文章时在头部加上<code>toc: true</code>就可以显示一个目录。<br><del>原来的默认的目录蓝不拉几好丑啊，其实是可以换一个的，但是我找不到教程了….遂作罢，大家自己寻找吧。</del></p>
+<h2 id="添加标签与归档"><a href="#添加标签与归档" class="headerlink" title="添加标签与归档"></a>添加标签与归档</h2><p>写文章时我们可以添加上标签与归档，在所有文章按钮中可以集中展示，也可以分标签分类展示。<br>标签与归档的添加十分简单，写文章时在头部加上如下文段即可。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tags: Computer Network</span><br><span class="line">categories: Study</span><br></pre></td></tr></table></figure>
+
+<p>当然Computer Network等是你的归档&#x2F;标签名，假若添加多个则如下</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">tags: </span><br><span class="line">- Computer Network</span><br><span class="line">- Programming</span><br><span class="line">categories: </span><br><span class="line">- Study</span><br><span class="line">- Internet</span><br></pre></td></tr></table></figure>
+
+<p>现在就可以在所有文章里寻找对应标签的文章了！<br><img src="https://img1.imgtp.com/2023/10/01/SXDWwHDN.png" alt="标签" title="标签查找"><br>为了集中展示某个归档&#x2F;标签的内容，你可以打开<code>themes\yilia_config.yml</code>找到以下字段：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  主页: /</span><br></pre></td></tr></table></figure>
+
+<p>你可以添加你的归档以集中显示，比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  主页: /</span><br><span class="line">  随笔: /categories/life/</span><br><span class="line">  笔记: /categories/study/</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h2 id="文章浏览数量"><a href="#文章浏览数量" class="headerlink" title="文章浏览数量"></a>文章浏览数量</h2><p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/be00795a502b">Hexo+Yilia+github主题统计文章阅读次数</a></p>
+<blockquote>
+<p>注意：使用到Leancloud的服务都会略微缓慢。</p>
+</blockquote>
+<h2 id="文章字数统计以及阅读时长"><a href="#文章字数统计以及阅读时长" class="headerlink" title="文章字数统计以及阅读时长"></a>文章字数统计以及阅读时长</h2><p>[hexo下yilia主题添加字数统计和阅读时长功能](<a target="_blank" rel="noopener" href="https://blog.csdn.net/fmk1023/article/details/100073217#:~:text=hexo%E4%B8%8Byilia%E4%B8%BB%E9%A2%98%E6%B7%BB%E5%8A%A0%E5%AD%97%E6%95%B0%E7%BB%9F%E8%AE%A1%E5%92%8C%E9%98%85%E8%AF%BB%E6%97%B6%E9%95%BF%E5%8A%9F%E8%83%BD">https://blog.csdn.net/fmk1023/article/details/100073217#:~:text=hexo下yilia主题添加字数统计和阅读时长功能</a> 1.安装 hexo-wordcount 在博客目录下打开Git Bash Here,输入命令 npm i –save hexo-wordcount 1 2.文件配置)</p>
+<p>参见这篇文章，效果如图：</p>
+<p><img src="/../AppData/Roaming/Typora/typora-user-images/image-20231001173807301.png" alt="image"></p>
+<h2 id="总文章数"><a href="#总文章数" class="headerlink" title="总文章数"></a>总文章数</h2><p>将themes\yilia\layout_partial\left-col.ejs文件的</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;nav <span class="keyword">class</span>=<span class="string">&quot;header-menu&quot;</span>&gt;</span><br><span class="line">    <span class="language-xml"><span class="tag">&lt;<span class="name">ul</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">    &lt;% for (var i in theme.menu)&#123; %&gt;</span></span><br><span class="line"><span class="language-xml">        <span class="tag">&lt;<span class="name">li</span>&gt;</span><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">&quot;&lt;%- url_for(theme.menu[i]) %&gt;&quot;</span>&gt;</span>&lt;%= i %&gt;<span class="tag">&lt;/<span class="name">a</span>&gt;</span><span class="tag">&lt;/<span class="name">li</span>&gt;</span></span></span><br><span class="line"><span class="language-xml">    &lt;%&#125;%&gt;</span></span><br><span class="line"><span class="language-xml">    <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span></span><br><span class="line">&lt;/nav&gt;</span><br></pre></td></tr></table></figure>
+
+<p>后面加上</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;nav&gt;</span><br><span class="line">    总文章数 &lt;%=site.<span class="property">posts</span>.<span class="property">length</span>%&gt;</span><br><span class="line">&lt;/nav&gt;</span><br></pre></td></tr></table></figure>
+
+<p>参考链接：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/68305444">莫与带你解析 Hexo Yilia 高级配置</a></p>
+<h2 id="安装图片插件"><a href="#安装图片插件" class="headerlink" title="安装图片插件"></a>安装图片插件</h2><blockquote>
+<p>如果使用绝对路径无法引用图片（即在编辑器中可以浏览，但部署后无法浏览），便需要安装图片插件。</p>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.cnblogs.com/tiankx/p/13889065.html">关于yilia中写博客引入图片 - 黑质白章</a></p>
+<blockquote>
+<p>注意：如果使用此方法，必须将图片放入到文件夹中才可引用，但网页URL图片不受此限制。</p>
+</blockquote>
+<h2 id="置顶插件"><a href="#置顶插件" class="headerlink" title="置顶插件"></a>置顶插件</h2><p>如果只要求有置顶的功能，不要求可以人为调整顺序，只要安装插件便可。</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall hexo-generator-index --save</span><br><span class="line">npm install hexo-generator-index-pin-top --save</span><br></pre></td></tr></table></figure>
+
+<p>如果有要求，还要配置置顶标准。</p>
+<p>打开：&#x2F;themes&#x2F;*&#x2F;layout（&#x2F;_macro）&#x2F;post.ejs 直接在最前面加入以下代码即可</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;% <span class="keyword">if</span> (page.<span class="property">top</span>) &#123; %&gt;</span><br><span class="line">  <span class="language-xml"><span class="tag">&lt;<span class="name">i</span> <span class="attr">class</span>=<span class="string">&quot;fa fa-thumb-tack&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">i</span>&gt;</span></span></span><br><span class="line">  <span class="language-xml"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">&quot;7D26CD&quot;</span>&gt;</span>置顶<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span></span><br><span class="line">  <span class="language-xml"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;post-meta-divider&quot;</span>&gt;</span>|<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span></span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+
+<p>然后在需要置顶的文章的Front-matter中加上top选项即可 top后面的数字越大，优先级越高</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: 2019</span><br><span class="line">date: 2019-02-14 16:10:03</span><br><span class="line">top: 5</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<p>修改根目录配置文件&#x2F;_config.yml,top值-1标示根据top值倒序（正序设置为1即可），同样date也是根据创建日期倒序。</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">index_generator:</span><br><span class="line">  path: &#x27;&#x27;</span><br><span class="line">  per_page: 10</span><br><span class="line">  order_by:</span><br><span class="line">    top: -1</span><br><span class="line">    date: -1</span><br></pre></td></tr></table></figure>
+
+<p>参考文章：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/68305444">莫与带你解析 Hexo Yilia 高级配置</a></p>
+<h2 id="评论"><a href="#评论" class="headerlink" title="评论"></a>评论</h2><h3 id="valine评论"><a href="#valine评论" class="headerlink" title="valine评论"></a>valine评论</h3><p>关于valine的评论的操作方法已经有进行总结，教程较为完善，因此可直接参考。</p>
+<p><a target="_blank" rel="noopener" href="https://blog.imlete.cn/article/Valine-LeanCloud-Config.html">LeanCloud-Valine保姆级配置教程 | Lete乐特 ‘s Blog (imlete.cn)</a></p>
+<p>但是要注意，由于qmsg酱和servers酱现在已经不支持微信和QQ中有链接推广，而需要修改此模板，需要使用waline。</p>
+<p>但是waline评论似乎不能在中国大陆上使用，较为繁琐。</p>
+<p>还有一些坑，详情参阅：</p>
+<p><a target="_blank" rel="noopener" href="https://www.windeling.com.cn/2023082063719/">valine评论系统搭建踩坑总结 | Windeling</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.windeling.com.cn/202308258455/">关于valine评论国际版无法提交的问题原因分析和解决方案 | Windeling</a></p>
+<h3 id="gitsee评论"><a href="#gitsee评论" class="headerlink" title="gitsee评论"></a>gitsee评论</h3><blockquote>
+<p><strong>Windeling曰：</strong><br>速度比这个leancloud还慢<br>而且不稳定<br>leancloud至少什么时候都能访问<br>其实waline才是最优解<br>你去注册一个试试</p>
+</blockquote>
+<p>所以他没写。</p>
+<hr>
+<h1 id="界面美化"><a href="#界面美化" class="headerlink" title="界面美化"></a>界面美化</h1><h2 id="404页面"><a href="#404页面" class="headerlink" title="404页面"></a>404页面</h2><p>直接在<code>\source</code>文件夹里面加一个个性的404.html，内容自定，可以到网上下载个性404界面模板。<br><a target="_blank" rel="noopener" href="https://www.17sucai.com/pins/tag/281.html" title="404界面模板推荐">404界面模板推荐</a></p>
+<h2 id="智能菜单的修改"><a href="#智能菜单的修改" class="headerlink" title="智能菜单的修改"></a>智能菜单的修改</h2><h2 id="左侧背景修改"><a href="#左侧背景修改" class="headerlink" title="左侧背景修改"></a>左侧背景修改</h2><h2 id="右侧背景修改"><a href="#右侧背景修改" class="headerlink" title="右侧背景修改"></a>右侧背景修改</h2><p>参照这篇文章：<a target="_blank" rel="noopener" href="https://www.windeling.com.cn/202308267350/">关于yilia背景图片畸变问题及恒定显示解决方案 | Windeling</a></p>
+<h2 id="进入动画"><a href="#进入动画" class="headerlink" title="进入动画"></a>进入动画</h2><h2 id="背景色块调整"><a href="#背景色块调整" class="headerlink" title="背景色块调整"></a>背景色块调整</h2><p>头像上面的色块也是可以调整颜色的，修改为一个切合你的背景的颜色会大大提高美感。<br>打开</p>
+<h2 id="滑块色彩调整"><a href="#滑块色彩调整" class="headerlink" title="滑块色彩调整"></a>滑块色彩调整</h2>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Computer Network</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/study//" class="article-tag-list-link color1">study</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2023/10/01/Blog_series/blog-07/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<!-- <aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside> -->
+
+
+
+<!-- 目录内容 -->
+
+<!-- 目录内容结束 -->
+<!-- 评论内容开始 -->
+
+   
+<!-- 评论内容结束 -->
   
     <article id="post-Blog_series/blog-04" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
@@ -977,86 +1182,6 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2023/08/20/Study/%E5%85%AB%E4%B8%8A%E6%94%BF%E6%B2%BB/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<!-- <aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside> -->
-
-
-
-<!-- 目录内容 -->
-
-<!-- 目录内容结束 -->
-<!-- 评论内容开始 -->
-
-   
-<!-- 评论内容结束 -->
-  
-    <article id="post-Computer/markdown_grammar" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2023/08/18/Computer/markdown_grammar/">markdown语法</a>
-    </h1>
-  
-
-        
-        <a href="/2023/08/18/Computer/markdown_grammar/" class="archive-article-date">
-  	<time datetime="2023-08-18T10:01:28.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-08-18</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h2><p>在线编辑器<a target="_blank" rel="noopener" href="https://markdown.com.cn/editor/" title="编辑器">markdown.com.cn&#x2F;editor&#x2F;</a></p>
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-	<div class="article-category tagcloud">
-		<i class="icon-book icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="/categories/study//" class="article-tag-list-link color1">study</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2023/08/18/Computer/markdown_grammar/">展开全文 >></a>
         </p>
       
 
