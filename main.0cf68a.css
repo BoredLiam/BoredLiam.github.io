@@ -919,7 +919,7 @@ html {
   right: 0;
   min-height: 100%;
   /*background: #eaeaea;*/
-  background-image: url(https://img1.imgtp.com/2023/09/29/duS6Gei6.png);
+  background-image: url(https://img1.imgtp.com/2023/10/02/R1otXeDz.png);
   background-attachment: fixed;
   left: 300px;
   width: auto
@@ -4627,7 +4627,7 @@ a.tok-link:hover{
 }
 
 body{
-  background-image: url(https://img1.imgtp.com/2023/09/29/duS6Gei6.png);
+  background-image: url(https://img1.imgtp.com/2023/10/02/R1otXeDz.png);
 }
 
 /* 定义从上渐进动画 */
@@ -4641,11 +4641,11 @@ body{
     opacity: 1;
   }
 }
-/* 给menu-l添加动画 */
+
 .menu-l{
   animation-duration: 0.8s; /* 持续时间 */
   animation-fill-mode: both; /* 是否返回 */
-  animation-name: fadeIn; /* 引入动画 */
+  animation-name: fadeInAbove; /* 引入动画 */
   animation-delay: 0.2s; /* 延迟时间 */
 }
 
