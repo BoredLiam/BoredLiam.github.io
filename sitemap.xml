@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://boredliam.github.io/QQ/index.html</loc>
+    
+    <lastmod>2023-10-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/resources/index.html</loc>
     
     <lastmod>2023-10-03</lastmod>
@@ -201,15 +210,6 @@
   
   <url>
     <loc>https://boredliam.github.io/mail/index.html</loc>
-    
-    <lastmod>2023-08-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/QQ/index.html</loc>
     
     <lastmod>2023-08-18</lastmod>
     
