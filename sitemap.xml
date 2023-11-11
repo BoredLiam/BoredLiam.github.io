@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://boredliam.github.io/video/index.html</loc>
+    
+    <lastmod>2023-11-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/2023/08/17/Computer/blog_building/</loc>
     
     <lastmod>2023-10-13</lastmod>
@@ -364,7 +373,7 @@
 
   <url>
     <loc>https://boredliam.github.io/</loc>
-    <lastmod>2023-10-22</lastmod>
+    <lastmod>2023-11-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -372,42 +381,42 @@
   
   <url>
     <loc>https://boredliam.github.io/tags/Computer-hardware/</loc>
-    <lastmod>2023-10-22</lastmod>
+    <lastmod>2023-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/tags/Politics/</loc>
-    <lastmod>2023-10-22</lastmod>
+    <lastmod>2023-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/tags/life-feeling/</loc>
-    <lastmod>2023-10-22</lastmod>
+    <lastmod>2023-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/tags/Computer-Network/</loc>
-    <lastmod>2023-10-22</lastmod>
+    <lastmod>2023-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/tags/English/</loc>
-    <lastmod>2023-10-22</lastmod>
+    <lastmod>2023-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/tags/life-watching/</loc>
-    <lastmod>2023-10-22</lastmod>
+    <lastmod>2023-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -416,21 +425,21 @@
   
   <url>
     <loc>https://boredliam.github.io/categories/study/</loc>
-    <lastmod>2023-10-22</lastmod>
+    <lastmod>2023-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/categories/life/</loc>
-    <lastmod>2023-10-22</lastmod>
+    <lastmod>2023-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/categories/study/hardware/</loc>
-    <lastmod>2023-10-22</lastmod>
+    <lastmod>2023-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
