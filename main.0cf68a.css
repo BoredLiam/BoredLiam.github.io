@@ -4565,7 +4565,7 @@ category-all-page {
   display: block;
   width: 16px;
   height: 14px;
-  background: url(https://7xtawy.com1.z0.glb.clouddn.com/show.png) no-repeat;
+  background: url(img/bg2.png) no-repeat;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   background-size: 100%
@@ -4627,7 +4627,7 @@ a.tok-link:hover{
 }
 
 body{
-  background-image: url(https://img1.imgtp.com/2023/10/02/R1otXeDz.png);
+  background-image: url(img/bg2.png);
 }
 
 /* 定义从上渐进动画 */
