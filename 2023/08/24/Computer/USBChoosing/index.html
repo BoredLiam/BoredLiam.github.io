@@ -240,10 +240,9 @@ function showBtn(){
       
         <p>起因：我想买个U盘。</p>
 <span id="more"></span>
-
 <h2 id="USB协议选择"><a href="#USB协议选择" class="headerlink" title="USB协议选择"></a>USB协议选择</h2><p>随着科技的不断发展，从USB发明之初至今，USB协议已经几次更新换代。了解选择哪个协议前，我们先认识一下各个协议。</p>
 <img src="/2023/08/24/Computer/USBChoosing/B.png" class="" title="USB协议变迁">
-
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -252,7 +251,8 @@ function showBtn(){
 <th>最大传输速率</th>
 </tr>
 </thead>
-<tbody><tr>
+<tbody>
+<tr>
 <td>USB 1.0</td>
 <td>1996.01</td>
 <td>1.5 Mbps</td>
@@ -287,12 +287,14 @@ function showBtn(){
 <td>2019.09</td>
 <td>40 Gbps</td>
 </tr>
-</tbody></table>
+</tbody>
+</table>
+</div>
 <p>如今市面上大多数U盘为<strong>USB3.0</strong>、<strong>USB3.1</strong>、<strong>USB3.2</strong>。其中USB3.0就是USB 3.2 GEN1，USB3.1是USB 3.2 GEN2×1，但USB3.2既可指USB 3.2 GEN2×2，<strong>也能指整个USB3.2系列</strong>（包括GEN2×n）。因此可能出现被混淆冒充的情况。<br>那么具体品质怎么样？</p>
 <blockquote>
 <p>10月19日，USB-IF发布了全新的USB4 V2.0标准规范，新一代USB4 2.0接口将支持80Gbps的双向<strong>最高</strong>传输速率，以及非对称式120Gbps的<strong>最高</strong>速率.<br><em>当然这只是理论速率，如果缓存和主控芯片不好。同样速度也会低。所以现在主要是看<strong>实际跑分</strong>，而不是接口。</em></p>
 </blockquote>
-<p>假如速度没有到625MB&#x2F;s，可以不用超过USB3.0的，因为3.0接口的理论最高速度就是625MB&#x2F;s，2.0是60MB&#x2F;s</p>
+<p>假如速度没有到625MB/s，可以不用超过USB3.0的，因为3.0接口的理论最高速度就是625MB/s，2.0是60MB/s</p>
 <p>更多内容请参见<a target="_blank" rel="noopener" href="https://windeling.github.io/2023/08/24/USB%E6%8E%A5%E5%8F%A3%E5%A4%A7%E5%85%A8/" title="黄文林的博客">黄文林的博客文章</a></p>
 <h2 id="USB传输"><a href="#USB传输" class="headerlink" title="USB传输"></a>USB传输</h2><p>USB的读写分为<strong>顺序读写</strong>与<strong>4K读写</strong>，一般评判传输能力也是看这两个数值。<br>u盘存储的原理和电脑存储的原理很相似，先通过U盘上一块很高速的<strong>高速缓存</strong>来暂时存储数据，然后高速缓存再向慢一点的<strong>闪存颗粒</strong>真正写入数据，只有闪存颗粒区才能保存数据。那么高速缓存区都被占满时，速度就会开始急剧下降。传输完以后要通过安全弹出来拔出u盘，也是因为如果缓存区的数据若没有及时导入到颗粒区的话，后面的数据也会灰飞烟灭。<br>因此，接口理论上限速度并不能很好衡量u盘的好坏。</p>
 <ul>
@@ -304,31 +306,7 @@ function showBtn(){
 </li>
 </ul>
 <p>总而言之，4k读写和平均读写速度决定着u盘对大量小文件和大文件的读写。U盘有缓存策略，当文件不是非常巨大时，可以按照缓存的读取速度来定义其读写速度但当文件超过了缓存大小，就变成了闪存的读写速度，这也是感觉U盘速度没有宣传的那么快的原因之一。</p>
-<h2 id="U盘容量选择"><a href="#U盘容量选择" class="headerlink" title="U盘容量选择"></a>U盘容量选择</h2><p>U盘的储存容量分为以下三个区间：</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>U盘大小</th>
-<th>特点</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>工作区间</td>
-<td>32GB以下</td>
-<td>支持所有的操作系统以及所有的文件格式以及所有的编码软件。 但因为采用了FAT32的文件储存方法，所以单个文件不能超过4GB</td>
-</tr>
-<tr>
-<td>日常使用区间</td>
-<td>32GB-512GB(大约)</td>
-<td>使用exFAT或NTFS文件系统，具有更好的文件储存能力，但是会造成一定的不兼容，甚至安装驱动才能正常识别</td>
-</tr>
-<tr>
-<td>商务区间</td>
-<td>超过512GB</td>
-<td>价格很昂贵，一般1元&#x2F;G</td>
-</tr>
-</tbody></table>
+<h2 id="U盘容量选择"><a href="#U盘容量选择" class="headerlink" title="U盘容量选择"></a>U盘容量选择</h2><p>U盘的储存容量分为以下三个区间：<br>|  | U盘大小 | 特点 |<br>|—-|—-|—-|<br>| 工作区间 | 32GB以下 | 支持所有的操作系统以及所有的文件格式以及所有的编码软件。 但因为采用了FAT32的文件储存方法，所以单个文件不能超过4GB |<br>| 日常使用区间 | 32GB-512GB(大约) | 使用exFAT或NTFS文件系统，具有更好的文件储存能力，但是会造成一定的不兼容，甚至安装驱动才能正常识别 |<br>| 商务区间 | 超过512GB | 价格很昂贵，一般1元/G |</p>
 <h2 id="品牌选择"><a href="#品牌选择" class="headerlink" title="品牌选择"></a>品牌选择</h2><p>优先推荐闪迪sandisk，其次三星Samsung</p>
 
       
@@ -606,18 +584,6 @@ MathJax.Hub.Queue(function() {
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">Computer hardware</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color4">Politics</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">life-feeling</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Computer Network</a>
               </li>
              
@@ -626,11 +592,23 @@ MathJax.Hub.Queue(function() {
               </li>
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">Computer hardware</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">life-feeling</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color4">life-watching</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">chemistry</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Politics</a>
               </li>
             
             <div class="clearfix"></div>
