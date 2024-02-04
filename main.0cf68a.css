@@ -1365,43 +1365,55 @@ pre .id {
 }
 
 .tagcloud a.color1 {
-  background: #ff945c
+  /* background: #ff945c; */
+  background: #00778f;
 }
 
 .tagcloud a.color1:before {
-  border-right-color: #ff945c
+  /* border-right-color: #ff945c; */
+  border-right-color: #00778f;
 }
 
 .tagcloud a.color2 {
-  background: #cc8167
+  /* background: #cc8167; */
+  background: #009ebe;
 }
 
 .tagcloud a.color2:before {
-  border-right-color: #cc8167
+  /* border-right-color: #cc8167; */
+  border-right-color: #009ebe;
 }
 
 .tagcloud a.color3 {
-  background: #ba8f6c
+  /* background: #ba8f6c; */
+  background: #0086bb;
 }
 
 .tagcloud a.color3:before {
-  border-right-color: #ba8f6c
+  /* border-right-color: #ba8f6c; */
+  /* border-right-color: #00a898; */
+  border-right-color: #0086bb;
 }
 
 .tagcloud a.color4 {
-  background: #94635c
+  /* background: #94635c; */
+  background: #304471;
 }
 
 .tagcloud a.color4:before {
-  border-right-color: #94635c
+  border-right-color: #304471;
+  /* border-right-color: #94635c; */
 }
 
 .tagcloud a.color5 {
-  background: #7b5d5f
+  /* background: #7b5d5f; */
+  background: #71acc5;
 }
 
 .tagcloud a.color5:before {
-  border-right-color: #7b5d5f
+  /* border-right-color: #7b5d5f; */
+  /* border-right-color: #546e91; */
+  border-right-color: #71acc5;
 }
 
 .article-tag-list .article-tag-list-item {
@@ -2024,9 +2036,12 @@ pre .id {
 }
 
 .tools-col .tools-section .search-tag.tagcloud .search-switch input:checked:before {
-  border-color: #64bd63;
+  /* border-color: #64bd63;
   box-shadow: inset 0 0 0 .16rem #64bd63;
-  background-color: #64bd63;
+  background-color: #64bd63; */
+  border-color: #ace1f0;
+  box-shadow: inset 0 0 0 .10rem #ace1f0;
+  background-color: #ace1f0;
   transition: border .4s, box-shadow .4s, background-color 1.2s
 }
 
@@ -3546,7 +3561,7 @@ pre .id {
 
   .header-menu.tools-nav li a.active,
   .header-menu.tools-nav ul a.active {
-    background: #81b5cc
+    background: #8ec8e1
   }
 
   .header-menu ul {
