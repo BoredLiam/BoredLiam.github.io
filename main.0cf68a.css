@@ -415,7 +415,12 @@ a {
 }
 
 a :hover{
-  color: rgb(52, 72, 81)
+  /* color: rgb(52, 72, 81); */
+  text-decoration: none;
+}
+
+p a:hover{
+  color: rgb(52, 72, 81);
 }
 
 a:active {
