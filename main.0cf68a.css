@@ -419,7 +419,7 @@ a :hover{
   text-decoration: none;
 }
 
-p a:hover{
+.article-entry a:hover{
   color: rgb(52, 72, 81);
 }
 
@@ -1727,6 +1727,7 @@ pre .id {
   margin-top: 30px
 }
 
+
 #page-nav .page-number {
   width: 20px;
   height: 25px;
@@ -1738,7 +1739,6 @@ pre .id {
   margin: 0 5px 30px;
   border-radius: 2px
 }
-
 #page-nav .page-number:hover {
   background: #5e5e5e
 }
@@ -1752,7 +1752,7 @@ pre .id {
   background: #88acdb
 }
 
-#page-nav .extend {
+/* #page-nav .extend {
   color: #4d4d4d;
   margin: 0 27px;
   opacity: 1
@@ -1760,10 +1760,43 @@ pre .id {
 
 #page-nav .extend:hover {
   color: #5e5e5e
-}
+} */
 
 #page-nav:hover .extend {
   opacity: 1
+}
+
+
+#page-nav .extend{
+  width: 50px;
+  height: 25px;
+  background: #4d4d4d;
+  display: inline-block;
+  color: #fff;
+  line-height: 25px;
+  font-size: 12px;
+  margin: 0 5px 30px;
+  border-radius: 2px
+}
+
+#page-nav .extend:hover {
+  background: #5e5e5e
+}
+
+#page-nav .extend.next.diabled{
+  width: 70px;
+  height: 25px;
+  background: #ff0000;
+  display: inline-block;
+  color: #e37a7a;
+  line-height: 25px;
+  font-size: 12px;
+  margin: 0 5px 30px;
+  border-radius: 2px
+}
+
+#page-nav .extend:hover {
+  background: #5e5e5e
 }
 
 .archives-wrap {
