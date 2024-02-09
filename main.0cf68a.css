@@ -3202,11 +3202,12 @@ pre .id {
   html {
     height: auto;
     overflow-x: hidden;
-    overflow-y: auto
+    overflow-y: auto;
+    backdrop-filter: blur(1.5px);
   }
 
   #mobile-nav {
-    display: block
+    display: block;
   }
 
   .body-wrap {
@@ -3594,12 +3595,22 @@ pre .id {
 
   .header-menu.tools-nav li a,
   .header-menu.tools-nav ul a {
-    color: #fff
+    color: #fff;
+    background-color: #e2e2e23a;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
   }
 
   .header-menu.tools-nav li a.active,
   .header-menu.tools-nav ul a.active {
-    background: #8ec8e1
+    background: #5face8b4;
+  }
+
+  .header-menu.js-header-menu li a{
+    color: #524f4fc0;
   }
 
   .header-menu ul {
@@ -3616,12 +3627,13 @@ pre .id {
     justify-content: space-around;
     position: relative;
     z-index: 1;
-    border: 1px solid #a0a0a0;
+    border: 1px solid #524f4fc0;
     border-radius: 3px
   }
 
   .header-menu li {
-    border-left: 1px solid #a0a0a0
+    border-left: 1px solid #524f4fc0;
+    background-color: #524f4f13;
   }
 
   .header-menu li:first-child {
@@ -3632,19 +3644,19 @@ pre .id {
     border-right: 0
   }
 
-  .header-menu li a {
+  /* .header-menu li a {
     font-size: 14px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     display: block;
-    color: #a0a0a0
+    color: #a0a0a0;
   }
 
   .header-menu li a.active {
-    color: #eaeaea;
+    color: #fffffff3;
     background: #a0a0a0
-  }
+  } */
 
   .profilepic {
     display: block;
