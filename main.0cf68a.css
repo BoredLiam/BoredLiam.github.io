@@ -410,7 +410,7 @@ template {
 
 a {
   background: transparent;
-  text-decoration: none;
+  text-decoration: underline;
   color: rgba(118, 141, 150, 0.69)
 }
 
@@ -420,7 +420,7 @@ a :hover{
 }
 
 .article-entry a:hover{
-  color: rgb(52, 72, 81);
+  color: rgb(77, 104, 117);
 }
 
 a:active {
