@@ -414,10 +414,9 @@ a {
   color: rgba(118, 141, 150, 0.69)
 }
 
-a :hover{
-  /* color: rgb(52, 72, 81); */
-  text-decoration: none;
-}
+/* a :hover{
+  color: rgb(52, 72, 81);
+} */
 
 .article-entry a:hover{
   color: rgb(77, 104, 117);
