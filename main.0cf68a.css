@@ -4461,7 +4461,8 @@ category-all-page {
   padding: 10px;
   position: fixed;
   right: 35px;
-  top: 129px;
+  /* top: 129px; */
+  bottom: 90px;
 }
 
 .toc-article .toc-close {
@@ -4616,15 +4617,16 @@ category-all-page {
 .show-toc-btn {
   display: none;
   z-index: 10;
-  width: 30px;
+  width: 40px;
   min-height: 14px;
   overflow: hidden;
   padding: 4px 6px 8px 5px;
   /* border: 1px solid #ddd;
   border-right: none; */
   position: fixed;
-  right: 40px;
-  top: 90px;
+  right: 14px;
+  /* top: 90px; */
+  bottom: 90px;
   text-align: center;
   /* background-color: #f9f9f9 */
 }
@@ -4632,12 +4634,13 @@ category-all-page {
 .show-toc-btn .btn-bg {
   margin-top: 2px;
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   background: url(img/toc.png) no-repeat;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   background-size: 100%;
+  background-color: #ffffffda;
 }
 
 .show-toc-btn .btn-text {
@@ -4646,7 +4649,7 @@ category-all-page {
 }
 
 .show-toc-btn:hover {
-  cursor: pointer
+  cursor: pointer;
 }
 
 .show-toc-btn:hover .btn-bg {
@@ -4654,11 +4657,10 @@ category-all-page {
   background: url(img/toc_hover.png) no-repeat;
   margin-top: 2px;
   display: block;
-  width: 20px;
-  height: 20px;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
-  background-size: 100%
+  background-size: 100%;
+  background-color: #ffffffda;
 }
 
 .show-toc-btn:hover .btn-text {
@@ -4719,12 +4721,12 @@ body{
   }
 }
 
-.menu-l{
-  animation-duration: 0.8s; /* 持续时间 */
-  animation-fill-mode: both; /* 是否返回 */
-  animation-name: fadeInAbove; /* 引入动画 */
-  animation-delay: 0.2s; /* 延迟时间 */
-}
+/* .menu-l{
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
+  animation-name: fadeInAbove;
+  animation-delay: 0.2s; 
+} */
 
 .post_amount{
   font-size: x-large;
