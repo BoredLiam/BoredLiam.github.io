@@ -889,7 +889,7 @@ textarea {
 
 body {
   overflow-y: hidden;
-  background: #eaeaea
+  background: #eaeaea;
 }
 
 #container,
@@ -930,7 +930,9 @@ html {
   /* background-image: url(https://img1.imgtp.com/2023/10/02/R1otXeDz.png); */
   background-attachment: fixed;
   left: 300px;
-  width: auto
+  width: auto;
+  overflow: auto;
+  height: 100vh;
 }
 
 .mid-col.show {
@@ -4737,3 +4739,7 @@ body{
   font-size: x-large;
   font-family: 'Times New Roman', Times, serif;
 }
+/* #js-content{
+  overflow: auto;
+  height: 100vh;
+} */
