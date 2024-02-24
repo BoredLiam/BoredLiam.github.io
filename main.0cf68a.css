@@ -3181,7 +3181,7 @@ pre .id {
   font-size: 12px;
   font-family: Menlo, Monaco, Andale Mono, lucida console, Courier New, monospace;
   text-shadow: 0 1px #fff;
-  position: absolute;
+  position: relative;
   bottom: 30px;
   opacity: .6;
   width: 100%;
