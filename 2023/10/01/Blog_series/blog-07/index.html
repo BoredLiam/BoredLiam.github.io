@@ -26,7 +26,7 @@
 <meta property="og:image" content="https://boredliam.github.io/2023/10/01/Blog_series/blog-07/left-col.png">
 <meta property="og:image" content="https://boredliam.github.io/2023/10/01/Blog_series/blog-07/menu-l.png">
 <meta property="article:published_time" content="2023-10-01T08:29:11.000Z">
-<meta property="article:modified_time" content="2024-02-22T14:10:22.139Z">
+<meta property="article:modified_time" content="2024-02-24T04:30:42.458Z">
 <meta property="article:author" content="BoredLiam">
 <meta property="article:tag" content="Computer Network">
 <meta name="twitter:card" content="summary">
@@ -321,7 +321,7 @@
 <p>即可<br><img src="https://s1.ax1x.com/2020/07/17/Uye6PK.png" alt="效果" title="效果针不戳"></p>
 <h2 id="文章目录"><a href="#文章目录" class="headerlink" title="文章目录"></a>文章目录</h2><p>首先我们要添加目录，还是打开配置文件<code>themes/yilia/_config.yml</code>，找到这一部分</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 目录</span></span><br><span class="line"><span class="comment"># 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录</span></span><br><span class="line"><span class="attr">toc:</span> <span class="number">1</span></span><br><span class="line"><span class="comment"># 根据自己的习惯来设置，如果你的目录标题习惯有标号，置为true即可隐藏hexo重复的序号；否则置为false</span></span><br><span class="line"><span class="attr">toc_hide_index:</span> <span class="literal">true</span></span><br><span class="line"><span class="comment"># 目录为空时的提示</span></span><br><span class="line"><span class="attr">toc_empty_wording:</span> <span class="string">&#x27;目录，不存在的…&#x27;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 是否有快速回到顶部的按钮</span></span><br><span class="line"><span class="attr">top:</span> <span class="number">1</span></span><br></pre></td></tr></table></figure>
-<p>按照注释的提示将toc值更改即可。<br>在写文章时在头部加上<code>toc: true</code>就可以显示一个目录。<br><del>原来的默认的目录蓝不拉几好丑啊，其实是可以换一个的，但是我找不到教程了….遂作罢，大家自己寻找吧。</del></p>
+<p>按照注释的提示将toc值更改即可。<br>在写文章时在头部加上<code>toc: true</code>就可以显示一个目录。<br>原来的默认的目录蓝不拉几，令人不满<br>于是我们还可以参考<a target="_blank" rel="noopener" href="https://blog.csdn.net/u013082989/article/details/70212008">莫失莫忘Lawlite</a>的代码，美化文章目录，具体自己看吧我懒得写咯累死我了</p>
 <blockquote>
 <p><strong>注：从上渐进动画的设置会导致目录不随屏幕移动的bug，谨慎使用</strong>，原因参考：<a target="_blank" rel="noopener" href="https://juejin.cn/post/7233952159662293051">【踩坑】子元素position:fixed失效问题</a><br>注<sub>2</sub>：就算不设置动画手机端的目录也会卡住，原因同上，只需要在<code>\themes\yilia\source\main.0cf68a.css</code>中搜索<code>.mid-col &#123;</code>，在其中一个后面加上<code>overflow: auto;</code>和<code>height: 100vh;</code>，<sup>(且用着吧，我也不知道有没有bug)</sup>就像这样：</p>
 <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.mid-col</span> &#123;</span><br><span class="line">  <span class="attribute">overflow</span>: auto;</span><br><span class="line">  <span class="attribute">height</span>: <span class="number">100vh</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
