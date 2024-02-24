@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://boredliam.github.io/video/index.html</loc>
+    
+    <lastmod>2024-02-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/2023/10/01/Blog_series/blog-07/</loc>
     
     <lastmod>2024-02-24</lastmod>
@@ -14,15 +23,6 @@
     <loc>https://boredliam.github.io/resources/index.html</loc>
     
     <lastmod>2024-02-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/video/index.html</loc>
-    
-    <lastmod>2024-02-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
