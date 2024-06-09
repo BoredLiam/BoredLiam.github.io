@@ -1,0 +1,40 @@
+.DL{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.DL_btn{
+    border: 1px solid #cdcdcd;
+    border-radius: 0.4em;
+    width: 30%;
+    margin-bottom: 20px;
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .4);
+}
+.DL_btn:hover{
+    animation-duration: 0.2s;
+    animation-fill-mode: both;
+    animation-name: btn_hover;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    text-decoration: underline dotted;
+}
+.DL_btn a{
+    color: black;
+    text-decoration: none;
+}
+.DL_btn a:hover{
+    color: black;
+}
+.DL_btn p{
+    text-align: center;
+}
+.DL_btn p img{
+    vertical-align: middle;
+    height: 21px;
+}
+@keyframes btn_hover{
+    to{
+        box-shadow: 0 3px 3px rgba(0, 0, 0, .4);
+    }
+}
