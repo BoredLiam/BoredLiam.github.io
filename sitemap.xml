@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://boredliam.github.io/tour/new_york.html</loc>
+    
+    <lastmod>2024-06-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/tour/index.html</loc>
+    
+    <lastmod>2024-06-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/tour/pop_up.html</loc>
+    
+    <lastmod>2024-06-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/2024/06/09/dairy/back/</loc>
     
     <lastmod>2024-06-10</lastmod>
@@ -77,33 +104,6 @@
     <loc>https://boredliam.github.io/2024/04/12/Computer/Tour/</loc>
     
     <lastmod>2024-04-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/tour/new_york.html</loc>
-    
-    <lastmod>2024-04-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/tour/pop_up.html</loc>
-    
-    <lastmod>2024-04-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/tour/index.html</loc>
-    
-    <lastmod>2024-04-11</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -346,7 +346,7 @@
 
   <url>
     <loc>https://boredliam.github.io/</loc>
-    <lastmod>2024-06-15</lastmod>
+    <lastmod>2024-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -354,21 +354,21 @@
   
   <url>
     <loc>https://boredliam.github.io/tags/Computer-Network/</loc>
-    <lastmod>2024-06-15</lastmod>
+    <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/tags/English/</loc>
-    <lastmod>2024-06-15</lastmod>
+    <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/tags/Computer-hardware/</loc>
-    <lastmod>2024-06-15</lastmod>
+    <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -377,49 +377,49 @@
   
   <url>
     <loc>https://boredliam.github.io/categories/study/</loc>
-    <lastmod>2024-06-15</lastmod>
+    <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/categories/study/hardware/</loc>
-    <lastmod>2024-06-15</lastmod>
+    <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/categories/life/</loc>
-    <lastmod>2024-06-15</lastmod>
+    <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/categories/study/computer/</loc>
-    <lastmod>2024-06-15</lastmod>
+    <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/categories/html/</loc>
-    <lastmod>2024-06-15</lastmod>
+    <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/categories/html/study/</loc>
-    <lastmod>2024-06-15</lastmod>
+    <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/categories/html/study/computer/</loc>
-    <lastmod>2024-06-15</lastmod>
+    <lastmod>2024-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
