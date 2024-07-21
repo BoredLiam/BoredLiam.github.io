@@ -1158,16 +1158,32 @@ html {
 }
 
 .article-entry code {
-  background: #eee;
+  /* background: #eee;
   padding: 0 .3em;
-  border: none
+  border: none; */
+  padding: 3px 3px;
+  margin: 0 3px;
+  word-wrap: break-word;
+  font-size: 14px;
+  color: #c9d1d9;
+  background-color: #303235;
+  border-color: #30363d;
+  border-radius: 3px;
 }
 
 .article-entry pre code {
-  background: none;
+  /* background: none;
   text-shadow: none;
   padding: 0;
-  color: #fff
+  color: #fff */
+  padding: 3px 3px;
+  margin: 0 3px;
+  word-wrap: break-word;
+  font-size: 14px;
+  color: #c9d1d9;
+  background-color: #303235;
+  border-color: #30363d;
+  border-radius: 3px;
 }
 
 .article-entry .highlight {
@@ -4783,9 +4799,3 @@ body{
   overflow: auto;
   height: 100vh;
 } */
-
-.v[data-class=v] pre, .v[data-class=v] code {
-  /* background-color: #f8f8f8; */
-  /* padding: .2em .4em; */
-  
-}
