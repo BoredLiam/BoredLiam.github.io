@@ -764,7 +764,7 @@ i {
 }
 
 .icon-sort:before {
-  content: "\E700"
+  content: "\E700";
 }
 
 .icon-jianshu:before {
@@ -906,7 +906,8 @@ html {
 
 #container {
   position: relative;
-  min-height: 100%
+  min-height: 100%;
+  background-image: url(https://s11.ax1x.com/2024/02/22/pFNhW1x.png);
 }
 
 #container .anm-canvas {
@@ -2269,9 +2270,13 @@ pre .id {
   border: 1px solid #ddd;
   border-top: 1px solid #fff;
   border-bottom: 1px solid #fff;
+  transition: all .2s ease-in;
   /*background: #fff;*/
-  background: #ffffffe1;
-  transition: all .2s ease-in
+  background: #ffffffef;
+}
+
+.article-inner{
+
 }
 
 .article img {
@@ -3264,7 +3269,8 @@ pre .id {
     height: auto;
     overflow-x: hidden;
     overflow-y: auto;
-    backdrop-filter: blur(1.5px);
+    /* backdrop-filter: blur(1.5px); */
+    background: #f5f5f5;
   }
 
   #mobile-nav {
@@ -3380,7 +3386,8 @@ pre .id {
 
   .btnctn .slider-trigger .icon {
     font-size: 24px;
-    color: #fff
+    color: #fff;
+    /* box-shadow: .1em .1em .2em #8f8f8f; */
   }
 
   .article-header {
@@ -3611,7 +3618,10 @@ pre .id {
     margin: 0;
     position: relative;
     z-index: 2;
-    color: #424242
+    color: #424242;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: -.1em .1em .2em #ccc;
+    font-weight: 500;
   }
 
   #mobile-nav .overlay {
@@ -3688,13 +3698,13 @@ pre .id {
     justify-content: space-around;
     position: relative;
     z-index: 1;
-    border: 1px solid #524f4fc0;
+    /* border: 1px solid #524f4fc0; */
     border-radius: 3px
   }
 
   .header-menu li {
-    border-left: 1px solid #524f4fc0;
-    background-color: #524f4f13;
+    border-left: 1px solid #524f4f5e;
+    /* background-color: #524f4f13; */
   }
 
   .header-menu li:first-child {
@@ -4767,10 +4777,10 @@ a.tok-link:hover{
     animation-name: fadeInLeft;
 }
 
-body{
-  /* background-image: url(img/bg2.png); */
+/* body{
+  background-image: url(img/bg2.png);
   background-image: url(https://s11.ax1x.com/2024/02/22/pFNhW1x.png);
-}
+} */
 
 /* 定义从上渐进动画 */
 @keyframes fadeInAbove {
