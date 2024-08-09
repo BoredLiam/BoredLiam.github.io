@@ -10,18 +10,20 @@
   <link rel="dns-prefetch" href="https://boredliam.github.io">
   <title>有关浮力模型的一些思考 | Liam&#39;s boring life</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="前言浮力可以说是中学阶段的一大难点，在此我想分享我学习浮力与压强模块的一些思考。希望对你能够有所帮助。注；图片较多可能会出现加载较慢的情况，请见谅。">
+  <meta name="description" content="前言浮力可以说是中学阶段的一大难点，在此我想分享我学习浮力与压强模块的一些思考。希望对你能够有所帮助。注:图片较多可能会出现加载较慢的情况，请见谅。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="有关浮力模型的一些思考">
 <meta property="og:url" content="https://boredliam.github.io/2024/08/08/Study/Physics/buoyancy/index.html">
 <meta property="og:site_name" content="Liam&#39;s boring life">
-<meta property="og:description" content="前言浮力可以说是中学阶段的一大难点，在此我想分享我学习浮力与压强模块的一些思考。希望对你能够有所帮助。注；图片较多可能会出现加载较慢的情况，请见谅。">
+<meta property="og:description" content="前言浮力可以说是中学阶段的一大难点，在此我想分享我学习浮力与压强模块的一些思考。希望对你能够有所帮助。注:图片较多可能会出现加载较慢的情况，请见谅。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://boredliam.github.io/2024/08/08/Study/Physics/buoyancy/Q1.jpg">
 <meta property="og:image" content="https://boredliam.github.io/2024/08/08/Study/Physics/buoyancy/A1.jpg">
 <meta property="og:image" content="https://boredliam.github.io/2024/08/08/Study/Physics/buoyancy/E1.jpg">
+<meta property="og:image" content="https://boredliam.github.io/2024/08/08/Study/Physics/buoyancy/E2.jpg">
+<meta property="og:image" content="https://boredliam.github.io/2024/08/08/Study/Physics/buoyancy/E3.jpg">
 <meta property="article:published_time" content="2024-08-07T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-08-08T15:18:31.544Z">
+<meta property="article:modified_time" content="2024-08-09T03:30:19.761Z">
 <meta property="article:author" content="BoredLiam">
 <meta property="article:tag" content="物理">
 <meta property="article:tag" content="浮力">
@@ -220,7 +222,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>浮力可以说是中学阶段的一大难点，在此我想分享我学习浮力与压强模块的一些思考。希望对你能够有所帮助。<br>注；图片较多可能会出现加载较慢的情况，请见谅。<br><span id="more"></span></p>
+        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>浮力可以说是中学阶段的一大难点，在此我想分享我学习浮力与压强模块的一些思考。希望对你能够有所帮助。<br>注:图片较多可能会出现加载较慢的情况，请见谅。<br><span id="more"></span></p>
 <h2 id="一、基本公式"><a href="#一、基本公式" class="headerlink" title="一、基本公式"></a>一、基本公式</h2><p>1.<strong>阿基米德的浮力定律：浸入静止流体中的物体受到一个浮力，其大小等于该物体所排开的流体重力，方向垂直向上并通过所排开流体的重心。</strong><br>表述为公式是：</p>
 <script type="math/tex; mode=display">F_{浮}=G_{排}=\rho_{液}gV_{排}</script><p>2.<strong>液体压强</strong>的计算公式：</p>
 <script type="math/tex; mode=display">p=\rho_{液}gh</script><p>其中<script type="math/tex">h</script>代表该点到自由液面的高度差。</p>
@@ -232,7 +234,7 @@
 </blockquote>
 <p><img align="right" src="A1.jpg" style="width: 400px"/>那么回到这道题，将梯形物块沿地面分为与底面紧密接触的矩形和剩下的两个三角形。其中三角形部分提供向上浮力，而矩形只收到向下压力。<br>（1）根据①我们知道，两个三角形（可看作完全浸没在水中）受到的斜向上的两股压力与其向下的压力，合成了竖直向上的<script type="math/tex">F_{浮}</script>，再根据②，我们可以对三角形直接使用阿基米德原理，得出竖直向上的浮力为<script type="math/tex">F_{浮}=\rho(V-Sh)g</script>（根据图分析可得<script type="math/tex">V_{三角形}=V-Sh</script>）。<br>（2）而矩形部分因为与地面紧密接触，受到的向下的压强为<script type="math/tex">P_{0}+\rho g(H-h)</script>，那么压力就为<script type="math/tex">F_{下}=P_{0}S+\rho g(H-h)S</script>。<br>进而计算出：</p>
 <script type="math/tex; mode=display">F_{合}=F_{浮}-F_{下}</script><script type="math/tex; mode=display">=\rho Vg-\rho Shg -P_{0}S-\rho gHS+\rho ghS</script><script type="math/tex; mode=display">=\rho gV-(P_{0}+\rho gH)S</script><p>故答案选<strong>D</strong><br><br><br>▶总结<br>①浮力是<strong>水</strong>对于<strong>物体</strong>向上的力。<br>②用阿基米德算出来的浮力，<strong>大气压强</strong>和<strong>水的压强</strong>都会包含进去，不需要再额外加上。</p>
-<h2 id="三、变化量问题"><a href="#三、变化量问题" class="headerlink" title="三、变化量问题"></a>三、变化量问题</h2><p>浮力中的变化量模型很多，其中部分很容易混淆，这里我会用ⅠⅡ代替每一过程并将不同力做区分。</p>
+<h2 id="三、变化量问题"><a href="#三、变化量问题" class="headerlink" title="三、变化量问题"></a>三、变化量问题</h2><p>浮力中的变化量模型很多，其中部分很容易混淆，这里我会用<script type="math/tex">I</script>和<script type="math/tex">II</script>等代替每一过程并将不同力做区分。</p>
 <blockquote>
 <p>个人习惯的符号对应：</p>
 <p><script type="math/tex">F_{浮}</script>——浮力</p>
@@ -245,14 +247,20 @@
 <p><script type="math/tex">\Delta h_{浸}</script>——（物体）浸入水深度</p>
 <p><script type="math/tex">\rho</script>——默认为水密度<br>我会尽量用文字描述这些物理量，以免造成歧义。</p>
 </blockquote>
-<h3 id="压强的变化量"><a href="#压强的变化量" class="headerlink" title="压强的变化量"></a>压强的变化量</h3><p>这里研究的压强是容器对桌面的压强以及水对容器底的压强。<br>【分析】<br>如图：<br><img src="E1.jpg" style="width: 900px"/><br>$I$：只有容器压着桌面，压强为<script type="math/tex">p_{0}=\frac{G_{容}}{S{容}}</script><br>$I \to II$：加水，压强变化了<script type="math/tex">\Delta p=\rho gh</script><br>$II \to III$：放入物体，此时水对容器压力增大了<script type="math/tex">\Delta F=F_{浮}</script>，这是因为<strong>物体对水的作用力</strong>与<strong>水对物体的作用力（也就是浮力）</strong>互为相互作用力，大小相等，而水对容器增加的压力<script type="math/tex">\Delta F</script>就是从无到有的<script type="math/tex">F_{浮}</script>，可以理解为物体通过浮力这个媒介作用于容器底。于是为了简便，我习惯将这个<script type="math/tex">\Delta F</script>记作<script type="math/tex">F^{'}_{浮}</script>（浮力的反作用力作用于容器底）</p>
+<h3 id="压强的变化量"><a href="#压强的变化量" class="headerlink" title="压强的变化量"></a>压强的变化量</h3><p>这里研究的压强是容器对桌面的压强与水对容器底的压强。<br>【分析】<br>如图：<br><img src="E1.jpg" style="width: 700px"/><br>▫$I$：<br>只有容器压着桌面，容器对桌面的压强为<script type="math/tex">p_{0}=\frac{G_{容}}{S{容}}</script><br>▫$I \to II$：<br>加水，压强变化了<script type="math/tex">\Delta p=\rho gh</script>，也就是水对容器底的压强。<br>▫$II \to III$：<br>放入物体，整个桌面受到的力多了物体的重力，相当于在容器外放物体。这是因为水与物体的作用力与物体对水的作用力是相互作用力，在研究水、容器、物体的整体时会被相互抵消。因此我们得出，容器对桌面的压强变化量为<script type="math/tex">\frac{G_{物}}{S_{容}}</script>。<br>而水对容器底的压强则不同，从图中我们可以看出，水对容器底的压强变化量为<script type="math/tex">\Delta p_{II\to III}=\rho g\Delta h</script>，根据体积我们知道<script type="math/tex">V_{排}=S_{容}\Delta h</script>，那么就可以写出<script type="math/tex">\Delta p_{II\to III}=\rho g\Delta h=\rho g\frac{V_{排}}{S_{容}}=\frac{F_{浮}}{S_{容}}</script>。<br>你可能很想问：为什么水对容器底的压强和容器对桌面的压强一个是<script type="math/tex">F_{浮}</script>，而另一个是<script type="math/tex">G_{物}</script>呢？稍安勿躁，在接下来压力的变化量中我们会详细区别这两种力，在此之前，我们先简单总结一下刚刚分析的结论。<br>【结论】<br>从上述$I \to II$过程中我们可以看出：在只装水时，<strong>容器对桌面的压强</strong>和<strong>水对容器的压强</strong>只相差<strong>容器</strong>所产生的压强（<script type="math/tex">p_{水}+\frac{G_{容}}{S_{容}}=p_{容器底}</script>）<br>从上述$II \to III$过程中我们可以看出：在放入物体后，<strong>容器对桌面的压强</strong>变化了<script type="math/tex">\Delta p=\frac{G_{物}}{S{容}}</script>，<em>水对容器的压强*</em>则变化了<script type="math/tex">\Delta p=\frac{F_{浮}}{S{容}}</script></p>
+<h3 id="压力的变化量"><a href="#压力的变化量" class="headerlink" title="压力的变化量"></a>压力的变化量</h3><p>我们研究的压力包括<strong>水对容器压力</strong>和<strong>桌面对容器支持力（容器对桌面压力）</strong>。这里我们先给出结论。<br>【结论】<br>在往只有水的容器中放入物体时：<br>①对于<strong>水的压力</strong>的变化量，有<script type="math/tex">\Delta F_{压}=F_{浮}</script>，对应其压强变化量<script type="math/tex">\Delta p=\frac{F_{浮}}{S{容}}</script>。<br>②对于<strong>桌面支持力</strong>的变化量，有<script type="math/tex">\Delta F_{N}=G_{物}</script>，对应其压强变化量<script type="math/tex">\Delta p=\frac{G_{物}}{S{容}}</script>。<br>【分析】<br>我们以这几个较常见的模型进行分析：<br><img src="E2.jpg" style="width: 600px"/><br>▫放入物体后，对于图中的A、B、C、D、E、F图，<strong>水的压力</strong>都增大了<script type="math/tex">\Delta F_{压}=F_{浮}</script>，这是因为<strong>物体对水的作用力</strong>与<strong>水对物体的作用力（也就是浮力）</strong>互为相互作用力，大小相等，而水对容器增加的压力<script type="math/tex">\Delta F_{压}</script>就是物体对水的作用力，可以理解为物体通过浮力这个媒介让水的压力变大。因此为了简便，我习惯将这部分<script type="math/tex">\Delta F_{压}</script>记作<script type="math/tex">F^{'}_{浮}</script>（浮力的反作用力由水作用于容器底）</p>
 <blockquote>
-<p>注意：既然物体通过水做媒介作用于容器底，那么在对容器做受力分析时千万不要同时存在<script type="math/tex">F^{'}_{浮}</script>与<script type="math/tex">G_{物}</script></p>
+<p>注意：物体通过浮力为媒介作用于水，在对水做受力分析时千万不要同时存在<script type="math/tex">F^{'}_{浮}</script>与<script type="math/tex">G_{物}</script>。</p>
 </blockquote>
-<p>于是，$II \to III$阶段压强变化量即为<script type="math/tex">\Delta p=\frac{F_{浮}}{S_{容}}</script></p>
-<hr>
-<p>【结论】<br>从上述$I \to II$过程中我们可以看出：<strong>容器对地面的压强</strong>和<strong>水对容器的压强</strong>只相差<strong>容器</strong>所产生的压强（<script type="math/tex">p_{水}+\frac{G_{容}}{S_{容}}=p_{容器底}</script>）<br>从上述$II \to III$过程中我们可以看出<strong>物体通过浮力这个媒介作用于容器底</strong>。</p>
-<h3 id="压强的变化量-1"><a href="#压强的变化量-1" class="headerlink" title="压强的变化量"></a>压强的变化量</h3>
+<p>▫而<strong>桌面支持力</strong>只增加了<script type="math/tex">\Delta F_{N}=G_{物}</script>。</p>
+<blockquote>
+<p>注意：桌面支持力是桌面对容器的力，分析时应对容器整体（容器与其内的所有物品）进行受力分析；而水的压力是水对桌面的压力，分析时应对水分析。</p>
+</blockquote>
+<p>因此，我们对于容器整体进行分析。A、B、C、D图中都相当与在容器外放物体，因为他们的浮力、拉力都是物体与水、物体与容器之间的相互作用力，在整个容器整体分析时会相互抵消，这种力称为系统的内力（内部的相互作用力）。而E、F两种情况可以看作一种漂浮的特例：他们的拉力是外界给予的，与容器没有关系。我们可以看作外力<script type="math/tex">T</script>使物体的“重力”减少，于是有：<script type="math/tex">\Delta F_{N}=G^{'}_{物}=G-T=F_{浮}</script>。特别的，对于F图的情况，我们需要审清题目条件，判断容器是否对其有支持力。</p>
+<p>▫二者的区别其实就是分析方式的不同。选取的整体不同，获得的结果也会不同。也就是上文注意中的：<br>桌面支持力是桌面对容器的力，分析时应对<strong>容器整体（容器与其内的所有物品）</strong>进行受力分析；而水的压力是水对桌面的压力，分析时应对<strong>水</strong>分析。</p>
+<h3 id="浮力的变化量"><a href="#浮力的变化量" class="headerlink" title="浮力的变化量"></a>浮力的变化量</h3><p>根据浮力公式<script type="math/tex">F_{浮}=G_{排}=\rho_{液}gV_{排}</script>我们可以看出，浮力受<script type="math/tex">\rho</script>和<script type="math/tex">V_{排}</script>影响。因此在<script type="math/tex">\rho</script>不变的情况下，有<script type="math/tex">\Delta F_{浮}=\rho_{液}g\Delta V_{排}</script>。<br>关于<script type="math/tex">\Delta V_{排}</script>的计算请参见<strong>体积的变化量</strong>段。</p>
+<h3 id="体积的变化量"><a href="#体积的变化量" class="headerlink" title="体积的变化量"></a>体积的变化量</h3><p>体积的变化量是又一大容易混淆的部分，也是浮力计算题的核心。在这里，我们主要研究<strong>物体挤开水的体积</strong>变化量<script type="math/tex">\Delta V_{挤}</script>和<strong>物体浸入水中的体积</strong>变化量<script type="math/tex">\Delta V_{排}</script>，如下图所示。<br><img src="E3.jpg" style="width: 600px"/></p>
+<h3 id="深度的变化量"><a href="#深度的变化量" class="headerlink" title="深度的变化量"></a>深度的变化量</h3><h3 id="水位的变化量"><a href="#水位的变化量" class="headerlink" title="水位的变化量"></a>水位的变化量</h3>
       
 
       
@@ -329,7 +337,7 @@
                 </span>
                 <span class="tooltip-content">
                     <div class="toc-article">
-                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%9F%BA%E6%9C%AC%E5%85%AC%E5%BC%8F"><span class="toc-number">2.</span> <span class="toc-text">一、基本公式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%AF%B9%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7%E5%AE%9A%E7%90%86%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-number">3.</span> <span class="toc-text">二、对阿基米德定理的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E5%8F%98%E5%8C%96%E9%87%8F%E9%97%AE%E9%A2%98"><span class="toc-number">4.</span> <span class="toc-text">三、变化量问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%8B%E5%BC%BA%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.1.</span> <span class="toc-text">压强的变化量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%8B%E5%BC%BA%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F-1"><span class="toc-number">4.2.</span> <span class="toc-text">压强的变化量</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%9F%BA%E6%9C%AC%E5%85%AC%E5%BC%8F"><span class="toc-number">2.</span> <span class="toc-text">一、基本公式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%AF%B9%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7%E5%AE%9A%E7%90%86%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-number">3.</span> <span class="toc-text">二、对阿基米德定理的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E5%8F%98%E5%8C%96%E9%87%8F%E9%97%AE%E9%A2%98"><span class="toc-number">4.</span> <span class="toc-text">三、变化量问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%8B%E5%BC%BA%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.1.</span> <span class="toc-text">压强的变化量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%8B%E5%8A%9B%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.2.</span> <span class="toc-text">压力的变化量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%AE%E5%8A%9B%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.3.</span> <span class="toc-text">浮力的变化量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%93%E7%A7%AF%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.4.</span> <span class="toc-text">体积的变化量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%B1%E5%BA%A6%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.5.</span> <span class="toc-text">深度的变化量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B0%B4%E4%BD%8D%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.6.</span> <span class="toc-text">水位的变化量</span></a></li></ol></li></ol>
                     </div>
                 </span>
             </div>
@@ -359,7 +367,7 @@
 <div id="toc-article" class="toc-article" style="border-radius: 0.5em;">
   <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
   <strong class="toc-title">文章目录</strong>
-  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%9F%BA%E6%9C%AC%E5%85%AC%E5%BC%8F"><span class="toc-number">2.</span> <span class="toc-text">一、基本公式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%AF%B9%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7%E5%AE%9A%E7%90%86%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-number">3.</span> <span class="toc-text">二、对阿基米德定理的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E5%8F%98%E5%8C%96%E9%87%8F%E9%97%AE%E9%A2%98"><span class="toc-number">4.</span> <span class="toc-text">三、变化量问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%8B%E5%BC%BA%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.1.</span> <span class="toc-text">压强的变化量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%8B%E5%BC%BA%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F-1"><span class="toc-number">4.2.</span> <span class="toc-text">压强的变化量</span></a></li></ol></li></ol>
+  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%9F%BA%E6%9C%AC%E5%85%AC%E5%BC%8F"><span class="toc-number">2.</span> <span class="toc-text">一、基本公式</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E5%AF%B9%E9%98%BF%E5%9F%BA%E7%B1%B3%E5%BE%B7%E5%AE%9A%E7%90%86%E7%9A%84%E7%90%86%E8%A7%A3"><span class="toc-number">3.</span> <span class="toc-text">二、对阿基米德定理的理解</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E5%8F%98%E5%8C%96%E9%87%8F%E9%97%AE%E9%A2%98"><span class="toc-number">4.</span> <span class="toc-text">三、变化量问题</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%8B%E5%BC%BA%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.1.</span> <span class="toc-text">压强的变化量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8E%8B%E5%8A%9B%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.2.</span> <span class="toc-text">压力的变化量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B5%AE%E5%8A%9B%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.3.</span> <span class="toc-text">浮力的变化量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%93%E7%A7%AF%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.4.</span> <span class="toc-text">体积的变化量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%B1%E5%BA%A6%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.5.</span> <span class="toc-text">深度的变化量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B0%B4%E4%BD%8D%E7%9A%84%E5%8F%98%E5%8C%96%E9%87%8F"><span class="toc-number">4.6.</span> <span class="toc-text">水位的变化量</span></a></li></ol></li></ol>
 </div>
 <script type="text/javascript">
 function showToc(){
@@ -7535,8 +7543,8 @@ MathJax.Hub.Queue(function() {
 });
 </script>
 
-<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
+<script src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
 
 
     
