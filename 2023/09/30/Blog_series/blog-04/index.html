@@ -27,6 +27,7 @@
 <meta property="og:description" content="话说上回咱选好了域名（我这个穷B必定是跳过的啦），这篇就来教大家提交库并搭建起基本的网页框架！！">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://boredliam.github.io/2023/09/30/Blog_series/blog-04/4.png">
+<meta property="og:image" content="https://boredliam.github.io/2023/09/30/Blog_series/blog-04/4.png">
 <meta property="og:image" content="https://boredliam.github.io/2023/09/30/Blog_series/blog-04/5.png">
 <meta property="og:image" content="https://boredliam.github.io/2023/09/30/Blog_series/blog-04/6.png">
 <meta property="og:image" content="https://boredliam.github.io/2023/09/30/Blog_series/blog-04/7.png">
@@ -37,7 +38,7 @@
 <meta property="og:image" content="https://pic3.zhimg.com/80/v2-5a8d3a94b1eb5e4e79f2e733ddaed2aa_720w.webp">
 <meta property="og:image" content="https://boredliam.github.io/2023/09/30/Blog_series/blog-04/a.jpg">
 <meta property="article:published_time" content="2023-09-30T02:15:05.000Z">
-<meta property="article:modified_time" content="2024-09-01T02:14:50.044Z">
+<meta property="article:modified_time" content="2024-09-06T13:34:45.646Z">
 <meta property="article:author" content="BoredLiam">
 <meta property="article:tag" content="Computer Network">
 <meta property="article:tag" content="blog">
@@ -95,7 +96,11 @@
 
 
   
-<meta name="generator" content="Hexo 6.3.0"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
 
 
 <body>
@@ -282,7 +287,8 @@
                 
                 <p>话说上回咱选好了域名（我这个穷B必定是跳过的啦），这篇就来教大家提交库并搭建起基本的网页框架！！<br><span id="more"></span></p>
 <h1 id="安装并配置Node-js"><a href="#安装并配置Node-js" class="headerlink" title="安装并配置Node.js"></a>安装并配置Node.js</h1><h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><p>Node.js® 是一个开源、跨平台的JavaScript运行时的环境。<br>对于安装，干了好几次了应该会了吧。。。<br>先打开官网：<a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn" title="Node.js官网">Node.js官网</a><br>将一个msi文件下载下来，点击安装，一路照着翻译即可安装成功。详细过程参见<a target="_blank" rel="noopener" href="https://blog.csdn.net/antma/article/details/86104068" title="点喂">这里</a><br>安装后可以打开cmd检验是否成功，用以下命令检查文本：<br><code>node -v</code><br><code>npm -v</code></p>
-<img src="/2023/09/30/Blog_series/blog-04/4.png" srcset="/img/loading.gif" lazyload class="" title="检查">
+<!-- <img src="/2023/09/30/Blog_series/blog-04/4.png" srcset="/img/loading.gif" lazyload class="" title="检查"> -->
+<p><img src="4.png" srcset="/img/loading.gif" lazyload alt="检查" title="检查"></p>
 <p>出现版本号即为安装成功。</p>
 <h2 id="设置npm安装路径"><a href="#设置npm安装路径" class="headerlink" title="设置npm安装路径"></a>设置npm安装路径</h2><p>我们将用npm命令安装模块，但是由于它的默认安装路径在C盘，可能会导致C盘遭占用甚至影响hexo使用，于是我们更改一下安装路径。<br>打开之前安装node.js的文件夹，新建node_cache、node_global两个空的文件夹<br><img src="5.png" srcset="/img/loading.gif" lazyload alt="新建俩文件夹" title="新建"><br>创建后打开cmd输入命令更改路径<br><code>npm config set prefix &quot;I:\node\node_global&quot;</code><br><code>npm config set cache &quot;I:\node\node_cache&quot;</code><br><strong>其中I:\node是你安装node的位置</strong>，具体可以打开刚刚创建的node_cache、node_global文件夹，直接使用它的位置即可。<br><img src="6.png" srcset="/img/loading.gif" lazyload alt="自个找文件夹看去" title="文件夹路径"></p>
 <h2 id="配置npm环境变量"><a href="#配置npm环境变量" class="headerlink" title="配置npm环境变量"></a>配置npm环境变量</h2><p>这还不够，得为它配置一个环境变量。<br>什么？你问我环境变量是啥？<br>其实就是软件在这个环境运行所需的配置，但这不重要。<br>以win10系统为例，打开<strong>设置 → 系统 → 关于 → 高级系统设置 → 环境变量</strong><br><img src="7.png" srcset="/img/loading.gif" lazyload alt="环境变量就搁这下面我还看半天没找到" title="找到环境变量"><br>新建一个环境变量，变量名为“NODE_PATH”，值为“I:\node\node_global\node_modules” <strong>（你刚刚新建的文件夹node_global里的node_modules）</strong><br><img src="8.png" srcset="/img/loading.gif" lazyload alt="新建，虽然我已经建好了" title="新建环境变量"><br>再编辑用户变量的path，将npm的路径改为I:\node\node_global <strong>（就是你刚刚新建的文件夹node_global的位置）</strong><br><img src="9.png" srcset="/img/loading.gif" lazyload alt="更改，虽然我已经改好了（这里好像有些人有问题那就自己问度娘吧" title="Path更改"><br>确定保存即可。</p>
@@ -374,9 +380,15 @@
             
               
               
-                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/">
                   <span class="hint--top hint--rounded" aria-label="BY - 署名">
                     <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - 非商业性使用">
+                    <i class="iconfont icon-cc-nc"></i>
                   </span>
                 </a>
               
@@ -417,6 +429,37 @@
             </div>
 
             
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"tmbbROEdHzAAUy6LFyjmXS8I-gzGzoHsz","appKey":"CsFwvUHTlPE6XINhMVTkLdfN","path":"window.location.pathname","placeholder":"说两句吧？","avatar":"retro","meta":["nick","mail","link"],"requiredFields":["nick"],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":true,"serverURLs":"","emojiCDN":null,"emojiMaps":{"tv_doge":"//i0.hdslb.com/bfs/emote/6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png","tv_亲亲":"//i0.hdslb.com/bfs/emote/a8111ad55953ef5e3be3327ef94eb4a39d535d06.png","tv_偷笑":"//i0.hdslb.com/bfs/emote/bb690d4107620f1c15cff29509db529a73aee261.png","tv_再见":"//i0.hdslb.com/bfs/emote/180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png","tv_冷漠":"//i0.hdslb.com/bfs/emote/b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png","tv_发怒":"//i0.hdslb.com/bfs/emote/34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png","tv_发财":"//i0.hdslb.com/bfs/emote/34db290afd2963723c6eb3c4560667db7253a21a.png","tv_可爱":"//i0.hdslb.com/bfs/emote/9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png","tv_吐血":"//i0.hdslb.com/bfs/emote/09dd16a7aa59b77baa1155d47484409624470c77.png","tv_呆":"//i0.hdslb.com/bfs/emote/fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png","tv_呕吐":"//i0.hdslb.com/bfs/emote/9f996894a39e282ccf5e66856af49483f81870f3.png","tv_困":"//i0.hdslb.com/bfs/emote/241ee304e44c0af029adceb294399391e4737ef2.png","tv_坏笑":"//i0.hdslb.com/bfs/emote/1f0b87f731a671079842116e0991c91c2c88645a.png","tv_大佬":"//i0.hdslb.com/bfs/emote/093c1e2c490161aca397afc45573c877cdead616.png","tv_大哭":"//i0.hdslb.com/bfs/emote/23269aeb35f99daee28dda129676f6e9ea87934f.png","tv_委屈":"//i0.hdslb.com/bfs/emote/d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png","tv_害羞":"//i0.hdslb.com/bfs/emote/a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png","tv_尴尬":"//i0.hdslb.com/bfs/emote/7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png","tv_微笑":"//i0.hdslb.com/bfs/emote/70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png","tv_思考":"//i0.hdslb.com/bfs/emote/90cf159733e558137ed20aa04d09964436f618a1.png","tv_惊吓":"//i0.hdslb.com/bfs/emote/0d15c7e2ee58e935adc6a7193ee042388adc22af.png","不太聪明的样子":"https://s21.ax1x.com/2024/06/15/pkwKCqI.png","你个憨批":"https://s21.ax1x.com/2024/06/15/pkwKpMd.jpg","无法接受！":"https://s21.ax1x.com/2024/06/15/pkwK9sA.jpg","阿巴阿巴":"https://s21.ax1x.com/2024/06/15/pkwuzxH.png","撅嘴":"https://s21.ax1x.com/2024/06/15/pkwKZRg.jpg","哭辽":"https://s21.ax1x.com/2024/06/15/pkwKVJS.jpg","秀儿":"https://s21.ax1x.com/2024/06/15/pkwKEi8.jpg","你看这是人话吗":"https://s21.ax1x.com/2024/06/15/pkwKkIf.jpg"},"enableQQ":true},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
           </article>
         </div>
       </div>
@@ -450,12 +493,6 @@
 
 
   
-
-
-  
-  
-
-
 
 
 
@@ -594,49 +631,6 @@
 
   <script>Fluid.plugins.imageCaption();</script>
 
-  
-      <script>
-        if (!window.MathJax) {
-          window.MathJax = {
-            tex    : {
-              inlineMath: { '[+]': [['$', '$']] }
-            },
-            loader : {
-              load: ['ui/lazy']
-            },
-            options: {
-              renderActions: {
-                insertedScript: [200, () => {
-                  document.querySelectorAll('mjx-container').forEach(node => {
-                    let target = node.parentNode;
-                    if (target.nodeName.toLowerCase() === 'li') {
-                      target.parentNode.classList.add('has-jax');
-                    }
-                  });
-                }, '', false]
-              }
-            }
-          };
-        } else {
-          MathJax.startup.document.state(0);
-          MathJax.texReset();
-          MathJax.typeset();
-          MathJax.typesetPromise();
-        }
-
-        Fluid.events.registerRefreshCallback(function() {
-          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
-            MathJax.startup.document.state(0);
-            MathJax.texReset();
-            MathJax.typeset();
-            MathJax.typesetPromise();
-          }
-        });
-      </script>
-    
-
-  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
-
   <script  src="/js/local-search.js" ></script>
 
 
@@ -653,5 +647,36 @@
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['
+</html>
+, '
+</html>
+], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+    </script>
+<!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
