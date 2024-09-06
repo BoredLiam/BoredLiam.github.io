@@ -164,7 +164,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/2024/08/19/Passages/robot/</loc>
+    <loc>https://boredliam.github.io/2024/08/31/Passages/samllest/</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -173,7 +173,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/2024/08/31/Passages/samllest/</loc>
+    <loc>https://boredliam.github.io/2024/08/19/Passages/robot/</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -290,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/border1px.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/hack_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -299,7 +299,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/jiugongge_demo.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/border1px.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -317,7 +317,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/hack_demo.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/jiugongge_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -401,6 +401,13 @@
   </url>
   
   <url>
+    <loc>https://boredliam.github.io/tags/Passages/</loc>
+    <lastmod>2024-09-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/tags/HTML/</loc>
     <lastmod>2024-09-06</lastmod>
     <changefreq>weekly</changefreq>
@@ -409,13 +416,6 @@
   
   <url>
     <loc>https://boredliam.github.io/tags/JavaScript/</loc>
-    <lastmod>2024-09-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/tags/Passages/</loc>
     <lastmod>2024-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
