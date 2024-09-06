@@ -1,0 +1,576 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" >
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/2favicon.ico">
+  <link rel="icon" href="/img/2favicon.ico">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="BoredLiam">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="*{ 	margin:0; 	padding: 0; } body{ 	overflow: hidden; } #textBox{ 	position: absolute; 	left: 0; 	top: 0; 	z-index: -999; } .showRoll #frame {     border-color: hsl(0,0%,70%);     position: abs">
+<meta property="og:type" content="website">
+<meta property="og:title" content="page.title">
+<meta property="og:url" content="https://boredliam.github.io/assets/demo/pre_css3_demo/demo.html">
+<meta property="og:site_name" content="Liam&#39;s boring life">
+<meta property="og:description" content="*{ 	margin:0; 	padding: 0; } body{ 	overflow: hidden; } #textBox{ 	position: absolute; 	left: 0; 	top: 0; 	z-index: -999; } .showRoll #frame {     border-color: hsl(0,0%,70%);     position: abs">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-08-30T13:01:57.817Z">
+<meta property="article:modified_time" content="2017-07-28T18:51:08.000Z">
+<meta property="article:author" content="BoredLiam">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>page.title - Liam&#39;s boring life</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"boredliam.github.io","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":["home"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":false,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-08-31T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 60vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Boring Life</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/B.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle">page.title</span>
+          
+        </div>
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      <div class="container nopadding-x-md">
+        <div id="board"
+          >
+          
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-10 m-auto">
+                
+
+<article class="page-content">
+  <!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script type="text/javascript" src="../jquery.js"></script>
+<style type="text/css">
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	overflow: hidden;
+}
+#textBox{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -999;
+}
+.showRoll #frame {
+    border-color: hsl(0,0%,70%);
+    position: absolute;
+}
+#box{
+	width: 641px;
+	height: 483px;
+	background: url(bg.jpg);
+	border: 1px solid #ddd;
+	position: relative;
+	color: #fff;
+	overflow: hidden;
+}
+#frame {
+    width: 70px;
+    height: 92px;
+    left:370px;
+    top:240px;
+    position: absolute;
+    border: 1px solid transparent;
+    background: url(mhxy.png) no-repeat left top;
+    -webkit-animation: anm-down 1s steps(8) infinite;
+       -moz-animation: anm-down 1s steps(8) infinite;
+        -ms-animation: anm-down 1s steps(8) infinite;
+         -o-animation: anm-down 1s steps(8) infinite;
+            animation: anm-down 1s steps(8) infinite;
+}
+@-webkit-keyframes anm-down { 0% { background-position: 0px 0; } 100% { background-position: -560px 0; } }
+   @-moz-keyframes anm-down { 0% { background-position: 0px 0; } 100% { background-position: -560px 0; } }
+    @-ms-keyframes anm-down { 0% { background-position: 0px 0; } 100% { background-position: -560px 0; } }
+     @-o-keyframes anm-down { 0% { background-position: 0px 0; } 100% { background-position: -560px 0; } }
+        @keyframes anm-down { 0% { background-position: 0px 0; } 100% { background-position: -560px 0; } }
+
+@-webkit-keyframes anm-left { 0% { background-position: 0px -92px; } 100% { background-position: -560px -92px; } }
+   @-moz-keyframes anm-left { 0% { background-position: 0px -92px; } 100% { background-position: -560px -92px; } }
+    @-ms-keyframes anm-left { 0% { background-position: 0px -92px; } 100% { background-position: -560px -92px; } }
+     @-o-keyframes anm-left { 0% { background-position: 0px -92px; } 100% { background-position: -560px -92px; } }
+        @keyframes anm-left { 0% { background-position: 0px -92px; } 100% { background-position: -560px -92px; } }
+
+@-webkit-keyframes anm-right { 0% { background-position: 0px -184px; } 100% { background-position: -560px -184px; } }
+   @-moz-keyframes anm-right { 0% { background-position: 0px -184px; } 100% { background-position: -560px -184px; } }
+    @-ms-keyframes anm-right { 0% { background-position: 0px -184px; } 100% { background-position: -560px -184px; } }
+     @-o-keyframes anm-right { 0% { background-position: 0px -184px; } 100% { background-position: -560px -184px; } }
+        @keyframes anm-right { 0% { background-position: 0px -184px; } 100% { background-position: -560px -184px; } }
+
+@-webkit-keyframes anm-up { 0% { background-position: 0px -276px; } 100% { background-position: -560px -276px; } }
+   @-moz-keyframes anm-up { 0% { background-position: 0px -276px; } 100% { background-position: -560px -276px; } }
+    @-ms-keyframes anm-up { 0% { background-position: 0px -276px; } 100% { background-position: -560px -276px; } }
+     @-o-keyframes anm-up { 0% { background-position: 0px -276px; } 100% { background-position: -560px -276px; } }
+        @keyframes anm-up { 0% { background-position: 0px -276px; } 100% { background-position: -560px -276px; } }
+
+@-webkit-keyframes anm-ld { 0% { background-position: 0px -368px; } 100% { background-position: -560px -368px; } }
+   @-moz-keyframes anm-ld { 0% { background-position: 0px -368px; } 100% { background-position: -560px -368px; } }
+    @-ms-keyframes anm-ld { 0% { background-position: 0px -368px; } 100% { background-position: -560px -368px; } }
+     @-o-keyframes anm-ld { 0% { background-position: 0px -368px; } 100% { background-position: -560px -368px; } }
+        @keyframes anm-ld { 0% { background-position: 0px -368px; } 100% { background-position: -560px -368px; } }
+
+@-webkit-keyframes anm-rd { 0% { background-position: 0px -460px; } 100% { background-position: -560px -460px; } }
+   @-moz-keyframes anm-rd { 0% { background-position: 0px -460px; } 100% { background-position: -560px -460px; } }
+    @-ms-keyframes anm-rd { 0% { background-position: 0px -460px; } 100% { background-position: -560px -460px; } }
+     @-o-keyframes anm-rd { 0% { background-position: 0px -460px; } 100% { background-position: -560px -460px; } }
+        @keyframes anm-rd { 0% { background-position: 0px -460px; } 100% { background-position: -560px -460px; } }
+
+@-webkit-keyframes anm-lu { 0% { background-position: 0px -552px; } 100% { background-position: -560px -552px; } }
+   @-moz-keyframes anm-lu { 0% { background-position: 0px -552px; } 100% { background-position: -560px -552px; } }
+    @-ms-keyframes anm-lu { 0% { background-position: 0px -552px; } 100% { background-position: -560px -552px; } }
+     @-o-keyframes anm-lu { 0% { background-position: 0px -552px; } 100% { background-position: -560px -552px; } }
+        @keyframes anm-lu { 0% { background-position: 0px -552px; } 100% { background-position: -560px -552px; } }
+
+@-webkit-keyframes anm-ru { 0% { background-position: 0px -644px; } 100% { background-position: -560px -644px; } }
+   @-moz-keyframes anm-ru { 0% { background-position: 0px -644px; } 100% { background-position: -560px -644px; } }
+    @-ms-keyframes anm-ru { 0% { background-position: 0px -644px; } 100% { background-position: -560px -644px; } }
+     @-o-keyframes anm-ru { 0% { background-position: 0px -644px; } 100% { background-position: -560px -644px; } }
+        @keyframes anm-ru { 0% { background-position: 0px -644px; } 100% { background-position: -560px -644px; } }
+
+</style>
+<title>test</title>
+</head>
+<body>
+	<div id="box">
+		<div id="frame"></div>
+		<input id="textBox" type="text" />
+	</div>
+    
+    <script type="text/javascript">
+    	function setAnm (str){
+    		switch (str){
+    			case 'left':{
+    				$("#frame").css({"animation":"anm-left 1s steps(8) infinite"});
+    				break;
+    			}
+    			case 'right':{
+    				$("#frame").css({"animation":"anm-right 1s steps(8) infinite"});
+    				break;
+    			}
+    			case 'up':{
+    				$("#frame").css({"animation":"anm-up 1s steps(8) infinite"});
+    				break;
+    			}
+    			case 'down':{
+    				$("#frame").css({"animation":"anm-down 1s steps(8) infinite"});
+    				break;
+    			}
+    			case 'lu':{
+    				$("#frame").css({"animation":"anm-lu 1s steps(8) infinite"});
+    				break;
+    			}
+    			case 'ld':{
+    				$("#frame").css({"animation":"anm-ld 1s steps(8) infinite"});
+    				break;
+    			}
+    			case 'ru':{
+    				$("#frame").css({"animation":"anm-ru 1s steps(8) infinite"});
+    				break;
+    			}
+    			case 'rd':{
+    				$("#frame").css({"animation":"anm-rd 1s steps(8) infinite"});
+    				break;
+    			}
+    		}
+    	}
+    	var data = {
+    		x:0,
+    		y:0,
+    		l:false,
+    		r:false,
+    		u:false,
+    		d:false,
+    		time:null
+    	}
+    	function move(){
+    		trans = "translate("+data.x*50+"px,"+data.y*50+"px)";
+		  	$('#frame').css({"transform":trans,"transition":"all 0.3s linear"});
+    	}
+    	function diff(){
+    		var newTime = +new Date;
+			if(!data.time){
+				data.time = newTime;
+			}
+			var diff = newTime-data.time;
+			return diff;
+    	}
+		$(window).keydown(function(event){
+		  	var keycode = event.which;
+		  	if(keycode==37){
+		  		if(data.l) return;
+		  		var isRun = diff();
+		  		console.log(isRun);
+		  		data.l=true;
+		  		if(data.u){
+		  			setAnm("lu");
+		  			data.x--;
+		  			if(isRun>480)
+		  			data.y--;
+		  		}else if(data.d){
+		  			setAnm("ld");
+		  			data.x--;
+		  			if(isRun>480)
+		  			data.y++;
+		  		}else{
+		  			setAnm("left");
+			  		data.x--;
+		  		}
+		  	}else if(keycode==38){
+		  		if(data.u) return;
+		  		var isRun = diff();
+		  		console.log(isRun);
+		  		data.u=true;
+		  		if(data.l){
+		  			setAnm("lu");
+		  			if(isRun>480)
+		  			data.x--;
+		  			data.y--;
+		  		}else if(data.r){
+		  			setAnm("ru");
+		  			if(isRun>480)
+		  			data.x++;
+		  			data.y--;
+		  		}else{
+		  			setAnm("up");
+			  		data.y--;
+		  		}
+		  	}else if(keycode==39){
+		  		if(data.r) return;
+		  		var isRun = diff();
+		  		console.log(isRun);
+		  		data.r=true;
+		  		if(data.u){
+		  			setAnm("ru");
+		  			data.x++;
+		  			if(isRun>480)
+		  			data.y--;
+		  		}else if(data.d){
+		  			setAnm("rd");
+		  			data.x++;
+		  			if(isRun>480)
+		  			data.y++;
+		  		}else{
+		  			setAnm("right");
+			  		data.x++;
+		  		}
+		  	}else if(keycode==40){
+		  		if(data.d) return;
+		  		var isRun = diff();
+		  		console.log(isRun);
+		  		data.d=true;
+		  		if(data.l){
+		  			setAnm("ld");
+		  			if(isRun>480)
+		  			data.x--;
+		  			data.y++;
+		  		}else if(data.r){
+		  			setAnm("rd");
+		  			if(isRun>480)
+		  			data.x++;
+		  			data.y++;
+		  		}else{
+		  			setAnm("down");
+			  		data.y++;
+		  		}
+		  	}
+		  	move();
+		}).keyup(function(){
+			data.l = data.r = data.u = data.d = false;
+			data.time = null;
+		});
+    </script>
+</body>
+</html>
+
+  
+
+</article>
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
