@@ -317,7 +317,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/jiugongge_demo2.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/jiugongge_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -326,7 +326,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/jiugongge_demo.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/jiugongge_demo2.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -344,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/gift/index.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/mediator/demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -353,7 +353,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/mediator/demo.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/gift/index.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -438,6 +438,13 @@
   </url>
   
   <url>
+    <loc>https://boredliam.github.io/tags/English/</loc>
+    <lastmod>2024-09-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/tags/%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F/</loc>
     <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -446,13 +453,6 @@
   
   <url>
     <loc>https://boredliam.github.io/tags/%E5%8C%96%E5%AD%A6/</loc>
-    <lastmod>2024-09-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/tags/English/</loc>
     <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -559,14 +559,14 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/study/physics/</loc>
+    <loc>https://boredliam.github.io/categories/html/study/</loc>
     <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/html/study/</loc>
+    <loc>https://boredliam.github.io/categories/study/physics/</loc>
     <lastmod>2024-09-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
