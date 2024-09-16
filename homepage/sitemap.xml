@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/26073.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/48804.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/48804.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/26073.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -263,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/my_news_reader/index.html</loc>
+    <loc>https://boredliam.github.io/homepage/assets/demo/mediator/demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -272,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/mediator/demo.html</loc>
+    <loc>https://boredliam.github.io/homepage/assets/demo/my_news_reader/index.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -299,13 +299,6 @@
 
   
   <url>
-    <loc>https://boredliam.github.io/homepage/tags/life/</loc>
-    <lastmod>2024-09-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/homepage/tags/life-feeling/</loc>
     <lastmod>2024-09-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -314,6 +307,13 @@
   
   <url>
     <loc>https://boredliam.github.io/homepage/tags/life-watching/</loc>
+    <lastmod>2024-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/homepage/tags/life/</loc>
     <lastmod>2024-09-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
