@@ -31,11 +31,11 @@
 <meta property="og:image" content="https://s1.ax1x.com/2020/07/17/UyeQDs.png">
 <meta property="og:image" content="https://s1.ax1x.com/2020/07/17/Uye6PK.png">
 <meta property="og:image" content="https://boredliam.github.io/posts/62525/a.png">
-<meta property="og:image" content="https://boredliam.github.io/2023/10/01/Blog_series/blog-07/111.png">
-<meta property="og:image" content="https://boredliam.github.io/2023/10/01/Blog_series/blog-07/left-col.png">
-<meta property="og:image" content="https://boredliam.github.io/2023/10/01/Blog_series/blog-07/menu-l.png">
+<meta property="og:image" content="https://boredliam.github.io/posts/62525/111.png">
+<meta property="og:image" content="https://boredliam.github.io/posts/62525/left-col.png">
+<meta property="og:image" content="https://boredliam.github.io/posts/62525/menu-l.png">
 <meta property="article:published_time" content="2023-10-01T08:29:11.000Z">
-<meta property="article:modified_time" content="2024-09-07T04:37:57.007Z">
+<meta property="article:modified_time" content="2024-09-17T05:50:15.230Z">
 <meta property="article:author" content="BoredLiam">
 <meta property="article:tag" content="Computer Network">
 <meta property="article:tag" content="blog">
@@ -822,7 +822,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-09-07T12:37:57+08:00
+                    本文最后更新于 2024-09-17T13:50:15+08:00
                   
                   
 
@@ -978,7 +978,7 @@
 <p>注意：使用到Leancloud的服务都会略微缓慢。</p>
 </blockquote>
 <h2 id="文章字数统计以及阅读时长"><a href="#文章字数统计以及阅读时长" class="headerlink" title="文章字数统计以及阅读时长"></a>文章字数统计以及阅读时长</h2><p>参见这篇文章：<a target="_blank" rel="noopener" href="https://blog.csdn.net/fmk1023/article/details/100073217">hexo下yilia主题添加字数统计和阅读时长功能</a>，效果如图：</p>
-<p><img src="/2023/10/01/Blog_series/blog-07/111.png" srcset="/img/loading.gif" lazyload alt="效果图" title="效果图"></p>
+<p><img src="62525/111.png" srcset="/img/loading.gif" lazyload alt="效果图" title="效果图"></p>
 <h2 id="总文章数"><a href="#总文章数" class="headerlink" title="总文章数"></a>总文章数</h2><p>将<code>themes\yilia\layout_partial\left-col.ejs</code>文件的</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs html"><span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;header-menu&quot;</span>&gt;</span><br>    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span><br>    &lt;% for (var i in theme.menu)&#123; %&gt;<br>        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;&lt;%- url_for(theme.menu[i]) %&gt;&quot;</span>&gt;</span>&lt;%= i %&gt;<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span><br>    &lt;%&#125;%&gt;<br>    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span><br></code></pre></td></tr></table></figure>
 <p>后面加上</p>
@@ -1093,7 +1093,7 @@
 <h2 id="智能菜单的修改"><a href="#智能菜单的修改" class="headerlink" title="智能菜单的修改"></a>智能菜单的修改</h2><p>友链与关于我的修改和全部文章的修改差不多，修改根目录配置文件<code>/_config.yml</code>中的</p>
 <figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-attr">friends:</span><br>  <span class="hljs-attr">A:</span> <span class="hljs-string">http://XXX.com</span><br>  <span class="hljs-attr">B:</span> <span class="hljs-string">http://YYY.com</span><br><br><span class="hljs-attr">aboutme:</span> <span class="hljs-string">这是一个网站。&lt;br&gt;♪(´▽｀)</span><br><br></code></pre></td></tr></table></figure>
 <p>其中<code>&lt;br&gt;</code>的作用就是换行，有时会出现换行失败的情况，但是刷新之后就好了。</p>
-<h2 id="进入动画"><a href="#进入动画" class="headerlink" title="进入动画"></a>进入动画</h2><p>为了使进入博客时过渡更为柔和，我们可以自己在CSS添加动画。<br>如下图是left-col（侧边栏）与menu-l（文章以及后面的白色背景）的范围，我们就给他们分别加上动画<br><img src="/2023/10/01/Blog_series/blog-07/left-col.png" srcset="/img/loading.gif" lazyload alt="left-col的范围" title="left-col的范围"><br><img src="/2023/10/01/Blog_series/blog-07/menu-l.png" srcset="/img/loading.gif" lazyload alt="menu-l的范围" title="menu-l的范围"></p>
+<h2 id="进入动画"><a href="#进入动画" class="headerlink" title="进入动画"></a>进入动画</h2><p>为了使进入博客时过渡更为柔和，我们可以自己在CSS添加动画。<br>如下图是left-col（侧边栏）与menu-l（文章以及后面的白色背景）的范围，我们就给他们分别加上动画<br><img src="62525/left-col.png" srcset="/img/loading.gif" lazyload alt="left-col的范围" title="left-col的范围"><br><img src="62525/menu-l.png" srcset="/img/loading.gif" lazyload alt="menu-l的范围" title="menu-l的范围"></p>
 <blockquote>
 <p><strong>注：从上渐进动画的设置会导致目录不随屏幕移动的bug，谨慎使用</strong><br>我们打开<code>themes\yilia\source</code>中的<code>main.0cf68a.css</code>，<br>在末尾添加</p>
 </blockquote>
@@ -1558,36 +1558,5 @@
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
-<script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-        tex2jax: {
-            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
-            processEscapes: true
-        }
-    });
-    MathJax.Hub.Queue(function() {
-        var all = MathJax.Hub.getAllJax();
-        for (var i = 0; i < all.length; ++i)
-            all[i].SourceElement().parentNode.className += ' has-jax';
-    });
-</script>
-<script>
-    MathJax = {
-      tex: {
-        inlineMath: [['
-</html>
-, '
-</html>
-], ['\\(', '\\)']]
-      },
-      svg: {
-        fontCache: 'global'
-      }
-    };
-    </script>
-<!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
