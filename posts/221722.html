@@ -1,0 +1,1330 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" >
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="https://boredliam.gz.bcebos.com/WinMail_1_2.ico">
+  <link rel="icon" href="https://boredliam.gz.bcebos.com/WinMail_1_2.ico">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="BoredLiam">
+  <meta name="keywords" content="">
+  
+    <meta name="description" content="摩尔，物质的量的单位，简直就是高中化学门口的绊脚石。但它的重要性不言而喻，整个高中的化学计算都将紧密围绕着它展开。为此，这篇文章中，我想从物质的量的定义介绍这个让无数高中生头痛的单位————摩尔。本人学艺不精，如有疏漏，恳请指出。接下来，我将用“【】”括住定义的内容，假如你想问这里面的内容从何而来，我只能说因为它就是这么定义的。（为便于理解，定义语言非常不严谨，追求准确的请参阅课本）">
+<meta property="og:type" content="article">
+<meta property="og:title" content="有关物质的量的一些见解">
+<meta property="og:url" content="https://boredliam.github.io/posts/221722.html">
+<meta property="og:site_name" content="Liam&#39;s boring life">
+<meta property="og:description" content="摩尔，物质的量的单位，简直就是高中化学门口的绊脚石。但它的重要性不言而喻，整个高中的化学计算都将紧密围绕着它展开。为此，这篇文章中，我想从物质的量的定义介绍这个让无数高中生头痛的单位————摩尔。本人学艺不精，如有疏漏，恳请指出。接下来，我将用“【】”括住定义的内容，假如你想问这里面的内容从何而来，我只能说因为它就是这么定义的。（为便于理解，定义语言非常不严谨，追求准确的请参阅课本）">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-08-16T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-09-17T05:14:38.983Z">
+<meta property="article:author" content="BoredLiam">
+<meta property="article:tag" content="物质的量">
+<meta property="article:tag" content="化学">
+<meta name="twitter:card" content="summary_large_image">
+  
+  
+  
+  <title>有关物质的量的一些见解 - Liam&#39;s boring life</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"boredliam.github.io","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":["home"]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-08-31T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Boring Life</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/links/" target="_self">
+                <i class="iconfont icon-link-fill"></i>
+                <span>友链</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://boredliam.gz.bcebos.com/B.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle">有关物质的量的一些见解</span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-08-17 00:00" pubdate>
+          2024年8月17日 凌晨
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          2.8k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          24 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar category-bar" style="margin-right: -1rem">
+    
+
+
+
+
+
+<div class="category-list">
+  
+  
+    
+    
+    
+    <div class="category row nomargin-x">
+      <a class="category-item 
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="study"
+        id="heading-2cd1c6ecec2c6d908b3ed66d4ea7b902" role="tab" data-toggle="collapse" href="#collapse-2cd1c6ecec2c6d908b3ed66d4ea7b902"
+        aria-expanded="true"
+      >
+        study
+        <span class="list-group-count">(21)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse show" id="collapse-2cd1c6ecec2c6d908b3ed66d4ea7b902"
+           role="tabpanel" aria-labelledby="heading-2cd1c6ecec2c6d908b3ed66d4ea7b902">
+        
+        
+          
+          
+  <div class="category-post-list">
+    
+    
+  </div>
+
+          
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="blog-building"
+        id="heading-bb75b39fbb5574e4ee0b8c08f1d8b267" role="tab" data-toggle="collapse" href="#collapse-bb75b39fbb5574e4ee0b8c08f1d8b267"
+        aria-expanded="false"
+      >
+        blog-building
+        <span class="list-group-count">(5)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse " id="collapse-bb75b39fbb5574e4ee0b8c08f1d8b267"
+           role="tabpanel" aria-labelledby="heading-bb75b39fbb5574e4ee0b8c08f1d8b267">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/posts/15695.html" title="yilia博客中“下一页”的美化"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">yilia博客中“下一页”的美化</span>
+        </a>
+      
+    
+      
+      
+        <a href="/posts/24506.html" title="在Valine 1.5.1版本实现QQ邮箱识别生成头像地址"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">在Valine 1.5.1版本实现QQ邮箱识别生成头像地址</span>
+        </a>
+      
+    
+      
+      
+        <a href="/posts/9828.html" title="零基础搭建个人博客（壹）"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">零基础搭建个人博客（壹）</span>
+        </a>
+      
+    
+      
+      
+        <a href="/categories/study/blog-building/" class="list-group-item list-group-item-action">
+          <span class="category-post">More...</span>
+        </a>
+        
+  </div>
+
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem 
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="chemistry"
+        id="heading-dce09f281c35f49c2f58ea7580b530b7" role="tab" data-toggle="collapse" href="#collapse-dce09f281c35f49c2f58ea7580b530b7"
+        aria-expanded="true"
+      >
+        chemistry
+        <span class="list-group-count">(1)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse show" id="collapse-dce09f281c35f49c2f58ea7580b530b7"
+           role="tabpanel" aria-labelledby="heading-dce09f281c35f49c2f58ea7580b530b7">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/posts/221722.html" title="有关物质的量的一些见解"
+           class="list-group-item list-group-item-action
+           active">
+          <span class="category-post">有关物质的量的一些见解</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="computer"
+        id="heading-df53ca268240ca76670c8566ee54568a" role="tab" data-toggle="collapse" href="#collapse-df53ca268240ca76670c8566ee54568a"
+        aria-expanded="false"
+      >
+        computer
+        <span class="list-group-count">(3)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse " id="collapse-df53ca268240ca76670c8566ee54568a"
+           role="tabpanel" aria-labelledby="heading-df53ca268240ca76670c8566ee54568a">
+        
+        
+          
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/posts/64496.html" title="建立博客的踩坑小结"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">建立博客的踩坑小结</span>
+        </a>
+      
+    
+      
+      
+        <a href="/posts/32638.html" title="运用云函数实现自动签到（nodejs+serverless云函数）"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">运用云函数实现自动签到（nodejs+serverless云函数）</span>
+        </a>
+      
+    
+  </div>
+
+          
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="network"
+        id="heading-91e02cd2b8621d0c05197f645668c5c4" role="tab" data-toggle="collapse" href="#collapse-91e02cd2b8621d0c05197f645668c5c4"
+        aria-expanded="false"
+      >
+        network
+        <span class="list-group-count">(1)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse " id="collapse-91e02cd2b8621d0c05197f645668c5c4"
+           role="tabpanel" aria-labelledby="heading-91e02cd2b8621d0c05197f645668c5c4">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/posts/28758.html" title="计算机网络"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">计算机网络</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="hardware"
+        id="heading-3ca14c518d1bf901acc339e7c9cd6d7f" role="tab" data-toggle="collapse" href="#collapse-3ca14c518d1bf901acc339e7c9cd6d7f"
+        aria-expanded="false"
+      >
+        hardware
+        <span class="list-group-count">(1)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse " id="collapse-3ca14c518d1bf901acc339e7c9cd6d7f"
+           role="tabpanel" aria-labelledby="heading-3ca14c518d1bf901acc339e7c9cd6d7f">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/posts/42416.html" title="有关U盘"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">有关U盘</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="network"
+        id="heading-91e02cd2b8621d0c05197f645668c5c4" role="tab" data-toggle="collapse" href="#collapse-91e02cd2b8621d0c05197f645668c5c4"
+        aria-expanded="false"
+      >
+        network
+        <span class="list-group-count">(1)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse " id="collapse-91e02cd2b8621d0c05197f645668c5c4"
+           role="tabpanel" aria-labelledby="heading-91e02cd2b8621d0c05197f645668c5c4">
+        
+        
+          
+          
+  <div class="category-post-list">
+    
+    
+  </div>
+
+          
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="JavaScript"
+        id="heading-686155af75a60a0f6e9d80c1f7edd3e9" role="tab" data-toggle="collapse" href="#collapse-686155af75a60a0f6e9d80c1f7edd3e9"
+        aria-expanded="false"
+      >
+        JavaScript
+        <span class="list-group-count">(1)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse " id="collapse-686155af75a60a0f6e9d80c1f7edd3e9"
+           role="tabpanel" aria-labelledby="heading-686155af75a60a0f6e9d80c1f7edd3e9">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/posts/9809.html" title="Javascript"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">Javascript</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="passage"
+        id="heading-84edc120f75aac8e0d34f772ea29125e" role="tab" data-toggle="collapse" href="#collapse-84edc120f75aac8e0d34f772ea29125e"
+        aria-expanded="false"
+      >
+        passage
+        <span class="list-group-count">(6)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse " id="collapse-84edc120f75aac8e0d34f772ea29125e"
+           role="tabpanel" aria-labelledby="heading-84edc120f75aac8e0d34f772ea29125e">
+        
+        
+          
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/posts/12248.html" title="一种美味"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">一种美味</span>
+        </a>
+      
+    
+      
+      
+        <a href="/posts/7223.html" title="我可以看见最细小的东西"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">我可以看见最细小的东西</span>
+        </a>
+      
+    
+      
+      
+        <a href="/posts/62198.html" title="蓬莱，何以成东方神话策源地？"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">蓬莱，何以成东方神话策源地？</span>
+        </a>
+      
+    
+      
+      
+        <a href="/categories/study/passage/" class="list-group-item list-group-item-action">
+          <span class="category-post">More...</span>
+        </a>
+        
+  </div>
+
+          
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="recommend"
+        id="heading-6a61e544f8626659b37e602df3eeab09" role="tab" data-toggle="collapse" href="#collapse-6a61e544f8626659b37e602df3eeab09"
+        aria-expanded="false"
+      >
+        recommend
+        <span class="list-group-count">(1)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse " id="collapse-6a61e544f8626659b37e602df3eeab09"
+           role="tabpanel" aria-labelledby="heading-6a61e544f8626659b37e602df3eeab09">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/posts/662198.html" title="荒谬的想象，用科学规律以回答：《What if？》——Randall Munroe"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">荒谬的想象，用科学规律以回答：《What if？》——Randall Munroe</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="physics"
+        id="heading-8cfb10d3dd0ae49a87320653cbfa587e" role="tab" data-toggle="collapse" href="#collapse-8cfb10d3dd0ae49a87320653cbfa587e"
+        aria-expanded="false"
+      >
+        physics
+        <span class="list-group-count">(3)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse " id="collapse-8cfb10d3dd0ae49a87320653cbfa587e"
+           role="tabpanel" aria-labelledby="heading-8cfb10d3dd0ae49a87320653cbfa587e">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/posts/38541.html" title="2024入境考-物理科简析"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">2024入境考-物理科简析</span>
+        </a>
+      
+    
+      
+      
+        <a href="/posts/894625.html" title="有关摩擦角"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">有关摩擦角</span>
+        </a>
+      
+    
+      
+      
+        <a href="/posts/28946.html" title="有关浮力模型的一些思考"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">有关浮力模型的一些思考</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category-sub row nomargin-x">
+      <a class="category-subitem collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="politics"
+        id="heading-a0f15d09df04d9ad657ce26e371ddf9a" role="tab" data-toggle="collapse" href="#collapse-a0f15d09df04d9ad657ce26e371ddf9a"
+        aria-expanded="false"
+      >
+        politics
+        <span class="list-group-count">(1)</span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+      <div class="category-collapse collapse " id="collapse-a0f15d09df04d9ad657ce26e371ddf9a"
+           role="tabpanel" aria-labelledby="heading-a0f15d09df04d9ad657ce26e371ddf9a">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/posts/385410.html" title="2024入境考-政治科简析"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">2024入境考-政治科简析</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+        
+      </div>
+    </div>
+  
+</div>
+
+
+  </aside>
+
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">有关物质的量的一些见解</h1>
+            
+              <p id="updated-time" class="note note-info" style="display: none">
+                
+                  
+                    本文最后更新于 2024-09-17T13:14:38+08:00
+                  
+                  
+
+                
+              </p>
+            
+            
+              <div class="markdown-body">
+                
+                <p>摩尔，物质的量的单位，简直就是高中化学门口的绊脚石。但它的重要性不言而喻，整个高中的化学计算都将紧密围绕着它展开。为此，这篇文章中，我想从物质的量的定义介绍这个让无数高中生头痛的单位————摩尔。<br>本人学艺不精，如有疏漏，恳请指出。<br>接下来，我将用“【】”括住定义的内容，假如你想问这里面的内容从何而来，我只能说因为它就是这么定义的。（为便于理解，定义语言非常不严谨，追求准确的请参阅课本）<br><span id="more"></span></p>
+<h2 id="从C-12开始：相对质量到物质的量"><a href="#从C-12开始：相对质量到物质的量" class="headerlink" title="从C-12开始：相对质量到物质的量"></a>从C-12开始：相对质量到物质的量</h2><p>在初中教材中，我们因为原子的质量太太太小了，引入了<strong>相对物质质量</strong>来描述分子、原子的质量。<br>可是问题没有完全解决，分子不仅质量很小，数量也多。我们该引入什么样的单位来描述物质的数量呢？<br>这就是<strong>物质的量</strong>诞生的原因。</p>
+<p>可是问题又来了：我们该用哪种标准来制定呢？<br>回顾一下相对原子质量是怎么定义的：<br><strong>【相对原子质量（<script type="math/tex">A_{r}</script>）是指以一个<script type="math/tex">^{12}C</script>原子质量的<script type="math/tex">\frac{1}{12}</script>作为标准，任何一个原子的真实质量跟一个<script type="math/tex">^{12}C</script>质量的<script type="math/tex">\frac{1}{12}</script>的比值，称为该原子的相对原子质量。】</strong></p>
+<blockquote>
+<p><strong>◆小拓展（不看没关系）：</strong><br><strong>Q<sub>1</sub>：为什么要用碳-12原子做标准？</strong><br>因其原子核含有对等的中子和质子数。<br><strong>Q<sub>2</sub>：为何中子质子数对等才能作为基准原子呢？</strong><br>因为中子比质子多一个负电子和一些辐射。</p>
+</blockquote>
+<p>本着能省事就省点事的原则，我们同样用碳-12原子<sub>（里面有6个质子+6个中子）</sub>来定义物质的量。<br>我们定义：<br><strong>【12g的 <script type="math/tex">^{12}C</script>粒子数为<script type="math/tex">N_{A}</script>个，这堆粒子就是<script type="math/tex">1</script>mol这么多。其中<script type="math/tex">N_{A}</script>测得<script type="math/tex">6.03×10^{23}</script>（个）】</strong><br>其中<script type="math/tex">N_{A}</script>叫做阿伏伽德罗常数，物质的量用<script type="math/tex">n</script>表示。</p>
+<blockquote>
+<p><strong>P.S.<sub>1</sub>：为什么是12g？</strong><br>质子和中子质量差不多，把他们看作一种粒子。就有【<script type="math/tex">N_{A}</script>个C-12里有<script type="math/tex">12N_{A}</script>质子/中子】，所以其实定义的是<script type="math/tex">N_{A}</script>个质子/中子为1g。<br>（1g质子/中子有<script type="math/tex">N_{A}</script>个）<br>假如上面这段话你不理解，你可以想一下：<br>【<script type="math/tex">N_{A}</script>个C-12原子共12g】，而每个C-12原子里又有质子中子共12个，所以质子中子共<script type="math/tex">12N_{A}</script>个，他们每个占总质量<script type="math/tex">\frac{1}{12}</script>，即1g。</p>
+</blockquote>
+<p><strong>【注意：这里还只是定义了1mol的数量，还没有定义对其他原子该怎么办。】</strong></p>
+<p>那么现在我们就可以用mol（摩尔）这个单位描述C-12原子的数量，比如<script type="math/tex">2N_{A}</script>个C-12原子就是<strong><script type="math/tex">2</script>mol</strong>这么多。<br>当然啦，怎么会仅限于此，这可叫“<strong>物质</strong>的量”，我们也可以这样描述组成碳原子的质子和中子：</p>
+<p>刚刚说:<br>【<script type="math/tex">N_{A}</script>个C-12里有<script type="math/tex">12N_{A}</script>质子/中子】<br>换句话说就是：<br>【1mol C-12里有12mol 质子/中子】<br>那么我就可以说<script type="math/tex">12N_{A}</script>个质子/中子有<strong><script type="math/tex">12</script>mol</strong>这么多。</p>
+<p>我们把刚刚举的俩例子放一起比较比较：<br>①<script type="math/tex">2N_{A}</script>个C-12原子就是<strong><script type="math/tex">2</script>mol</strong>这么多。<br>②<script type="math/tex">12N_{A}</script>个质子/中子有<strong><script type="math/tex">12</script>mol</strong>这么多。<br>我们发现，我们描述的物质总数<script type="math/tex">N</script>（在上文中对应<script type="math/tex">2N_{A}</script>个和<script type="math/tex">12N_{A}</script>个）<br>和<script type="math/tex">N_{A}</script>与摩尔数<script type="math/tex">n</script>应该满足一个关系：</p>
+<script type="math/tex; mode=display">nN_{A}=N</script><p>这啥意思？就是<script type="math/tex">n</script> mol的物质数量就是<script type="math/tex">n</script>乘<strong>每摩尔物质的数量</strong>（也就是<script type="math/tex">N_{A}</script>）。<br>变形一下</p>
+<script type="math/tex; mode=display">n=\frac{N}{N_{A}}</script><p>这又啥意思？就是说问“<script type="math/tex">N</script>个的物质是几摩尔？”，你用<script type="math/tex">N</script>除以<strong>每摩尔的数量</strong>（也就是<script type="math/tex">N_{A}</script>），就能得出答案了。<br>这条才是物质的量的定义式，是可以通过前面的定义推出来的。</p>
+<p>欸我有个好点子，既然现在这堆东西都能描述原子的数量了，世间万物都是原子构成，为啥不拿来描述其他的物质的数量呢？<br>不错，那我们把刚刚的那个公式范围拓展：</p>
+<p>比如<script type="math/tex">N_{A}</script>个氮气原子<sub>（里面有有7个中子+7个质子）</sub>，我们先<strong>假设</strong>它就是<strong><script type="math/tex">1</script>mol</strong>，<br>那可以得出：<br>“1mol氮原子一共有<script type="math/tex">N_{A}</script>个，而每个氮原子里又有中子/质子14个，那么中子/质子就有<script type="math/tex">14N_{A}</script>个”<br>结论是<script type="math/tex">N_{A}</script>个氮原子里有<script type="math/tex">14N_{A}</script>个中子，很像刚刚我们用C-12推出来的结果，可以验证一下：<br>结合刚刚定义的【<script type="math/tex">N_{A}</script>个质子/中子为1g】，那么1mol氮原子的质量就是<script type="math/tex">1g×14=14g</script>，<br>相同数量氮原子和碳原子质量比为7：6，而刚刚计算出1mol 氮原子14g，与定义的1mol C-12为12g相比，也是7：6。</p>
+<p>于是照葫芦画瓢，我们定义<script type="math/tex">N_{A}</script>个粒子，不管是啥，数量都是<strong>1mol</strong>。<br>按照上面推公式的思路，依次把“氮原子”替换“物质”，也可以得出式子：</p>
+<script type="math/tex; mode=display">n=\frac{N}{N_{A}}</script><p>还记得啥意思吗？就是说问“<script type="math/tex">N</script>个的物质是几摩尔？”，你用<script type="math/tex">N</script>除以每摩尔的数量，也就是<script type="math/tex">N_{A}</script>，就能得出答案了。<br>那么接下来我们就可以定义：<br>【如果物质粒子数为<script type="math/tex">N_{A}</script>，这堆粒子就是<script type="math/tex">1</script>mol这么多。其中<script type="math/tex">N_{A}</script>测得<script type="math/tex">6.03×10^{23}</script>（个）】<br>【对于任何一种物质的，用总数<script type="math/tex">N</script>除以每摩尔的数量（<script type="math/tex">N_{A}</script>），就能得出其摩尔数。】</p>
+<script type="math/tex; mode=display">n=\frac{N}{N_{A}}</script><blockquote>
+<p>◇练习<br>1.填空题<br>（1）摩尔是<strong>____</strong>的单位，1mol的任何物质所含有的粒子数约为<strong>____</strong>。<br>（2）1.5mol的<script type="math/tex">H_{2}SO_{4}</script>中含有<strong>____</strong>mol <script type="math/tex">O</script>，含有<strong>____</strong>mol <script type="math/tex">H</script>。<br>2.计算题<br>（1）计算下列物质的物质的量<br>①11g <script type="math/tex">CO_{2}</script><br>②56g <script type="math/tex">CO</script><br>③28g <script type="math/tex">N_{2}</script><br>（2）分解氯酸钾制氧气的时候，制0.6mol<script type="math/tex">O_{2}</script>需要的<script type="math/tex">KClO_{3}</script>物质的量是多少？</p>
+</blockquote>
+<h2 id="质量也换了吧：用摩尔质量填坑"><a href="#质量也换了吧：用摩尔质量填坑" class="headerlink" title="质量也换了吧：用摩尔质量填坑"></a>质量也换了吧：用摩尔质量填坑</h2><p>你有没有发现，刚刚我们计算出1mol氮原子的质量就是<script type="math/tex">14g</script>，是不是和相对原子质量数值很像？<br>其实数值上就是一样的，我们待会再证明。既然这个量有用，我们先做个定义：<br>【1mol 任何物质的质量，称为摩尔质量，用M表示，常用g/mol做单位】</p>
+<p>显然这个摩尔质量就是单位物质的量的质量，可以像相对原子质量一样描述粒子的性质。我们举几个例子：<br>氮原子的摩尔质量为14g/mol，因为1mol 氮原子有14g。<br>氯化钠的摩尔质量为58.5g/mol，因为1mol 氯化钠分子有58.5g。</p>
+<p>为什么数值上和相对原子质量是一样的呢？<br>因为1mol的某原子，所含质子数+中子数=相对原子质量，<br>假如一个原子含有M个质子+中子，那么他的相对原子质量也为M，<br>而<script type="math/tex">N_{A}</script>个（1mol）的原子有<script type="math/tex">MN_{A}</script>（<script type="math/tex">M</script> mol）个质子+中子。<br>根据【<script type="math/tex">N_{A}</script>个（1mol）质子/中子为1g】，质子+中子的总质量就是<script type="math/tex">M×1</script>g=<script type="math/tex">M</script> g<br>于是其摩尔质量就是<script type="math/tex">M</script> g/mol。</p>
+<p>观察上面，假如我问12mol的这个某原子质量<script type="math/tex">m</script>是多少，该如何计算呢？<br>我们知道$12N_{A}$个（12mol）的原子有$12MN_{A}$（$12M$ mol）个质子+中子。<br>质量就是<script type="math/tex">12M×1</script>g=<script type="math/tex">12M</script> g<br>也就是说12mol的这个某原子质量$m$是$12M$，其中$M$就是摩尔质量。</p>
+<p>发现了吗？我们又可以列出一条式子：</p>
+<script type="math/tex; mode=display">nM=m</script><p>其中<script type="math/tex">n</script>是物质的量，<script type="math/tex">M</script>为摩尔质量，<script type="math/tex">m</script>为实际质量。意思就是摩尔质量，作为<strong>单位物质的量</strong>的质量，乘上物质的量后，就变成实际的质量。<br>上式可以变为</p>
+<script type="math/tex; mode=display">n=\frac{m}{M}</script><p>表示摩尔质量，<strong>单位物质的量的质量</strong>，等于质量除以物质的量。<br>这条才是定义式，在定义中我们可以看出来。</p>
+<blockquote>
+<p>◇练习<br>计算题<br>（1）计算1mol下列物质中含氧元素的质量<br>①<script type="math/tex">KClO_{3}</script><br>②<script type="math/tex">KMnO_{4}</script><br>③<script type="math/tex">Ba(OH)_{2}</script><br>（2）与含4g <script type="math/tex">NaOH</script>的溶液完全反应，需用下列物质的物质的量各是多少？<br>①<script type="math/tex">HCl</script><br>②<script type="math/tex">HNO_{3}</script><br>③<script type="math/tex">H_{2}SO_{4}</script></p>
+</blockquote>
+<h2 id="气体又不一样：没用的家伙"><a href="#气体又不一样：没用的家伙" class="headerlink" title="气体又不一样：没用的家伙"></a>气体又不一样：没用的家伙</h2><p>虽然我们已经有了摩尔质量，但这东西的主要用途还是通过摩尔质量和实际质量的关系，求出摩尔数。接着问题就又来了，液体固体还好称量，气体我称个屁啊。<br>行！本着怎么方便怎么来的原则，咱们用体积定义一个摩尔体积不得了吗！<br>于是照葫芦画瓢写出气体摩尔体积的定义：<br>从【1mol 任何物质的质量，称为摩尔质量，用<script type="math/tex">M</script>表示，常用<script type="math/tex">g/mol</script>做单位】<br>到【1mol 任何气体的体积，称为气体摩尔体积，用<script type="math/tex">V_{M}</script>表示，常用<script type="math/tex">L/mol</script>做单位】</p>
+<p>接着就是从</p>
+<script type="math/tex; mode=display">n=\frac{m}{M}</script><p>到</p>
+<script type="math/tex; mode=display">n=\frac{V}{V_{M}}</script><p>我们可以照样子说出气体摩尔体积的含义，就是从单位物质的量的质量，变成单位物质的量（气体）的体积。<br>举几个例子：（在标准情况下，也就是0℃，101kPa下）<br>1mol<script type="math/tex">CO_{2}</script>的体积是22.4L，那么其<script type="math/tex">V_{M}=22.4L/mol</script><br>1mol<script type="math/tex">O_{2}</script>的体积是22.4L，那么其<script type="math/tex">V_{M}=22.4L/mol</script><br>3mol<script type="math/tex">SO_{2}</script>的体积是67.2L，那么其<script type="math/tex">V_{M}=22.4L/mol</script></p>
+<p>欸欸欸打住！谁教你举例子举特例的，怎么<script type="math/tex">V_{M}</script>全都一样？<br>这可不怪我，本来就是这样。你看看阿伏伽德罗看到这怎么想的：</p>
+<p>阿伏伽德罗发现挺神奇，提出了一个理论，就叫阿伏伽德罗定律，说的是【同温、同压时，同体积的任何气体含有相同数目之分子】。意思就是说，只要温度、气压、体积相同，那么不管你是氧气氮气水蒸气，分子通通一样多。<br>我们把<script type="math/tex">n=\frac{V}{V_{M}}</script>拉出来分析一下：标准情况下，V相同的情况下n一样，V变大n也变大。<br>那这么说<script type="math/tex">V_{M}</script>不随V或n变化而变化，因为V和n其中一个变了另一个肯定变。<br>啊这。。。<br>那行吧，我们根据刚刚就知道，<strong>在标准情况下</strong>，<script type="math/tex">V_{M}</script>始终等于22.4L/mol。<br>当然假如不是标准情况他就会变，比如25℃，101kPa下，<script type="math/tex">V_{M}</script>就变成24.5L/mol了。</p>
+<p>那一个不变的常数有什么用吗？<br>额。。。这还不至于一点用没有，起码它可以在计算时转换单位，并且简化了一些运算。</p>
+<blockquote>
+<p>◇练习<br>计算题<br>6.5g的锌粒与过量盐酸充分反应，锌粒全部反应，试求：<br>（1）消耗氯化氢物质的量<br>（2）生成氢气在标准状况下的体积</p>
+</blockquote>
+<p><br></p>
+<blockquote>
+<p>什么？你问我答案？<br>请参考 人民教育出版社.《新编高中化学读本》<br>(绝对不是懒得打！绝对不是！)</p>
+</blockquote>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/study/" class="category-chain-item">study</a>
+  
+  
+    <span>></span>
+    
+  <a href="/categories/study/chemistry/" class="category-chain-item">chemistry</a>
+  
+  
+
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F/" class="print-no-link">#物质的量</a>
+      
+        <a href="/tags/%E5%8C%96%E5%AD%A6/" class="print-no-link">#化学</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>有关物质的量的一些见解</div>
+      <div>https://boredliam.github.io/posts/221722.html</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>BoredLiam</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年8月17日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-cc-by"></i>
+                  </span>
+                </a>
+              
+                <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by-nc/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - 非商业性使用">
+                    <i class="iconfont icon-cc-nc"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/posts/54867.html" title="韩少功：当机器人成立作家协会">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">韩少功：当机器人成立作家协会</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/posts/39930.html" title="每日单词">
+                        <span class="hidden-mobile">每日单词</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  
+  
+    <article id="comments" lazyload>
+      
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://blog-ground.oss-cn-guangzhou.aliyuncs.com/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"tmbbROEdHzAAUy6LFyjmXS8I-gzGzoHsz","appKey":"CsFwvUHTlPE6XINhMVTkLdfN","path":"window.location.pathname","placeholder":"说两句吧？","avatar":"retro","meta":["nick","mail","link"],"requiredFields":["nick"],"pageSize":10,"lang":"zh-CN","highlight":false,"recordIP":true,"serverURLs":"","emojiCDN":null,"emojiMaps":{"tv_doge":"//i0.hdslb.com/bfs/emote/6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png","tv_亲亲":"//i0.hdslb.com/bfs/emote/a8111ad55953ef5e3be3327ef94eb4a39d535d06.png","tv_偷笑":"//i0.hdslb.com/bfs/emote/bb690d4107620f1c15cff29509db529a73aee261.png","tv_再见":"//i0.hdslb.com/bfs/emote/180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png","tv_冷漠":"//i0.hdslb.com/bfs/emote/b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png","tv_发怒":"//i0.hdslb.com/bfs/emote/34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png","tv_发财":"//i0.hdslb.com/bfs/emote/34db290afd2963723c6eb3c4560667db7253a21a.png","tv_可爱":"//i0.hdslb.com/bfs/emote/9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png","tv_吐血":"//i0.hdslb.com/bfs/emote/09dd16a7aa59b77baa1155d47484409624470c77.png","tv_呆":"//i0.hdslb.com/bfs/emote/fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png","tv_呕吐":"//i0.hdslb.com/bfs/emote/9f996894a39e282ccf5e66856af49483f81870f3.png","tv_困":"//i0.hdslb.com/bfs/emote/241ee304e44c0af029adceb294399391e4737ef2.png","tv_坏笑":"//i0.hdslb.com/bfs/emote/1f0b87f731a671079842116e0991c91c2c88645a.png","tv_大佬":"//i0.hdslb.com/bfs/emote/093c1e2c490161aca397afc45573c877cdead616.png","tv_大哭":"//i0.hdslb.com/bfs/emote/23269aeb35f99daee28dda129676f6e9ea87934f.png","tv_委屈":"//i0.hdslb.com/bfs/emote/d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png","tv_害羞":"//i0.hdslb.com/bfs/emote/a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png","tv_尴尬":"//i0.hdslb.com/bfs/emote/7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png","tv_微笑":"//i0.hdslb.com/bfs/emote/70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png","tv_思考":"//i0.hdslb.com/bfs/emote/90cf159733e558137ed20aa04d09964436f618a1.png","tv_惊吓":"//i0.hdslb.com/bfs/emote/0d15c7e2ee58e935adc6a7193ee042388adc22af.png","不太聪明的样子":"https://s21.ax1x.com/2024/06/15/pkwKCqI.png","你个憨批":"https://s21.ax1x.com/2024/06/15/pkwKpMd.jpg","无法接受！":"https://s21.ax1x.com/2024/06/15/pkwK9sA.jpg","阿巴阿巴":"https://s21.ax1x.com/2024/06/15/pkwuzxH.png","撅嘴":"https://s21.ax1x.com/2024/06/15/pkwKZRg.jpg","哭辽":"https://s21.ax1x.com/2024/06/15/pkwKVJS.jpg","秀儿":"https://s21.ax1x.com/2024/06/15/pkwKEi8.jpg","你看这是人话吗":"https://s21.ax1x.com/2024/06/15/pkwKkIf.jpg"},"enableQQ":true,"tagmeta":["博主","好友","访客"],"master":["4cb070c369cf2df4cb51fcb732a61a71"],"friends":["9f82ada0f029aa91f29bf3732d0f5b49"]},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  var relativeDate = function() {
+    var updatedTime = document.getElementById('updated-time');
+    if (updatedTime) {
+      var text = updatedTime.textContent;
+      var reg = /\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:Z|[+-]\d{2}:\d{2})/;
+      var matchs = text.match(reg);
+      if (matchs) {
+        var relativeTime = moment(matchs[0]).fromNow();
+        updatedTime.textContent = text.replace(reg, relativeTime);
+      }
+      updatedTime.style.display = '';
+    }
+  };
+  Fluid.utils.createScript('https://lib.baomitu.com/moment.js/2.29.4/moment.min.js', function() {
+    if (!'zh-cn'.startsWith('en')) {
+      Fluid.utils.createScript('https://lib.baomitu.com/moment.js/2.29.4/locale/zh-cn.min.js', function() {
+        relativeDate();
+      });
+    } else {
+      relativeDate();
+    }
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script>
+    MathJax = {
+      tex: {
+        inlineMath: [['
+</html>
+, '
+</html>
+], ['\\(', '\\)']]
+      },
+      svg: {
+        fontCache: 'global'
+      }
+    };
+    </script>
+<!-- <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script> -->
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
+</html>
