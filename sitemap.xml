@@ -326,15 +326,6 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/jiugongge_demo.html</loc>
-    
-    <lastmod>2017-07-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/assets/demo/hack_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
@@ -345,6 +336,15 @@
   
   <url>
     <loc>https://boredliam.github.io/assets/demo/jiugongge_demo2.html</loc>
+    
+    <lastmod>2017-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/assets/demo/jiugongge_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -591,13 +591,6 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/study/politics/</loc>
-    <lastmod>2024-09-17</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/categories/study/network/JavaScript/</loc>
     <lastmod>2024-09-17</lastmod>
     <changefreq>weekly</changefreq>
@@ -613,6 +606,13 @@
   
   <url>
     <loc>https://boredliam.github.io/categories/html/study/computer/</loc>
+    <lastmod>2024-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/categories/study/politics/</loc>
     <lastmod>2024-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
