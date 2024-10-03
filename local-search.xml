@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>理一下化学思路</title>
+    <link href="/posts/327112.html"/>
+    <url>/posts/327112.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>前边刚吐槽完编的乱，于是为了给自己理清就自己整理一下知识吧。语言可能会很不严谨，请以课本为准。</p><blockquote><p>注：页码均指苏教版</p></blockquote><h1 id="物质的分类"><a href="#物质的分类" class="headerlink" title="物质的分类"></a>物质的分类</h1><p>物质的分类很有用（屁话），所以我们要给具有<strong>相同性质</strong>的物质分类。</p><p>初中我们学过的分类方法是这样的</p><p><img src="327112/a.png" alt="物质的分类（必修一P4）"></p><p>接下来我们继续细分，请自己对应上图看看细分的对象。<br>（从上往下）</p><h2 id="混合物的细分：分散系"><a href="#混合物的细分：分散系" class="headerlink" title="混合物的细分：分散系"></a>混合物的细分：分散系</h2><p><strong>分散系</strong>（必修一P7）<br>混合物可以看作是一种物质分散到另一种物质里，我们称之为<strong>分散系</strong>。<br>分散系中，被分散的东西叫<strong>分散质</strong>，分散质分散进去的东西叫<strong>分散剂</strong>。（类比溶质和溶剂）<br>根据粒子直径分为三类：胶体、溶液、浊液。后俩咱们初中学过，主要看看第一个。</p><h3 id="1-胶体"><a href="#1-胶体" class="headerlink" title="1.胶体"></a>1.胶体</h3><p>胶体是啥？胶体是分散质（可以是固体、液体、气体）粒子的直径在$10^{-9}m$ ~ $10^{-7}m$的粒子。（八上物理：等于$1nm$ ~ $100nm$）<br>这种时候的胶体有一定的结构和一系列的性质，我们先找来胶体先。</p><hr><h4 id="Fe-OH-3-胶体的制备"><a href="#Fe-OH-3-胶体的制备" class="headerlink" title="$Fe(OH)_{3}$胶体的制备"></a>$Fe(OH)_{3}$胶体的制备</h4><p>①将烧杯中蒸馏水煮至沸腾<br>②<strong>向沸水中加入5~6滴</strong>$FeCl_{3}$<strong>饱和溶液</strong><br>③继续煮沸至液体呈红褐色</p><p>出现了红褐色的液体，这就是$Fe(OH)_{3}$胶体。<br>反应的化学方程式为：</p><p><img src="327112/eq1.png" alt="记得写上胶体两个字"></p><p>除了$Fe(OH)_{3}$溶液，还有$AgI$、$H_{2}SiO_{3}$、（稀）豆浆、淀粉溶液都是胶体。</p><hr><h4 id="胶体的结构"><a href="#胶体的结构" class="headerlink" title="胶体的结构"></a>胶体的结构</h4><p>好的，制备好了胶体，接下来我们借由一道题，来看看胶体的结构。（不用记，了解）</p><p><img src="327112/b.png" alt="江西省宜春市上高二中2022-2023学年高一上学期第一次月考化学试题"></p><p>答案选C，错得很明显，初中的都会。剩下的看不懂没关系，我正要讲呢。</p><blockquote><p>先说图里的铁氧正离子$FeO^{+}$是咋来的。部分$Fe(OH)_{3}$和生成的$HCl$反应生成氧基氯化铁$FeOCl$</p><script type="math/tex; mode=display">Fe(OH)_{3}+HCl=FeOCl+2H_{2}O</script><p>而氧基氯化铁$FeOCl$电离为</p><script type="math/tex; mode=display">FeOCl=FeO^{+}+Cl^{-}</script><p>好的看不懂就算了吧，你知道大概这么来的就行，回来看结构！</p></blockquote><div class="group-image-container"><div class="group-image-row"><div class="group-image-wrap"><img src="327112/d.png" alt="胶团结构示意图"></div><div class="group-image-wrap"><img src="327112/c.bmp" alt="胶团结构式"></div></div></div><p>我们看这三层胶团，第一层由一些$Fe(OH)_{3}$组成，称为<strong>胶核</strong>，它不带电。<br>$Fe(OH)_{3}$周围吸引了铁氧正离子$FeO^{+}$和很少的$Cl^{-}$，$Cl^{-}$来自上面的电离。这些形成了第二层，称为<strong>胶粒</strong>。这里的胶粒主要带正电。<br>最外面是松散的<strong>扩散层</strong>，大部分$Cl^{-}$分散在这里。<br>扩散层和胶粒的电荷是刚好中和的，所以胶团整体不带电哦！下面说的带电的都是胶粒！</p><p>明白了结构，我们就好说性质了。</p><hr><h4 id="胶体的性质：介稳性"><a href="#胶体的性质：介稳性" class="headerlink" title="胶体的性质：介稳性"></a>胶体的性质：介稳性</h4><p>初中说的溶液均一、稳定，浊液不稳定，胶体在中间，所以叫介稳性。</p><p>为啥呢？其一是因为它粒子较小，被碰撞沉下来的概率小；其二是胶粒带相同电荷，相互排斥，不易聚沉。</p><hr><h4 id="胶体的性质：丁达尔效应"><a href="#胶体的性质：丁达尔效应" class="headerlink" title="胶体的性质：丁达尔效应"></a>胶体的性质：丁达尔效应</h4><p>怎么鉴定胶体？丁达尔效应就是一种简单的方法。<br>当一束可见光通过胶体时，可以看到<strong>一条光亮的通路</strong>，这是胶体粒子对光的散射造成的。<br><img src="327112/f.png" alt="必修一P18"></p><hr><h4 id="胶体的性质：电泳"><a href="#胶体的性质：电泳" class="headerlink" title="胶体的性质：电泳"></a>胶体的性质：电泳</h4><p>因为胶粒带电荷，所以在电场作用下最外面的扩散层会和胶粒分开，向着电极移动，这就是电泳。</p><p><img src="327112/g.jpg" alt="阴极变深，阳极变浅"><br>口诀（算得上吗）就是阴阳相吸：阴离子去阳极，阳离子去阴极。</p><hr><h4 id="胶体的性质：聚沉"><a href="#胶体的性质：聚沉" class="headerlink" title="胶体的性质：聚沉"></a>胶体的性质：聚沉</h4><p>一定程度下中和胶体所带的电荷，胶体就会聚集成大颗粒然后沉淀，这就是聚沉。<br>让胶体聚沉的方法有：<br>①<strong>加热</strong>：加热之后胶体运动加快，碰撞更多，久而久之就会凝聚沉淀。<br>②<strong>加电解质</strong>：加入电解质后，电解质会电解出离子。离子会加入松散的第三层，中和掉带电胶粒。刚刚介稳性还说到，胶粒带相同电荷，相互排斥，不易聚沉。这下电荷被中和了，自然而然就聚沉了。<br>③<strong>加异性电荷胶粒的胶体</strong>：讲了加电解质，这个应该就很好理解了吧，不同电性的胶粒相互吸引，就会结合成大颗粒从而沉积。</p><p>聚沉老有用了，像是明矾净水就是让他与颗粒物结合聚沉，剩下洁净的水。</p><hr><h4 id="胶体的性质：渗析"><a href="#胶体的性质：渗析" class="headerlink" title="胶体的性质：渗析"></a>胶体的性质：渗析</h4><p>胶体的粒子不大不小，<strong>能通过滤纸</strong>，却<strong>不能通过半透膜<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="半透膜：一般指动物的膀胱膜、肠衣、羊皮纸、胶棉薄膜、玻璃纸等。半透膜有非常小的细孔，这些细孔只能使离子或分子透过而不能使胶体粒透过。">[1]</span></a></sup></strong>。<br>同时浊液不能通过滤纸，溶液可以通过半透膜。就如下表：（请竖着看哈）</p><div class="table-container"><table><thead><tr><th></th><th>溶液</th><th>胶体</th><th>浊液</th></tr></thead><tbody><tr><td>滤纸</td><td>√</td><td>√</td><td>×</td></tr><tr><td>半透膜</td><td>√</td><td>×</td><td>×</td></tr></tbody></table></div><p>一看胶体这一栏真是完美，用滤纸和半透膜就能分离提纯了。<br>用半透膜提纯精制胶体就叫渗析法。</p><p><img src="327112/h.png" alt="经典渗析图"></p><hr><h4 id="小提示"><a href="#小提示" class="headerlink" title="小提示"></a>小提示</h4><p>胶体绝对是混合物，还没融进水里的$Fe(OH)_{3}$可不是胶体。<br>血液是胶体，往伤口上撒盐是聚沉，肾衰竭的血液透析是渗析。<br>经典错句：<del>胶体的<strong>本质特征</strong>是能产生丁达尔效应</del>（想想怎么改？）</p><hr><h3 id="2-溶液"><a href="#2-溶液" class="headerlink" title="2.溶液"></a>2.溶液</h3><p>不是初中讲过了我讲啥啊。。。<br>溶液指的是分散质微粒直径小于$1nm$的分散系，具有均一、稳定的特征。</p><hr><h3 id="3-浊液"><a href="#3-浊液" class="headerlink" title="3.浊液"></a>3.浊液</h3><p>浊液就是分散质微粒直径大于$100nm$的分散系，具有不稳定的特征。</p><h2 id="单质的细分：同素异形体"><a href="#单质的细分：同素异形体" class="headerlink" title="单质的细分：同素异形体"></a>单质的细分：同素异形体</h2><p><strong>同素异形体</strong>（必修一P134）<br>同一种元素能够形成几种不同的单质，这种现象称为<strong>同素异形</strong>现象。这些单质之间互称为该元素的<strong>同素异形体</strong>。<br>像是初中学过的红磷和白磷、氧气和臭氧、金刚石和石墨，都属于同素异形体。<br>同素异形体之间的转化，像是氧气转化为臭氧，是化学变化。</p><hr><h2 id="氧化物的细分：酸性、碱性氧化物"><a href="#氧化物的细分：酸性、碱性氧化物" class="headerlink" title="氧化物的细分：酸性、碱性氧化物"></a>氧化物的细分：酸性、碱性氧化物</h2><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>半透膜：一般指动物的膀胱膜、肠衣、羊皮纸、胶棉薄膜、玻璃纸等。半透膜有非常小的细孔，这些细孔只能使离子或分子透过而不能使胶体粒透过。<a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section>]]></content>
+    
+    
+    <categories>
+      
+      <category>study</category>
+      
+      <category>chemistry</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>chemistry</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>【吐槽】高中化学课本编得好乱啊</title>
     <link href="/posts/662192.html"/>
     <url>/posts/662192.html</url>
