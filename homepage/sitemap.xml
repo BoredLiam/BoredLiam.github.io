@@ -29,16 +29,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/3520.html</loc>
-    
-    <lastmod>2024-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/homepage/posts/26073.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/51954.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -56,7 +47,16 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/51954.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/26073.html</loc>
+    
+    <lastmod>2024-09-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/homepage/posts/3520.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -74,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/39159.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/4352.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -83,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/4352.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/39159.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -218,15 +218,6 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/hack_demo.html</loc>
-    
-    <lastmod>2017-07-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/homepage/assets/demo/border1px.html</loc>
     
     <lastmod>2017-07-28</lastmod>
@@ -245,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/gift/index.html</loc>
+    <loc>https://boredliam.github.io/homepage/assets/demo/hack_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -255,15 +246,6 @@
   
   <url>
     <loc>https://boredliam.github.io/homepage/assets/demo/coffee_pc_demo/pro-con.html</loc>
-    
-    <lastmod>2017-07-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/mediator/demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -289,6 +271,24 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://boredliam.github.io/homepage/assets/demo/mediator/demo.html</loc>
+    
+    <lastmod>2017-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/homepage/assets/demo/gift/index.html</loc>
+    
+    <lastmod>2017-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   <url>
     <loc>https://boredliam.github.io/homepage</loc>
@@ -299,7 +299,7 @@
 
   
   <url>
-    <loc>https://boredliam.github.io/homepage/tags/life/</loc>
+    <loc>https://boredliam.github.io/homepage/tags/life-feeling/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -313,7 +313,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/tags/life-feeling/</loc>
+    <loc>https://boredliam.github.io/homepage/tags/life/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

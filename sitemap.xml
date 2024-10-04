@@ -344,7 +344,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/hack_demo.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/border1px.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -353,7 +353,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/border1px.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/hack_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -548,14 +548,14 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/study/blog-building/</loc>
+    <loc>https://boredliam.github.io/categories/study/computer/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/study/computer/</loc>
+    <loc>https://boredliam.github.io/categories/study/blog-building/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -583,6 +583,13 @@
   </url>
   
   <url>
+    <loc>https://boredliam.github.io/categories/study/computer/network/</loc>
+    <lastmod>2024-10-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/categories/study/network/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -591,13 +598,6 @@
   
   <url>
     <loc>https://boredliam.github.io/categories/study/passage/</loc>
-    <lastmod>2024-10-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/categories/study/computer/network/</loc>
     <lastmod>2024-10-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
