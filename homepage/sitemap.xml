@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://boredliam.github.io/homepage/posts/undefined.html</loc>
+    
+    <lastmod>2025-01-31</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/homepage/posts/26074.html</loc>
     
     <lastmod>2024-09-01</lastmod>
@@ -29,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/51954.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/48804.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -38,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/48804.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/51954.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -74,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/4352.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/39159.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -83,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/39159.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/4352.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -209,6 +218,15 @@
   </url>
   
   <url>
+    <loc>https://boredliam.github.io/homepage/assets/demo/border1px.html</loc>
+    
+    <lastmod>2017-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/homepage/assets/demo/hack_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
@@ -218,7 +236,16 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/border1px.html</loc>
+    <loc>https://boredliam.github.io/homepage/assets/demo/jiugongge_demo.html</loc>
+    
+    <lastmod>2017-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/homepage/assets/demo/jiugongge_demo2.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -245,7 +272,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/my_news_reader/index.html</loc>
+    <loc>https://boredliam.github.io/homepage/assets/demo/mediator/demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -254,7 +281,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/mediator/demo.html</loc>
+    <loc>https://boredliam.github.io/homepage/assets/demo/my_news_reader/index.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -271,50 +298,46 @@
     <priority>0.6</priority>
   </url>
   
-  <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/jiugongge_demo.html</loc>
-    
-    <lastmod>2017-07-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/jiugongge_demo2.html</loc>
-    
-    <lastmod>2017-07-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
 
   <url>
     <loc>https://boredliam.github.io/homepage</loc>
-    <lastmod>2025-01-19</lastmod>
+    <lastmod>2025-01-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://boredliam.github.io/homepage/tags/life/</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/homepage/tags/life-feeling/</loc>
-    <lastmod>2025-01-19</lastmod>
+    <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/homepage/tags/life-watching/</loc>
-    <lastmod>2025-01-19</lastmod>
+    <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/tags/life/</loc>
-    <lastmod>2025-01-19</lastmod>
+    <loc>https://boredliam.github.io/homepage/tags/%E6%BC%AB%E7%94%BB/</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/homepage/tags/%E6%9D%82%E8%B0%88/</loc>
+    <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -323,7 +346,7 @@
   
   <url>
     <loc>https://boredliam.github.io/homepage/categories/life/</loc>
-    <lastmod>2025-01-19</lastmod>
+    <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
