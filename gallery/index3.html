@@ -23,17 +23,17 @@
 <body>
   <h1>我的画廊</h1>
   为了适应我的构式设备而做的一个小小的画廊，丑就不理了（〃｀ 3′〃）<br>
-  page1
-  <a href="index2.html">2</a>
+  page3
+    <a href="index4.html">4</a>
   <div class="gallery" id="imageContainer"></div>
 
 <script>
   const imageContainer = document.getElementById('imageContainer');
 
   async function loadImagesUntil404() {
-    let i = 1;
+    let i = 100;
 
-    while (i <= 50) {  // 添加循环条件，i不超过20
+    while (i <= 150) {  // 添加循环条件，i不超过20
       const jpgUrl = `https://acgisland.gz.bcebos.com/img/${i}.jpg`;
       const pngUrl = `https://acgisland.gz.bcebos.com/img/${i}.png`;
       let foundImage = false;
@@ -74,7 +74,7 @@
 
       i++;
     }
-    console.log('已检查完前50张图片');
+    console.log('已检查完50张图片');
   }
 
   function createAndAppendImage(blobUrl, i) {
@@ -86,6 +86,6 @@
 
   loadImagesUntil404();
 </script>
-<a href="index2.html">2</a>
+<a href="index4.html">4</a>
 </body>
 </html>
