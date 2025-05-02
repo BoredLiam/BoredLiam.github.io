@@ -1,16 +1,39 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>BOS 图片加载</title>
+  <title>画廊</title>
   <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.7.8/axios.min.js"></script>
   <style>
-    body { font-family: sans-serif; padding: 20px; }
-    .gallery { display: flex; flex-wrap: wrap; gap: 10px; }
-    .gallery img { width: 150px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    body { 
+      font-family: sans-serif;
+      padding: 20px; 
+    }
+    /* .gallery { 
+      display: flex; 
+      flex-wrap: wrap; 
+      gap: 10px; 
+    }
+    .gallery img { 
+      width: 150px; 
+      border-radius: 6px; 
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    } */
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .gallery img {
+        width: 100%;
+        height: auto;
+        border-radius: 6px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
   </style>
 </head>
 <body>
-  <h1>加载私有 Bucket 图片</h1>
+  <h1>我的画廊</h1>
+  为了适应我的构式设备而做的一个小小的画廊，丑就不理了（〃｀ 3′〃）<br>
   <div class="gallery" id="imageContainer"></div>
 
   <script>
