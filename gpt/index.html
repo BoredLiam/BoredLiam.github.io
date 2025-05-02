@@ -16,8 +16,10 @@
 
   <script>
     // const baseURL = "https://acgisland.gz.bcebos.com/";
-    const securityToken = "bce-auth-v1/6773e27826fb11f09536ff3eeb9f1bba/2025-05-02T02%3A16%3A06Z/300/host/6f7f9b4820d42be573f451bb884c055a7f00139cabc2da98ffe6cbcf573575e5"; // 实际 Token
-    const authorization = "ZjkyZmQ2YmQxZTQ3NDcyNjk0ZTg1ZjYyYjlkZjNjODB8AAAAAAYHAAAbtx4c4LRgEeSntp%2BrMpP/n8Mamq/P1obBPUQvCTwNfCfCgRPgS%2BO/XphTSSSU%2BRJr6GpkStExSqGSeLCjmwRujLhgaZvuOThKe5fCo6G3unAroln%2BVS%2BXV4SdPGApsp78WOLS7Ur9vx7LeQTkWLTkVHGNH0lj09cVPR6lFGyatQ309a8nOr4bJ9Jz1G9S6lkS0U8rKCjbNBGEi7lg7ELXVHF0NQ1irHm01od%2B2ekIBTakYck8thwILSHhZ4ohkvQNsv2UxeMsNKy%2B43CTro9NdRrwzSBrozIOkfSth0dIFJs8gBla4yPskLlEZxgK1xsGz%2BVBz3T0RNKKZtCqWlhO9vu/0RPjItLMcqjg%2B4tSdegcD3fMUcXTOWQJEI9x282bXnPpXUdO08bZDbCXAP0RhQgVlJ%2BRE/nEkMW6vGQHN4DcOvajSXLRh4Rf6e6Gvshwm6turX5T4qYQEAmwFnqeHKZh0eT8DJ/uKkjgZknSaccYGC2Q60YuORD9hvrdDqFpotW4bTsht5Aqa/rPHP8etHsrF/I%2BrHf9GubtRTy9vZvV5HscgqXiAuuj6UgDzdSz4y5yoDWUqInQn1rEf%2BJk"; // 实际 Authorization
+    // const securityToken = "bce-auth-v1/6773e27826fb11f09536ff3eeb9f1bba/2025-05-02T02%3A16%3A06Z/300/host/6f7f9b4820d42be573f451bb884c055a7f00139cabc2da98ffe6cbcf573575e5"; 
+    // 实际 Token
+    // const authorization = "ZjkyZmQ2YmQxZTQ3NDcyNjk0ZTg1ZjYyYjlkZjNjODB8AAAAAAYHAAAbtx4c4LRgEeSntp%2BrMpP/n8Mamq/P1obBPUQvCTwNfCfCgRPgS%2BO/XphTSSSU%2BRJr6GpkStExSqGSeLCjmwRujLhgaZvuOThKe5fCo6G3unAroln%2BVS%2BXV4SdPGApsp78WOLS7Ur9vx7LeQTkWLTkVHGNH0lj09cVPR6lFGyatQ309a8nOr4bJ9Jz1G9S6lkS0U8rKCjbNBGEi7lg7ELXVHF0NQ1irHm01od%2B2ekIBTakYck8thwILSHhZ4ohkvQNsv2UxeMsNKy%2B43CTro9NdRrwzSBrozIOkfSth0dIFJs8gBla4yPskLlEZxgK1xsGz%2BVBz3T0RNKKZtCqWlhO9vu/0RPjItLMcqjg%2B4tSdegcD3fMUcXTOWQJEI9x282bXnPpXUdO08bZDbCXAP0RhQgVlJ%2BRE/nEkMW6vGQHN4DcOvajSXLRh4Rf6e6Gvshwm6turX5T4qYQEAmwFnqeHKZh0eT8DJ/uKkjgZknSaccYGC2Q60YuORD9hvrdDqFpotW4bTsht5Aqa/rPHP8etHsrF/I%2BrHf9GubtRTy9vZvV5HscgqXiAuuj6UgDzdSz4y5yoDWUqInQn1rEf%2BJk"; 
+    // 实际 Authorization
 
     const imageContainer = document.getElementById('imageContainer');
 
@@ -30,8 +32,8 @@
           const response = await axios.get(url, {
             responseType: 'blob',
             headers: {
-              'x-bce-security-token': securityToken,
-              'Authorization': authorization,
+              'Access-Control-Allow-Credentials':true,
+              'Access-Control-Allow-Origin':'https://boredliam.github.io/'
             }
           });
 
