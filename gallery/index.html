@@ -28,67 +28,55 @@
   <script>
     const imageContainer = document.getElementById('imageContainer');
 
-    async function loadImagesUntil404() {
-      let i = 1;
+async function loadImagesUntil404() {
+  let i = 1;
 
-      while (true) {
-        const jpgUrl = `https://acgisland.gz.bcebos.com/img/${i}.jpg`;
-        const pngUrl = `https://acgisland.gz.bcebos.com/img/${i}.png`;
-        const webpUrl = `https://acgisland.gz.bcebos.com/img/${i}.webp`;
+  while (true) {
+    const jpgUrl = `https://acgisland.gz.bcebos.com/img/${i}.jpg`;
+    const pngUrl = `https://acgisland.gz.bcebos.com/img/${i}.png`;
 
-        try {
-          let response;
-          let blobUrl;
+    try {
+      let response;
+      let blobUrl;
 
-          // Try loading .jpg file
-          response = await axios.get(jpgUrl, {
-            responseType: 'blob',
-            headers: {
-              'Access-Control-Allow-Credentials': true,
-              'Access-Control-Allow-Origin': 'https://boredliam.github.io/'
-            }
-          });
-          blobUrl = URL.createObjectURL(response.data);
-          createAndAppendImage(blobUrl, i);
-
-          // Try loading .png file
-          response = await axios.get(pngUrl, {
-            responseType: 'blob',
-            headers: {
-              'Access-Control-Allow-Credentials': true,
-              'Access-Control-Allow-Origin': 'https://boredliam.github.io/'
-            }
-          });
-          blobUrl = URL.createObjectURL(response.data);
-          createAndAppendImage(blobUrl, i);
-
-          // Try loading .webp file
-          response = await axios.get(webpUrl, {
-            responseType: 'blob',
-            headers: {
-              'Access-Control-Allow-Credentials': true,
-              'Access-Control-Allow-Origin': 'https://boredliam.github.io/'
-            }
-          });
-          blobUrl = URL.createObjectURL(response.data);
-          createAndAppendImage(blobUrl, i);
-
-          i++;
-        } catch (error) {
-          console.warn(`图片 ${i} 不存在或被拒绝访问，加载结束`);
-          break;
+      // Try loading .jpg file
+      response = await axios.get(jpgUrl, {
+        responseType: 'blob',
+        headers: {
+          'Access-Control-Allow-Credentials': true,
+          'Access-Control-Allow-Origin': 'https://boredliam.github.io/'
         }
+      });
+      blobUrl = URL.createObjectURL(response.data);
+      createAndAppendImage(blobUrl, i);
+
+      // Try loading .png file
+      response = await axios.get(pngUrl, {
+        responseType: 'blob',
+        headers: {
+          'Access-Control-Allow-Credentials': true,
+          'Access-Control-Allow-Origin': 'https://boredliam.github.io/'
+        }
+      });
+      blobUrl = URL.createObjectURL(response.data);
+      createAndAppendImage(blobUrl, i);
+      i++;
+    } catch (error) {
+      if (error.response.status !== 404) {
+        console.warn(`图片 ${i} 不存在或被拒绝访问，加载结束`);
+        break;
       }
     }
+  }
+}
+function createAndAppendImage(blobUrl, i) {
+  const img = document.createElement('img');
+  img.src = blobUrl;
+  img.alt = `图片 ${i}`;
+  imageContainer.appendChild(img);
+}
 
-    function createAndAppendImage(blobUrl, i) {
-      const img = document.createElement('img');
-      img.src = blobUrl;
-      img.alt = `图片 ${i}`;
-      imageContainer.appendChild(img);
-    }
-
-    loadImagesUntil404();
+loadImagesUntil404();
   </script>
 </body>
 </html>
