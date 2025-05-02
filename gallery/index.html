@@ -4,32 +4,21 @@
   <title>画廊</title>
   <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.7.8/axios.min.js"></script>
   <style>
-    body { 
-      font-family: sans-serif;
-      padding: 20px; 
-    }
-    /* .gallery { 
-      display: flex; 
-      flex-wrap: wrap; 
-      gap: 10px; 
-    }
-    .gallery img { 
-      width: 150px; 
-      border-radius: 6px; 
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
-    } */
     .gallery {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-      }
-      .gallery img {
-        width: 100%;
-        height: auto;
-        border-radius: 6px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-      }
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center; /* Center the images horizontally */
+      align-items: center; /* Center the images vertically */
+    }
+    .gallery img {
+      width: auto;
+      max-height: 100vh; /* Set the maximum height to 100% of the viewport height */
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
   </style>
+
 </head>
 <body>
   <h1>我的画廊</h1>
