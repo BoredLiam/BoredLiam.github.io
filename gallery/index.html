@@ -25,7 +25,6 @@
   为了适应我的构式设备而做的一个小小的画廊，丑就不理了（〃｀ 3′〃）<br>
   <div class="gallery" id="imageContainer"></div>
 
-
   <script>
     const imageContainer = document.getElementById('imageContainer');
 
@@ -51,8 +50,6 @@
           });
           blobUrl = URL.createObjectURL(response.data);
           createAndAppendImage(blobUrl, i);
-          i++;
-          continue;
 
           // Try loading .png file
           response = await axios.get(pngUrl, {
@@ -64,8 +61,6 @@
           });
           blobUrl = URL.createObjectURL(response.data);
           createAndAppendImage(blobUrl, i);
-          i++;
-          continue;
 
           // Try loading .webp file
           response = await axios.get(webpUrl, {
@@ -77,8 +72,8 @@
           });
           blobUrl = URL.createObjectURL(response.data);
           createAndAppendImage(blobUrl, i);
+
           i++;
-          continue;
         } catch (error) {
           console.warn(`图片 ${i} 不存在或被拒绝访问，加载结束`);
           break;
