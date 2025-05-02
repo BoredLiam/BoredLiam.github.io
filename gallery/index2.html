@@ -67,6 +67,7 @@
           // Both JPG and PNG failed
           if (!foundImage) {
             console.warn(`图片 ${i} 的.jpg和.png版本都不存在或被拒绝访问`);
+            break;
             // 不再直接break，而是继续检查直到i>20
           }
         }
