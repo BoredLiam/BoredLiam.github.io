@@ -443,15 +443,6 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/my_news_reader/index.html</loc>
-    
-    <lastmod>2017-07-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/assets/demo/mediator/demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
@@ -462,6 +453,15 @@
   
   <url>
     <loc>https://boredliam.github.io/assets/demo/pre_css3_demo/demo.html</loc>
+    
+    <lastmod>2017-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/assets/demo/my_news_reader/index.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
