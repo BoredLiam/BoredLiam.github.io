@@ -1,0 +1,55 @@
+<p>&lt;!DOCTYPE html&gt;</p>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>BOS 图片加载</title>
+  <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.7.8/axios.min.js"></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    .gallery { display: flex; flex-wrap: wrap; gap: 10px; }
+    .gallery img { width: 150px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+  <h1>加载私有 Bucket 图片</h1>
+  <div class="gallery" id="imageContainer"></div>
+
+  <script>
+    // const baseURL = "https://acgisland.gz.bcebos.com/";
+    const securityToken = "bce-auth-v1/6773e27826fb11f09536ff3eeb9f1bba/2025-05-02T02%3A16%3A06Z/300/host/6f7f9b4820d42be573f451bb884c055a7f00139cabc2da98ffe6cbcf573575e5"; // 实际 Token
+    const authorization = "ZjkyZmQ2YmQxZTQ3NDcyNjk0ZTg1ZjYyYjlkZjNjODB8AAAAAAYHAAAbtx4c4LRgEeSntp%2BrMpP/n8Mamq/P1obBPUQvCTwNfCfCgRPgS%2BO/XphTSSSU%2BRJr6GpkStExSqGSeLCjmwRujLhgaZvuOThKe5fCo6G3unAroln%2BVS%2BXV4SdPGApsp78WOLS7Ur9vx7LeQTkWLTkVHGNH0lj09cVPR6lFGyatQ309a8nOr4bJ9Jz1G9S6lkS0U8rKCjbNBGEi7lg7ELXVHF0NQ1irHm01od%2B2ekIBTakYck8thwILSHhZ4ohkvQNsv2UxeMsNKy%2B43CTro9NdRrwzSBrozIOkfSth0dIFJs8gBla4yPskLlEZxgK1xsGz%2BVBz3T0RNKKZtCqWlhO9vu/0RPjItLMcqjg%2B4tSdegcD3fMUcXTOWQJEI9x282bXnPpXUdO08bZDbCXAP0RhQgVlJ%2BRE/nEkMW6vGQHN4DcOvajSXLRh4Rf6e6Gvshwm6turX5T4qYQEAmwFnqeHKZh0eT8DJ/uKkjgZknSaccYGC2Q60YuORD9hvrdDqFpotW4bTsht5Aqa/rPHP8etHsrF/I%2BrHf9GubtRTy9vZvV5HscgqXiAuuj6UgDzdSz4y5yoDWUqInQn1rEf%2BJk"; // 实际 Authorization
+
+    const imageContainer = document.getElementById('imageContainer');
+
+    async function loadImagesUntil404() {
+      let i = 1;
+
+      while (true) {
+        const url = `https://acgisland.gz.bcebos.com/${i}.jpg`;
+        try {
+          const response = await axios.get(url, {
+            responseType: 'blob',
+            headers: {
+              'x-bce-security-token': securityToken,
+              'Authorization': authorization,
+            }
+          });
+
+          const blobUrl = URL.createObjectURL(response.data);
+          const img = document.createElement('img');
+          img.src = blobUrl;
+          img.alt = `图片 ${i}`;
+          imageContainer.appendChild(img);
+
+          i++;
+        } catch (error) {
+          console.warn(`图片 ${i}.jpg 不存在或被拒绝访问，加载结束`);
+          break;
+        }
+      }
+    }
+
+    loadImagesUntil404();
+  </script>
+</body>
+</html>
