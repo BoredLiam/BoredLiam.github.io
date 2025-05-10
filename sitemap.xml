@@ -425,15 +425,6 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/border1px.html</loc>
-    
-    <lastmod>2017-07-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/assets/demo/hack_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
@@ -444,6 +435,15 @@
   
   <url>
     <loc>https://boredliam.github.io/assets/demo/jiugongge_demo.html</loc>
+    
+    <lastmod>2017-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/assets/demo/border1px.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -470,7 +470,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/mediator/demo.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/gift/index.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -479,7 +479,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/gift/index.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/mediator/demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -620,14 +620,14 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/tags/%E6%B5%AE%E5%8A%9B/</loc>
+    <loc>https://boredliam.github.io/tags/politics/</loc>
     <lastmod>2025-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/tags/politics/</loc>
+    <loc>https://boredliam.github.io/tags/%E6%B5%AE%E5%8A%9B/</loc>
     <lastmod>2025-05-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
