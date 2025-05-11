@@ -42,7 +42,7 @@
 <meta property="og:image" content="https://boredliam.github.io/posts/32638/4.png">
 <meta property="og:image" content="https://boredliam.github.io/posts/32638/a.png">
 <meta property="article:published_time" content="2024-02-14T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-09-17T05:52:56.335Z">
+<meta property="article:modified_time" content="2025-05-11T04:28:09.659Z">
 <meta property="article:author" content="BoredLiam">
 <meta property="article:tag" content="Computer Network">
 <meta name="twitter:card" content="summary_large_image">
@@ -243,7 +243,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          2k 字
+          2.1k 字
         
       </span>
     
@@ -254,7 +254,7 @@
         
         
         
-          17 分钟
+          18 分钟
         
       </span>
     
@@ -857,7 +857,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-09-17T13:52:56+08:00
+                    本文最后更新于 2025-05-11T12:28:09+08:00
                   
                   
 
@@ -945,10 +945,16 @@
 <p>上传成功后，你也可以点击测试手动触发一次来查看签到是否成功。<br>（直接点击执行就好了）<br><img src="32638/4.png" srcset="/img/loading.gif" lazyload alt="测试" title="测试"><br>到此为止，自动签到就完成了！等着第二天查看成果吧！</p>
 <h3 id="step5-cookie过期后重新上传代码"><a href="#step5-cookie过期后重新上传代码" class="headerlink" title="step5 cookie过期后重新上传代码"></a>step5 cookie过期后重新上传代码</h3><blockquote>
 <p>重复步骤重复的是啥？<br>后面我再补( ⓛ ω ⓛ *) —2024.6.10</p>
+<p>我发现我好蠢，只要直接在百度智能云那里更改部分代码就行了。。。。<br>—2025.5.11</p>
 </blockquote>
 <p>一段时间后cookie会过期，具体时间看网站而定（一般至少几个月）<br>过期之后重复的步骤其实差不多，不过写出来方便我回来看</p>
 <hr>
-<p>打开网站页面，按下F12，选择保留日志，点击签到按钮，找到.php文件<br><img src="32638/a.png" srcset="/img/loading.gif" lazyload alt="F12" title="F12"><br>单击右键，选择<code>复制-以cURL(bash)copy格式复制</code><br>打开<a target="_blank" rel="noopener" href="https://web.postman.co/" title="https://web.postman.co/">postman</a><br>点击import，在蓝色框粘贴刚才的代码，在跳转页面点击右侧代码样式的按钮，选择<code>NodeJs - Axios</code>并复制代码<br>打开之前安装<code>axios</code>的文件夹，修改之前新建的<code>index.js</code>文件，以百度云为例<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-built_in">exports</span>.<span class="hljs-property">handler</span> = <span class="hljs-function">(<span class="hljs-params">event, context, callback</span>) =&gt;</span> &#123;<br>    <span class="hljs-comment">// 替换原来的代码即可</span><br>    <span class="hljs-comment">// axios(config)</span><br>    <span class="hljs-comment">//  .then(function (response) &#123;</span><br>    <span class="hljs-comment">//    callback(null, JSON.stringify(response.data));</span><br>    <span class="hljs-comment">//  &#125;)</span><br>&#125;;<br></code></pre></td></tr></table></figure><br>修改后将<code>node_modules</code> <code>package.json</code> <code>package-lock.json</code> <code>index.js</code>三个文件以.zip格式压缩<br>打开<a target="_blank" rel="noopener" href="https://console.bce.baidu.com/" title="百度智能云">百度智能云</a>并登录，打开函数列表并找到你的云函数<br>选择<code>函数代码——上传函数.zip包</code>并上传刚刚的压缩文件，点击保存<br>点击右上角测试可以查看是否成功<br>完成！</p>
+<p>打开网站页面，按下F12，选择保留日志，点击签到按钮，找到.php文件<br><img src="32638/a.png" srcset="/img/loading.gif" lazyload alt="F12" title="F12"><br>单击右键，选择<code>复制-以cURL(bash)copy格式复制</code><br>打开<a target="_blank" rel="noopener" href="https://web.postman.co/" title="https://web.postman.co/">postman</a><br>点击import，在蓝色框粘贴刚才的代码，在跳转页面点击右侧代码样式的按钮，选择<code>NodeJs - Axios</code>并复制代码</p>
+<p>接下来打开<code>函数运算CFC</code>然后选择你的函数代码，<code>编辑类型→在线编辑</code>，将需要更改的部分修改为新的代码即可。</p>
+<div class="note note-info">
+            <p><em>这些是原来写的更繁琐的方式不用看了</em></p><p>打开之前安装<code>axios</code>的文件夹，修改之前新建的<code>index.js</code>文件，以百度云为例</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs js"><span class="hljs-built_in">exports</span>.<span class="hljs-property">handler</span> = <span class="hljs-function">(<span class="hljs-params">event, context, callback</span>) =&gt;</span> &#123;<br>    <span class="hljs-comment">// 替换原来的代码即可</span><br>    <span class="hljs-comment">// axios(config)</span><br>    <span class="hljs-comment">//  .then(function (response) &#123;</span><br>    <span class="hljs-comment">//    callback(null, JSON.stringify(response.data));</span><br>    <span class="hljs-comment">//  &#125;)</span><br>&#125;;<br></code></pre></td></tr></table></figure><p>修改后将<code>node_modules</code> <code>package.json</code> <code>package-lock.json</code> <code>index.js</code>三个文件以.zip格式压缩<br>打开<a target="_blank" rel="noopener" href="https://console.bce.baidu.com/" title="百度智能云">百度智能云</a>并登录，打开函数列表并找到你的云函数<br>选择<code>函数代码——上传函数.zip包</code>并上传刚刚的压缩文件，点击保存</p>
+          </div>
+<p>点击右上角测试可以查看是否成功<br>完成！</p>
 
                 
               </div>
