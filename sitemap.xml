@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://boredliam.github.io/posts/349302.html</loc>
+    <loc>https://boredliam.github.io/posts/399305.html</loc>
     
     <lastmod>2025-06-06</lastmod>
     
@@ -11,9 +11,9 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/posts/399305.html</loc>
+    <loc>https://boredliam.github.io/posts/349302.html</loc>
     
-    <lastmod>2025-05-31</lastmod>
+    <lastmod>2025-06-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -443,6 +443,15 @@
   </url>
   
   <url>
+    <loc>https://boredliam.github.io/assets/demo/border1px.html</loc>
+    
+    <lastmod>2017-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/assets/demo/hack_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
@@ -453,15 +462,6 @@
   
   <url>
     <loc>https://boredliam.github.io/assets/demo/jiugongge_demo.html</loc>
-    
-    <lastmod>2017-07-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/assets/demo/border1px.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
