@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/posts/42416.html</loc>
+    <loc>https://boredliam.github.io/posts/62525.html</loc>
     
     <lastmod>2025-05-02</lastmod>
     
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/posts/62525.html</loc>
+    <loc>https://boredliam.github.io/posts/42416.html</loc>
     
     <lastmod>2025-05-02</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/posts/385410.html</loc>
+    <loc>https://boredliam.github.io/posts/38541.html</loc>
     
     <lastmod>2025-05-02</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/posts/38541.html</loc>
+    <loc>https://boredliam.github.io/posts/385410.html</loc>
     
     <lastmod>2025-05-02</lastmod>
     
@@ -461,6 +461,15 @@
   </url>
   
   <url>
+    <loc>https://boredliam.github.io/assets/demo/border1px.html</loc>
+    
+    <lastmod>2017-07-28</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/assets/demo/hack_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
@@ -480,15 +489,6 @@
   
   <url>
     <loc>https://boredliam.github.io/assets/demo/jiugongge_demo2.html</loc>
-    
-    <lastmod>2017-07-28</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/assets/demo/border1px.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -565,13 +565,6 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/tags/Computer-hardware/</loc>
-    <lastmod>2025-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/tags/HTML/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -580,6 +573,13 @@
   
   <url>
     <loc>https://boredliam.github.io/tags/JavaScript/</loc>
+    <lastmod>2025-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/tags/Computer-hardware/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -607,13 +607,6 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/tags/%E7%89%A9%E7%90%86/</loc>
-    <lastmod>2025-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/tags/%E7%89%A9%E8%B4%A8%E7%9A%84%E9%87%8F/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -635,13 +628,6 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/tags/%E6%B5%AE%E5%8A%9B/</loc>
-    <lastmod>2025-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/tags/math/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -656,6 +642,13 @@
   </url>
   
   <url>
+    <loc>https://boredliam.github.io/tags/%E7%89%A9%E7%90%86/</loc>
+    <lastmod>2025-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/tags/%E5%88%86%E6%9E%90/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -663,14 +656,21 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/tags/politics/</loc>
+    <loc>https://boredliam.github.io/tags/physics/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/tags/physics/</loc>
+    <loc>https://boredliam.github.io/tags/%E6%B5%AE%E5%8A%9B/</loc>
+    <lastmod>2025-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/tags/politics/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -700,7 +700,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/study/computer/network/</loc>
+    <loc>https://boredliam.github.io/categories/study/network/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -714,13 +714,6 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/others/</loc>
-    <lastmod>2025-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/categories/html/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -728,14 +721,14 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/study/network/</loc>
+    <loc>https://boredliam.github.io/categories/study/computer/network/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/html/study/</loc>
+    <loc>https://boredliam.github.io/categories/others/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -749,20 +742,6 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/study/network/JavaScript/</loc>
-    <lastmod>2025-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/categories/html/study/computer/</loc>
-    <lastmod>2025-06-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/categories/passage/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -770,7 +749,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/others/study/</loc>
+    <loc>https://boredliam.github.io/categories/study/network/JavaScript/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -784,7 +763,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/study/passage/recommend/</loc>
+    <loc>https://boredliam.github.io/categories/html/study/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -799,6 +778,27 @@
   
   <url>
     <loc>https://boredliam.github.io/categories/study/politics/</loc>
+    <lastmod>2025-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/categories/study/passage/recommend/</loc>
+    <lastmod>2025-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/categories/others/study/</loc>
+    <lastmod>2025-06-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/categories/html/study/computer/</loc>
     <lastmod>2025-06-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
