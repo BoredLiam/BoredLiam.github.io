@@ -1,0 +1,98 @@
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuiPlayer视频播放器示例</title>
+    <!-- 引入MuiPlayer CSS -->
+    <link rel="stylesheet" href="https://boredliam.gz.bcebos.com/mui-player.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .player-container {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+        <div class="player-container">
+            <div id="my-player"></div>
+        </div>
+
+
+
+    <!-- 引入MuiPlayer JS -->
+    <script src="https://boredliam.gz.bcebos.com/mui-player.min.js"></script>
+    <!-- 引入MuiPlayer插件（可选） -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/mui-player@latest/dist/mui-player-plugin.min.js"></script> -->
+
+    <script>
+        // 初始化播放器
+        document.addEventListener('DOMContentLoaded', function() {
+            const mp = new MuiPlayer({
+                container: '#my-player',
+                title: 'a',
+                src: 'https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/2025%E5%AD%A6%E4%B8%BA%E7%BD%91%E8%AF%BE/0707/7%E6%9C%887%E6%97%A5%E8%AF%AD%E6%96%87.mp4',
+                // 更多配置选项
+                autoplay: false,
+                loop: false,
+                volume: 0.7,
+                poster: '',
+                controls: {
+                    autoHide: true,
+                    autoHideTime: 3000
+                },
+                // 自定义控制栏按钮
+                setting: [
+                    'speed',
+                    'loop',
+                    {
+                        name: 'quality',
+                        html: '画质',
+                        type: 'select',
+                        default: 'auto',
+                        option: [
+                            {name: '自动', value: 'auto'},
+                            {name: '高清', value: 'hd'},
+                            {name: '标清', value: 'sd'}
+                        ]
+                    }
+                ]
+            });
+
+            // 播放器事件监听示例
+            mp.on('ready', function() {
+                console.log('播放器已准备好');
+            });
+
+            mp.on('play', function() {
+                console.log('视频开始播放');
+            });
+
+            mp.on('pause', function() {
+                console.log('视频已暂停');
+            });
+
+            mp.on('ended', function() {
+                console.log('视频播放结束');
+            });
+        });
+    </script>
+</body>
+</html>

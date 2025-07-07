@@ -83,15 +83,6 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/28305.html</loc>
-    
-    <lastmod>2024-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/homepage/posts/3520.html</loc>
     
     <lastmod>2024-09-01</lastmod>
@@ -119,6 +110,15 @@
   </url>
   
   <url>
+    <loc>https://boredliam.github.io/homepage/posts/28305.html</loc>
+    
+    <lastmod>2024-09-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/homepage/posts/24238.html</loc>
     
     <lastmod>2024-09-01</lastmod>
@@ -128,7 +128,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/31419.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/24171.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -137,7 +137,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/24171.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/31419.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -236,7 +236,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/jiugongge_demo2.html</loc>
+    <loc>https://boredliam.github.io/homepage/assets/demo/border1px.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -263,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/border1px.html</loc>
+    <loc>https://boredliam.github.io/homepage/assets/demo/jiugongge_demo2.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -281,7 +281,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/mediator/demo.html</loc>
+    <loc>https://boredliam.github.io/homepage/assets/demo/gift/index.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -290,7 +290,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/gift/index.html</loc>
+    <loc>https://boredliam.github.io/homepage/assets/demo/mediator/demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -326,7 +326,21 @@
 
   
   <url>
+    <loc>https://boredliam.github.io/homepage/tags/life/</loc>
+    <lastmod>2025-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/homepage/tags/life-feeling/</loc>
+    <lastmod>2025-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/homepage/tags/life-watching/</loc>
     <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -354,13 +368,6 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/tags/life-watching/</loc>
-    <lastmod>2025-07-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/homepage/tags/%E6%BC%AB%E7%94%BB/</loc>
     <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -369,13 +376,6 @@
   
   <url>
     <loc>https://boredliam.github.io/homepage/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2025-07-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/homepage/tags/life/</loc>
     <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
