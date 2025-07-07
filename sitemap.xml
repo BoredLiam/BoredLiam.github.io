@@ -2,34 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://boredliam.github.io/xuewei/0705C.html</loc>
+    
+    <lastmod>2025-07-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/xuewei/0706E1.html</loc>
-    
-    <lastmod>2025-07-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/xuewei/0706C.html</loc>
-    
-    <lastmod>2025-07-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/xuewei/0705M.html</loc>
-    
-    <lastmod>2025-07-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/xuewei/0705E.html</loc>
     
     <lastmod>2025-07-07</lastmod>
     
@@ -56,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/xuewei/index.html</loc>
+    <loc>https://boredliam.github.io/xuewei/0705M.html</loc>
     
     <lastmod>2025-07-07</lastmod>
     
@@ -65,7 +47,25 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/xuewei/0705C.html</loc>
+    <loc>https://boredliam.github.io/xuewei/0706C.html</loc>
+    
+    <lastmod>2025-07-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/xuewei/0705E.html</loc>
+    
+    <lastmod>2025-07-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/xuewei/index.html</loc>
     
     <lastmod>2025-07-07</lastmod>
     
@@ -551,7 +551,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/border1px.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/hack_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -560,7 +560,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/assets/demo/hack_demo.html</loc>
+    <loc>https://boredliam.github.io/assets/demo/border1px.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -790,14 +790,14 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/study/hardware/</loc>
+    <loc>https://boredliam.github.io/categories/html/</loc>
     <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/categories/html/</loc>
+    <loc>https://boredliam.github.io/categories/study/hardware/</loc>
     <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
