@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://boredliam.github.io/homepage/posts/392313.html</loc>
+    
+    <lastmod>2025-06-21</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/homepage/posts/260752.html</loc>
     
     <lastmod>2025-05-30</lastmod>
@@ -65,7 +74,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/26073.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/3520.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -74,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/3520.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/26073.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -245,7 +254,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/jiugongge_demo.html</loc>
+    <loc>https://boredliam.github.io/homepage/assets/demo/jiugongge_demo2.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -254,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/assets/demo/jiugongge_demo2.html</loc>
+    <loc>https://boredliam.github.io/homepage/assets/demo/jiugongge_demo.html</loc>
     
     <lastmod>2017-07-28</lastmod>
     
@@ -310,7 +319,7 @@
 
   <url>
     <loc>https://boredliam.github.io/homepage</loc>
-    <lastmod>2025-06-07</lastmod>
+    <lastmod>2025-07-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -318,35 +327,56 @@
   
   <url>
     <loc>https://boredliam.github.io/homepage/tags/life/</loc>
-    <lastmod>2025-06-07</lastmod>
+    <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/homepage/tags/life-feeling/</loc>
-    <lastmod>2025-06-07</lastmod>
+    <lastmod>2025-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/homepage/tags/textbooks/</loc>
+    <lastmod>2025-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/homepage/tags/English/</loc>
+    <lastmod>2025-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/homepage/tags/%E5%A4%96%E7%A0%94%E7%A4%BE/</loc>
+    <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/homepage/tags/life-watching/</loc>
-    <lastmod>2025-06-07</lastmod>
+    <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/homepage/tags/%E6%BC%AB%E7%94%BB/</loc>
-    <lastmod>2025-06-07</lastmod>
+    <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://boredliam.github.io/homepage/tags/%E6%9D%82%E8%B0%88/</loc>
-    <lastmod>2025-06-07</lastmod>
+    <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -355,7 +385,21 @@
   
   <url>
     <loc>https://boredliam.github.io/homepage/categories/life/</loc>
-    <lastmod>2025-06-07</lastmod>
+    <lastmod>2025-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/homepage/categories/study/</loc>
+    <lastmod>2025-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/homepage/categories/study/%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AF%AD%E9%80%89%E4%BF%AE/</loc>
+    <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
