@@ -56,25 +56,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/51954.html</loc>
-    
-    <lastmod>2024-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://boredliam.github.io/homepage/posts/48804.html</loc>
-    
-    <lastmod>2024-09-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/homepage/posts/28305.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -92,6 +74,15 @@
   </url>
   
   <url>
+    <loc>https://boredliam.github.io/homepage/posts/51954.html</loc>
+    
+    <lastmod>2024-09-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/homepage/posts/3520.html</loc>
     
     <lastmod>2024-09-01</lastmod>
@@ -101,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://boredliam.github.io/homepage/posts/39159.html</loc>
+    <loc>https://boredliam.github.io/homepage/posts/28305.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -111,6 +102,15 @@
   
   <url>
     <loc>https://boredliam.github.io/homepage/posts/4352.html</loc>
+    
+    <lastmod>2024-09-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://boredliam.github.io/homepage/posts/39159.html</loc>
     
     <lastmod>2024-09-01</lastmod>
     
@@ -340,6 +340,13 @@
   </url>
   
   <url>
+    <loc>https://boredliam.github.io/homepage/tags/life-watching/</loc>
+    <lastmod>2025-07-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://boredliam.github.io/homepage/tags/textbooks/</loc>
     <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
@@ -355,13 +362,6 @@
   
   <url>
     <loc>https://boredliam.github.io/homepage/tags/%E5%A4%96%E7%A0%94%E7%A4%BE/</loc>
-    <lastmod>2025-07-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://boredliam.github.io/homepage/tags/life-watching/</loc>
     <lastmod>2025-07-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
