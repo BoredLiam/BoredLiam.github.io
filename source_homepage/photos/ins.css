@@ -1,0 +1,29 @@
+.photos-btn-wrap {
+	margin-bottom: 20px;
+}
+.photos-btn {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: -4px;
+	padding: 5px 8px 3px;
+}
+.photos-btn.active {
+	color: rgb(39, 155, 213);
+	border: 1px solid #e5e5e5;
+	border-bottom: 3px solid #fff;
+}
+.main{
+	border: 1px solid #e5e5e5;
+	border-top-right-radius: 0.5em;
+	padding: 20px;
+}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.img{
+	width: 25%;
+	margin-bottom: 20px;
+}

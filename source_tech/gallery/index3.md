@@ -1,0 +1,95 @@
+---
+layout: false
+comments: false
+---
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>画廊</title>
+  <script src="https://cdn.bootcdn.net/ajax/libs/axios/1.7.8/axios.min.js"></script>
+  <style>
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center; /* Center the images horizontally */
+      align-items: center; /* Center the images vertically */
+    }
+    .gallery img {
+      width: auto;
+      max-height: 100vh; /* Set the maximum height to 100% of the viewport height */
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+  </style>
+
+</head>
+<body>
+  <h1>我的画廊</h1>
+  为了适应我的构式设备而做的一个小小的画廊，丑就不理了（〃｀ 3′〃）<br>
+  page3
+    <a href="index4.html">4</a>
+  <div class="gallery" id="imageContainer"></div>
+
+<script>
+  const imageContainer = document.getElementById('imageContainer');
+
+  async function loadImagesUntil404() {
+    let i = 100;
+  
+    while (i <= 150) {  // 添加循环条件，i不超过20
+      const jpgUrl = `https://acgisland.gz.bcebos.com/img/${i}.jpg`;
+      const pngUrl = `https://acgisland.gz.bcebos.com/img/${i}.png`;
+      let foundImage = false;
+  
+      try {
+        // Try loading .jpg file
+        const jpgResponse = await axios.get(jpgUrl, {
+          responseType: 'blob',
+          headers: {
+            'Access-Control-Allow-Credentials': true,
+            'Access-Control-Allow-Origin': 'https://boredliam.github.io/'
+          }
+        });
+        const jpgBlobUrl = URL.createObjectURL(jpgResponse.data);
+        createAndAppendImage(jpgBlobUrl, i);
+        foundImage = true;
+      } catch (jpgError) {
+        // JPG failed, try PNG
+        try {
+          const pngResponse = await axios.get(pngUrl, {
+            responseType: 'blob',
+            headers: {
+              'Access-Control-Allow-Credentials': true,
+              'Access-Control-Allow-Origin': 'https://boredliam.github.io/'
+            }
+          });
+          const pngBlobUrl = URL.createObjectURL(pngResponse.data);
+          createAndAppendImage(pngBlobUrl, i);
+          foundImage = true;
+        } catch (pngError) {
+          // Both JPG and PNG failed
+          if (!foundImage) {
+            console.warn(`图片 ${i} 的.jpg和.png版本都不存在或被拒绝访问`);
+            break;
+          }
+        }
+      }
+  
+      i++;
+    }
+    console.log('已检查完50张图片');
+  }
+  
+  function createAndAppendImage(blobUrl, i) {
+    const img = document.createElement('img');
+    img.src = blobUrl;
+    img.alt = `图片 ${i}`;
+    imageContainer.appendChild(img);
+  }
+  
+  loadImagesUntil404();
+</script>
+<a href="index4.html">4</a>
+</body>
+</html>
