@@ -1,0 +1,49 @@
+<% var defaultBg = '#4d4d4d'; %>
+<!--<div class="overlay"></div>-->
+<div class="overlay" style="background: <%= theme.style && theme.style.header ? theme.style.header : defaultBg %>"></div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/about" class="profilepic">
+			<img src="<%=theme.avatar%>" class="js-avatar">
+		</a>
+		<hgroup>
+		  <h1 class="header-author" style="font-family: Georgia, 'Times New Roman', Times, serif;text-shadow: -.1em .1em .2em #ccc;font-weight: 500;">
+			<a href="/about"><%=theme.author%></a>
+		  </h1>
+		</hgroup>
+		<% if (theme.subtitle){ %>
+		<!-- <p class="header-subtitle" style="font-family: Trebuchet MS;"><%=theme.subtitle%></p> -->
+		<p class="header-subtitle" style="font-family: SimSun;"><%=theme.subtitle%></p>
+		<%}%>
+
+		<nav class="header-menu">
+			<ul>
+			<% for (var i in theme.menu){ %>
+				<li><a href="<%- url_for(theme.menu[i]) %>"><%= i %></a></li>
+	        <%}%>
+			</ul>
+		</nav>
+		<!--文章数-->
+		<nav style="color: rgb(105, 105, 105);font-size: 14px">
+			总文章数: <span class="post_amount"><%=site.posts.length%></span>篇
+		</nav><br>
+		<!--文章数-->
+		<nav class="header-smart-menu">
+    		<% for (var i in theme.smart_menu){ %>
+    			<% if(theme.smart_menu[i]){ %>
+    			<a q-on="click: openSlider(e, '<%-i%>')" href="javascript:void(0)"><%= theme.smart_menu[i] %></a>
+    			<% } %>
+            <%}%>
+		</nav>
+		<nav class="header-nav">
+			<!--音乐-->
+			<!-- <iframe frameborder="yes" border="20" marginwidth="0" marginheight="0" width=250 height=80 src="//music.163.com/outchain/player?type=2&id=546730658&auto=0&height=66" style="border-top-right-radius: 0.7em;"></iframe> -->
+			<!--音乐-->
+			<div class="social">
+				<% for (var i in theme.subnav){ %>
+					<a class="<%= i %>" target="_blank" href="<%- url_for(theme.subnav[i]) %>" title="<%= i %>"><i class="icon-<%= i %>"></i></a>
+		        <%}%>
+			</div>
+		</nav>
+	</header>		
+</div>
