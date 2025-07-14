@@ -1007,7 +1007,7 @@ page:
 # 404 Page
 #---------------------------
 page404:
-  enable: true
+  enable: false
   banner_img: /img/default.png
   banner_img_height: 85
   banner_mask_alpha: 0.3
