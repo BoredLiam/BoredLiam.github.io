@@ -17,13 +17,13 @@ date: 2025-07-19 19:52:11
 
 {% note info %}
 【注】做双主题已经是一段时间之前的事了，当时懒得写文章，现在迁移的时候出了bug才想起来写，所以记忆可能出现某些偏差，请谨慎操作。
-(*^▽^*)
+(\*^▽^\*)
 {% endnote %}
 
 ## 参考文章
 
-[我的Hexo博客多主题同时部署的实现思路（Butterfly+安知鱼） - InsectMk | 2024-07-30](https://insectmk.cn/posts/10d64ca8/)
-[Hexo中同时使用多个主题 - Immortalqx | 2022-04-1](https://immortalqx.github.io/2022/04/17/hexo-multi-theme/)
+- [我的Hexo博客多主题同时部署的实现思路（Butterfly+安知鱼） - InsectMk | 2024-07-30](https://insectmk.cn/posts/10d64ca8/)
+- [Hexo中同时使用多个主题 - Immortalqx | 2022-04-1](https://immortalqx.github.io/2022/04/17/hexo-multi-theme/)
 
 ## 实现思路
 
@@ -97,7 +97,7 @@ theme: fluid
 
 创建新文章的命令和以前相同，只不过hexo后面要加上配置文件的声明，如在homepage中创建一篇新文章：
 
-```yaml
+```git
 hexo --config _config_homepage.yml new "xxxxx"
 ```
 
