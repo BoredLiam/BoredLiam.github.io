@@ -17,6 +17,7 @@ abbrlink: 3993213
 <details>
 <summary>
 外研社编写的《高中英语综合进阶》（曾为选修教材）的光碟电子课本以及官网的课本习题答案。
+<!-- more -->
 </summary>
 <a target="_blank" rel="noopener" href="https://boredliam.gz.bcebos.com/waiyanshe/%E5%85%89%E7%9B%988-10.rar">光盘程序</a><br>
 <a target="_blank" rel="noopener" href="https://boredliam.gz.bcebos.com/waiyanshe/%E3%80%8A%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AF%AD%E7%BB%BC%E5%90%88%E8%BF%9B%E9%98%B6%201%E3%80%8B-%E7%AD%94%E6%A1%88%E5%86%8C.pdf">《高中英语综合进阶 1》-答案册</a><br>
