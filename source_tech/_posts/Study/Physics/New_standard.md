@@ -92,8 +92,7 @@ $$\alpha=arctan\mu$$
 {% note light %}
 【解2】
 刚刚是平衡力，现在不是了怎么办？
-简单，我们将$F$分出一部分 $F_{1}$ 用来加速，
-剩下的 $F_{0}$ 就照样按平衡分析。
+简单，我们将$F$分出一部分 $F_{1}$ 用来加速，剩下的 $F_{0}$ 就照样按平衡分析。
 因为加速度肯定向右，所以 $F_{1}$ 也肯定向右，它越大加速度也就越大。
 那么为了找出最大加速度时的角度，我们以 $F$ 为半径，转动这个 $F$ ，看看何时 $F_{1}$ 最大。
 注意这里的$R$的大小是可变的，因为 $F$ 会减轻支持力。但方向不变，为 $\phi=arctan\mu$
@@ -113,8 +112,7 @@ $$=\frac{\frac{F-mgsin\phi}{cos\phi}}{m}\\$$
 $$=\frac{F-mgsin\phi}{m cos\phi}\\$$
 $$=\frac{\frac{F}{cos\phi}-mgtan\phi}{m}\\$$
 $$=\frac{F}{mcos\theta}-gtan\theta\\$$
-$$a_{max}=\frac{\sqrt{\mu^{2}+1}}{m}F-\mu g
-$$
+$$a_{max}=\frac{\sqrt{\mu^{2}+1}}{m}F-\mu g$$
 $$\alpha=\phi=arctan\mu$$
 {% endnote %}
 
