@@ -104,9 +104,7 @@ $$\alpha=arctan\mu$$
 由图可见，当$F$运动到$P$点，也就是$R$的平行线的切点时，$F_{1}$最大。
 由几何关系可以看出此时$\alpha=\phi$，也就是摩擦角。
 于是列式
-$$
-a_{max}
-=\frac{F_{1}}{m}\\$$
+$$a_{max}=\frac{F_{1}}{m}\\$$
 
 $$=\frac{\frac{F-mgsin\phi}{cos\phi}}{m}\\$$
 $$=\frac{F-mgsin\phi}{m cos\phi}\\$$
