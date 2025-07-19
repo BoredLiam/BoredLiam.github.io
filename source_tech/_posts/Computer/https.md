@@ -21,7 +21,7 @@ Mixed Content: The page at 'https://www.boredliam.top/homepage/posts/35201.html'
 
 > 当用户访问通过HTTPS提供的页面时，他们与 Web 服务器的连接使用TLS 进行加密，因此可以防止大多数嗅探器和中间人攻击。包含使用明文 HTTP 获取的内容的 HTTPS 页面称为混合内容页面。像这样的页面只是部分加密，使嗅探器和中间人攻击者可以访问未加密的内容。这使页面不安全。
 
-实际上只需要在头部加上meta信息即可：
+实际上只需要在头部加上该meta信息即可：
 
 ```html
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
@@ -29,7 +29,7 @@ Mixed Content: The page at 'https://www.boredliam.top/homepage/posts/35201.html'
 
 ## 解决方法
 
-fluid会判断网站是否采用https而选择性假如该meta，但是有时会出现判断失误的情况，所以可以删去判断：
+fluid会判断网站是否采用https而选择性加入该meta，但是有时会出现判断失误的情况，所以可以删去判断：
 定位`\themes\fluid\layout\_partials\head.ejs`
 
 ```html
