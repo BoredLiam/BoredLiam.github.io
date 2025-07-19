@@ -139,4 +139,6 @@ vercel通过调用`npm run build`指令来进行部署，`build`的内容可以�
 ```
 
 将命令改为了先执行`hexo --config _config_homepage.yml generate`，再执行一次`hexo clean`（因为此时不使用db.json），最后再执行`hexo generate`
-终于完美实现（终于改好bug）
+这样我们就完美实现了双主题+自动部署
+
+~~（md终于改好bug了）~~
