@@ -57,7 +57,7 @@ comments: false
     </style>
 </head>
 <body>
-    <script type="module" src="https://cdn.jsdelivr.net/gh/emaction/frontend.dist@1.0.7/bundle.js"></script>
+    <script type="module" src="https://boredliam.gz.bcebos.com/bundle.js"></script>
     <h1>学为课程链接</h1>
 
     <!-- 第一组：13节链接 -->
