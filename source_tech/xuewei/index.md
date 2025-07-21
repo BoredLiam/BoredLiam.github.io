@@ -171,6 +171,6 @@ comments: false
 欢迎访问黄文林的博客：<a href="https://blog.windeling.com/">windeling的博客</a><br>
 感谢 我自己 制作网页
 欢迎访问我的博客：<a href="https://www.boredliam.top/">我的博客</a>
-<emoji-reaction reacttargetid="XueWei" endpoint="https://api-emaction.liam2009.workers.dev"></emoji-reaction>
+<emoji-reaction reacttargetid="XueWei"></emoji-reaction>
 </div>
 </body>
