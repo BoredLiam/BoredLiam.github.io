@@ -156,18 +156,9 @@ comments: false
         <a href="">链接 5-15</a>
         <a href="">链接 5-16</a>
     </div>
-    <div class="image-container">
         <!-- 第一张图片 -->
-        <div class="image-wrapper">
-            <a href="">
-                <img src="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/intro/intro1.png" alt="目录1">
-            </a>
-        </div>
+        <img src="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/intro/intro1.png" alt="目录1">
         <!-- 第二张图片 -->
-        <div class="image-wrapper">
-            <a href="">
-                <img src="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/intro/intro2.png" alt="目录2">
-            </a>
-        </div>
-    </div>
+       <img src="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/intro/intro2.png" alt="目录2">
+        
 </body>
