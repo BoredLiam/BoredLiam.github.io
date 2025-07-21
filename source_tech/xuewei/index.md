@@ -51,16 +51,8 @@ comments: false
             overflow: hidden;
             position: relative;
         }
-        .image-wrapper img {
-            height: 100%;
-            width: auto;
-            object-fit: cover;
-        }
-        .image-wrapper a {
-            display: block;
-            height: 100%;
+        img {
             width: 100%;
-            text-align: center;
         }
     </style>
 </head>
@@ -70,95 +62,102 @@ comments: false
     <!-- 第一组：13节链接 -->
     <div class="link-group">
         <div class="group-title">1. 语文 (13节)</div>
-        <a href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/2025%E5%AD%A6%E4%B8%BA%E7%BD%91%E8%AF%BE/Ch/0705Ch.mp4">链接 1-1</a>
-        <a href="">链接 1-2</a>
-        <a href="">链接 1-3</a>
-        <a href="">链接 1-4</a>
-        <a href="">链接 1-5</a>
-        <a href="">链接 1-6</a>
-        <a href="">链接 1-7</a>
-        <a href="">链接 1-8</a>
-        <a href="">链接 1-9</a>
-        <a href="">链接 1-10</a>
-        <a href="">链接 1-11</a>
-        <a href="">链接 1-12</a>
-        <a href="">链接 1-13</a>
+        <a href="\Ch\Ch1.md">语文 1-1</a>
+        <a href="\Ch\Ch2.md">语文 1-2</a>
+        <a href="\Ch\Ch3.md">语文 1-3</a>
+        <a href="\Ch\Ch4.md">语文 1-4</a>
+        <a href="\Ch\Ch5.md">语文 1-5</a>
+        <a href="\Ch\Ch6.md">语文 1-6</a>
+        <a href="\Ch\Ch7.md">语文 1-7</a>
+        <a href="\Ch\Ch8.md">语文 1-8</a>
+        <a href="\Ch\Ch9.md">语文 1-9</a>
+        <a href="\Ch\Ch10.md">语文 1-10</a>
+        <a href="\Ch\Ch11.md">语文 1-11</a>
+        <a href="\Ch\Ch12.md">语文 1-12</a>
+        <a href="\Ch\Ch13.md">语文 1-13</a>
     </div>
 
     <!-- 第二组：8节链接 -->
     <div class="link-group">
         <div class="group-title">2. 化学 (8节)</div>
-        <a href="">链接 2-1</a>
-        <a href="">链接 2-2</a>
-        <a href="">链接 2-3</a>
-        <a href="">链接 2-4</a>
-        <a href="">链接 2-5</a>
-        <a href="">链接 2-6</a>
-        <a href="">链接 2-7</a>
-        <a href="">链接 2-8</a>
+        <a href="">化学 2-1</a>
+        <a href="">化学 2-2</a>
+        <a href="">化学 2-3</a>
+        <a href="">化学 2-4</a>
+        <a href="">化学 2-5</a>
+        <a href="">化学 2-6</a>
+        <a href="">化学 2-7</a>
+        <a href="">化学 2-8</a>
     </div>
 
     <!-- 第三组：6节链接 -->
     <div class="link-group">
         <div class="group-title">3. 英语 (6节)</div>
-        <a href="">链接 3-1</a>
-        <a href="">链接 3-2</a>
-        <a href="">链接 3-3</a>
-        <a href="">链接 3-4</a>
-        <a href="">链接 3-5</a>
-        <a href="">链接 3-6</a>
+        <a href="">英语 3-1</a>
+        <a href="">英语 3-2</a>
+        <a href="">英语 3-3</a>
+        <a href="">英语 3-4</a>
+        <a href="">英语 3-5</a>
+        <a href="">英语 3-6</a>
     </div>
 
     <!-- 第四组：22节链接 -->
     <div class="link-group">
         <div class="group-title">4. 数学 (22节)</div>
-        <a href="">链接 4-1</a>
-        <a href="">链接 4-2</a>
-        <a href="">链接 4-3</a>
-        <a href="">链接 4-4</a>
-        <a href="">链接 4-5</a>
-        <a href="">链接 4-6</a>
-        <a href="">链接 4-7</a>
-        <a href="">链接 4-8</a>
-        <a href="">链接 4-9</a>
-        <a href="">链接 4-10</a>
-        <a href="">链接 4-11</a>
-        <a href="">链接 4-12</a>
-        <a href="">链接 4-13</a>
-        <a href="">链接 4-14</a>
-        <a href="">链接 4-15</a>
-        <a href="">链接 4-16</a>
-        <a href="">链接 4-17</a>
-        <a href="">链接 4-18</a>
-        <a href="">链接 4-19</a>
-        <a href="">链接 4-20</a>
-        <a href="">链接 4-21</a>
-        <a href="">链接 4-22</a>
+        <a href="">数学 4-1</a>
+        <a href="">数学 4-2</a>
+        <a href="">数学 4-3</a>
+        <a href="">数学 4-4</a>
+        <a href="">数学 4-5</a>
+        <a href="">数学 4-6</a>
+        <a href="">数学 4-7</a>
+        <a href="">数学 4-8</a>
+        <a href="">数学 4-9</a>
+        <a href="">数学 4-10</a>
+        <a href="">数学 4-11</a>
+        <a href="">数学 4-12</a>
+        <a href="">数学 4-13</a>
+        <a href="">数学 4-14</a>
+        <a href="">数学 4-15</a>
+        <a href="">数学 4-16</a>
+        <a href="">数学 4-17</a>
+        <a href="">数学 4-18</a>
+        <a href="">数学 4-19</a>
+        <a href="">数学 4-20</a>
+        <a href="">数学 4-21</a>
+        <a href="">数学 4-22</a>
     </div>
 
     <!-- 第五组：16节链接 -->
     <div class="link-group">
         <div class="group-title">5. 物理 (16节)</div>
-        <a href="">链接 5-1</a>
-        <a href="">链接 5-2</a>
-        <a href="">链接 5-3</a>
-        <a href="">链接 5-4</a>
-        <a href="">链接 5-5</a>
-        <a href="">链接 5-6</a>
-        <a href="">链接 5-7</a>
-        <a href="">链接 5-8</a>
-        <a href="">链接 5-9</a>
-        <a href="">链接 5-10</a>
-        <a href="">链接 5-11</a>
-        <a href="">链接 5-12</a>
-        <a href="">链接 5-13</a>
-        <a href="">链接 5-14</a>
-        <a href="">链接 5-15</a>
-        <a href="">链接 5-16</a>
+        <a href="">物理 5-1</a>
+        <a href="">物理 5-2</a>
+        <a href="">物理 5-3</a>
+        <a href="">物理 5-4</a>
+        <a href="">物理 5-5</a>
+        <a href="">物理 5-6</a>
+        <a href="">物理 5-7</a>
+        <a href="">物理 5-8</a>
+        <a href="">物理 5-9</a>
+        <a href="">物理 5-10</a>
+        <a href="">物理 5-11</a>
+        <a href="">物理 5-12</a>
+        <a href="">物理 5-13</a>
+        <a href="">物理 5-14</a>
+        <a href="">物理 5-15</a>
+        <a href="">物理 5-16</a>
     </div>
         <!-- 第一张图片 -->
         <img src="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/intro/intro1.png" alt="目录1">
         <!-- 第二张图片 -->
        <img src="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/intro/intro2.png" alt="目录2">
-        
+        <div class="link-group">
+            <div class="group-title">6. 讲义</div>
+            <a href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/2025%E5%AD%A6%E4%B8%BA%E6%95%99%E6%A1%88/2025%E5%B9%B4%E6%9A%91%E5%81%87%E9%9B%86%E8%AE%AD%E8%B5%A2%E6%96%B0%E9%AB%98%E4%BA%8C%E7%89%A9%E7%90%86%20%E8%AE%B2%E4%B9%89%281%29.pdf">2025年暑假集训赢新高二物理 讲义(1).pdf</a>
+            <a href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/2025%E5%AD%A6%E4%B8%BA%E6%95%99%E6%A1%88/2025%E5%B9%B4%E6%9A%91%E6%9C%9F%E9%9B%86%E8%AE%AD%E8%B5%A2%E6%96%B0%E9%AB%98%E4%BA%8C%E6%95%B0%E5%AD%A6%20%E8%AE%B2%E4%B9%89.pdf">2025年暑期集训赢新高二数学 讲义.pdf</a>
+            <a href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/2025%E5%AD%A6%E4%B8%BA%E6%95%99%E6%A1%88/2025%E5%B9%B4%E6%9A%91%E6%9C%9F%E9%9B%86%E8%AE%AD%E8%B5%A2%E6%96%B0%E9%AB%98%E4%BA%8C%E8%8B%B1%E8%AF%AD%20%E8%AE%B2%E4%B9%89.pdf">2025年暑期集训赢新高二英语 讲义.pdf</a>
+            <a href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/2025%E5%AD%A6%E4%B8%BA%E6%95%99%E6%A1%88/2025%E5%B9%B4%E6%9A%91%E6%9C%9F%E9%9B%86%E8%AE%AD%E8%B5%A2%E6%96%B0%E9%AB%98%E4%BA%8C%E8%8B%B1%E8%AF%AD%20%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0.pdf">2025年暑期集训赢新高二英语 课后练习.pdf</a>
+            <a href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/2025%E5%AD%A6%E4%B8%BA%E6%95%99%E6%A1%88/2025%E5%B9%B4%E6%9A%91%E6%9C%9F%E9%9B%86%E8%AE%AD%E8%B5%A2%E6%96%B0%E9%AB%98%E4%BA%8C%E8%AF%AD%E6%96%87%20%E8%AE%B2%E4%B9%89.pdf">2025年暑期集训赢新高二语文 讲义.pdf</a>
+        </div>
 </body>
