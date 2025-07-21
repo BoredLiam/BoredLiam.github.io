@@ -62,19 +62,19 @@ comments: false
     <!-- 第一组：13节链接 -->
     <div class="link-group">
         <div class="group-title">1. 语文 (13节)</div>
-        <a href="\Ch\Ch1.md">语文 1-1</a>
-        <a href="\Ch\Ch2.md">语文 1-2</a>
-        <a href="\Ch\Ch3.md">语文 1-3</a>
-        <a href="\Ch\Ch4.md">语文 1-4</a>
-        <a href="\Ch\Ch5.md">语文 1-5</a>
-        <a href="\Ch\Ch6.md">语文 1-6</a>
-        <a href="\Ch\Ch7.md">语文 1-7</a>
-        <a href="\Ch\Ch8.md">语文 1-8</a>
-        <a href="\Ch\Ch9.md">语文 1-9</a>
-        <a href="\Ch\Ch10.md">语文 1-10</a>
-        <a href="\Ch\Ch11.md">语文 1-11</a>
-        <a href="\Ch\Ch12.md">语文 1-12</a>
-        <a href="\Ch\Ch13.md">语文 1-13</a>
+        <a href="\xuewei\Ch\Ch.html">语文 1-1</a>
+        <a href="\xuewei\Ch\Ch2.html">语文 1-2</a>
+        <a href="\xuewei\Ch\Ch3.html">语文 1-3</a>
+        <a href="\xuewei\Ch\Ch4.html">语文 1-4</a>
+        <a href="\xuewei\Ch\Ch5.html">语文 1-5</a>
+        <a href="\xuewei\Ch\Ch6.html">语文 1-6</a>
+        <a href="\xuewei\Ch\Ch7.html">语文 1-7</a>
+        <a href="\xuewei\Ch\Ch8.html">语文 1-8</a>
+        <a href="\xuewei\Ch\Ch9.html">语文 1-9</a>
+        <a href="\xuewei\Ch\Ch10.html">语文 1-10</a>
+        <a href="\xuewei\Ch\Ch11.html">语文 1-11</a>
+        <a href="\xuewei\Ch\Ch12.html">语文 1-12</a>
+        <a href="\xuewei\Ch\Ch13.html">语文 1-13</a>
     </div>
 
     <!-- 第二组：8节链接 -->
