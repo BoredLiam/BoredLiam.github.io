@@ -169,4 +169,5 @@ comments: false
 欢迎访问黄文林的博客：<a href="https://blog.windeling.com/">windeling的博客</a>
 感谢 我自己 制作网页
 欢迎访问我的博客：<a href="https://www.boredliam.top/">我的的博客</a>
+<emoji-reaction endpoint="https://upvote.lius.me"></emoji-reaction>
 </body>
