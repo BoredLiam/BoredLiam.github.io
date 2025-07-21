@@ -169,7 +169,7 @@ comments: false
 <div class="link-group">
 感谢 <span style="font-family: cursive;">黄文林同学</span> 提供存储服务
 欢迎访问黄文林的博客：
-欢迎访问黄文林的博客：<a href="https://blog.windeling.com/">windeling的博客</a><br>
+欢迎访问黄文林的博客：<a href="https://page.windeling.com/">windeling的博客</a><br>
 感谢 <span style="font-family: cursive;">我自己</span> 和 <span style="font-family: times;">Deepseek</span> 制作网页
 欢迎访问我的博客：<a href="https://www.boredliam.top/">我的博客</a>
 <!-- <emoji-reaction reacttargetid="XueWei" endpoint="https://api-emaction.liam2009.workers.dev"></emoji-reaction> -->
