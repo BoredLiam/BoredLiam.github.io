@@ -130,6 +130,9 @@ exports.handler = (event, context, callback) => {
 ![选择模板](32638/3.png "选择模板")
 ![设定基本信息](32638/H.webp "设定基本信息")
 ![定时触发器](32638/I.webp "设定定时触发器")
+
+> 2025.7.20 似乎百度云把定时任务触发器改成Crontab触发器了。。注意一下即可
+
 时间的填写方式参考下表或[百度云官方文档](https://cloud.baidu.com/doc/CFC/s/ajzmg1mft)：
 
 样例（注意：以下样例均使用UTC时区，Asia/Shangha时区比UTC时区多八个小时）:
