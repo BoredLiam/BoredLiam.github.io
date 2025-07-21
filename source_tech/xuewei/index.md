@@ -5,7 +5,6 @@ comments: false
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="https://cdn.jsdelivr.net/gh/emaction/frontend.dist@1.0.7/bundle.js"></script>
     <title>链接页面</title>
     <style>
         body {
@@ -58,6 +57,7 @@ comments: false
     </style>
 </head>
 <body>
+    <script type="module" src="https://cdn.jsdelivr.net/gh/emaction/frontend.dist@1.0.7/bundle.js"></script>
     <h1>学为课程链接</h1>
 
     <!-- 第一组：13节链接 -->
