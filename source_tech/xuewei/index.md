@@ -149,11 +149,13 @@ comments: false
         <a href="\xuewei\Ph\Ph5-16.html">物理 5-16</a>
     </div>
 
+    <div class="link-group">
         <!-- 第一张图片 -->
         <img src="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/intro/intro1.png" alt="目录1">
         <!-- 第二张图片 -->
        <img src="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/intro/intro2.png" alt="目录2">
-    
+    </div>
+
     <div class="link-group">
         <div class="group-title">6. 讲义</div>
         <a href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/2025%E5%AD%A6%E4%B8%BA%E6%95%99%E6%A1%88/2025%E5%B9%B4%E6%9A%91%E5%81%87%E9%9B%86%E8%AE%AD%E8%B5%A2%E6%96%B0%E9%AB%98%E4%BA%8C%E7%89%A9%E7%90%86%20%E8%AE%B2%E4%B9%89%281%29.pdf">2025年暑假集训赢新高二物理 讲义(1).pdf</a>
@@ -162,4 +164,9 @@ comments: false
         <a href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/2025%E5%AD%A6%E4%B8%BA%E6%95%99%E6%A1%88/2025%E5%B9%B4%E6%9A%91%E6%9C%9F%E9%9B%86%E8%AE%AD%E8%B5%A2%E6%96%B0%E9%AB%98%E4%BA%8C%E8%8B%B1%E8%AF%AD%20%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0.pdf">2025年暑期集训赢新高二英语 课后练习.pdf</a>
         <a href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/2025%E5%AD%A6%E4%B8%BA%E6%95%99%E6%A1%88/2025%E5%B9%B4%E6%9A%91%E6%9C%9F%E9%9B%86%E8%AE%AD%E8%B5%A2%E6%96%B0%E9%AB%98%E4%BA%8C%E8%AF%AD%E6%96%87%20%E8%AE%B2%E4%B9%89.pdf">2025年暑期集训赢新高二语文 讲义.pdf</a>
      </div>
+<h1>致谢</h1>
+感谢 黄文林同学 提供存储服务
+欢迎访问黄文林的博客：<a href="https://blog.windeling.com/">windeling的博客</a>
+感谢 我自己 制作网页
+欢迎访问我的博客：<a href="https://www.boredliam.top/">我的的博客</a>
 </body>
