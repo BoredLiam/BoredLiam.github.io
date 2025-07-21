@@ -3,7 +3,6 @@ layout: false
 comments: false
 ---
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/intro/logo.png">
     <title>链接页面</title>
@@ -58,6 +57,7 @@ comments: false
     </style>
 </head>
 <body>
+<link rel="icon" href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/intro/logo.png">
     <script type="module" src="https://boredliam.gz.bcebos.com/bundle.js"></script>
     <h1>学为课程链接</h1>
 
@@ -173,7 +173,7 @@ comments: false
 欢迎访问黄文林的博客：<a href="https://page.windeling.com/">windeling的博客</a><br>
 感谢 <span style="font-family: cursive;">我自己</span> 和 <span style="font-family: times;">Deepseek</span> 制作网页
 欢迎访问我的博客：<a href="https://www.boredliam.top/">我的博客</a>
-<emoji-reaction reacttargetid="XueWei" endpoint="https://api-emaction.boredliam.top"></emoji-reaction>
+<!-- <emoji-reaction reacttargetid="XueWei" endpoint="https://api-emaction.boredliam.top"></emoji-reaction> -->
 <!-- <emoji-reaction></emoji-reaction> -->
 </div>
 </body>
