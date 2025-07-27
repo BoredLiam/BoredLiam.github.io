@@ -32,11 +32,11 @@ $$tan\phi=\frac{b}{a}$$
 ### 物理
 
 > **全约束力与摩擦角**[^1]
-> 当有静滑动摩擦时，支承面对物体的约束力包含法向约束力$F\_{N}$ 和切向约束力 $F\_{s}$（即静摩擦力）。为讨论问题的方便，在某些情况下，把这两个力合起来，即
-> $$F\_{RA} = F\_{N}+F\_{s}$$
+> 当有静滑动摩擦时，支承面对物体的约束力包含法向约束力$F_{N}$ 和切向约束力 $F_{s}$（即静摩擦力）。为讨论问题的方便，在某些情况下，把这两个力合起来，即
+> $$F_{RA} = F_{N}+F_{s}$$
 > 称为**全约束力**。全约束力的作用线与接触处的公法线间有一夹角$ \phi$。当物块处于临界平衡状态时，静摩擦力达到最大值，偏角也达到最大值。**称全约束力与法线间的夹角的最大值为摩擦角。**
 > ![静摩擦力达到最大值时刻](894625/angle1.jpg)
-> $$tan \phi\_{f}=\frac{F\_{max}}{F\_{N}}=\frac{\mu F\_{N}}{F\_{N}}=\mu$$
+> $$tan \phi_{f}=\frac{F_{max}}{F_{N}}=\frac{\mu F_{N}}{F_{N}}=\mu$$
 > 即**摩擦角的正切等于静摩擦因数**。可见，摩擦角与摩擦因数一样，都是表示摩擦的一个重要物理量。
 > [^1]:节选自高等教育出版社.理论力学（I）第八版
 
@@ -56,7 +56,7 @@ $$tan\phi=\frac{1}{\mu}$$
 $$tan\alpha=tan(\frac{\pi}{2}-\phi)=cot\phi=\mu$$
 此时有
 $$\alpha=arctan\mu$$
-$$F\_{min}=\frac{\mu mg}{\sqrt{\mu^{2}+1}}$$
+$$F_{min}=\frac{\mu mg}{\sqrt{\mu^{2}+1}}$$
 
 {% endnote %}
 
@@ -66,11 +66,11 @@ $$F\_{min}=\frac{\mu mg}{\sqrt{\mu^{2}+1}}$$
 $$tan\phi=\mu$$
 注意：这里的$\phi$与上文用辅助角公式的$\phi$不一样。
 那么$R$的方向不变，这就变成了三力平衡问题。
-由右图可见，当拉力$F\perp R$时，$F$最小，此时$\alpha =\phi$，$F\_{min}=mgsin\phi$
+由右图可见，当拉力$F\perp R$时，$F$最小，此时$\alpha =\phi$，$F_{min}=mgsin\phi$
 因为
 $$sin\phi=\frac{\mu}{\sqrt{1+\mu^{2}}}$$
 所以
-$$F\_{min}=\frac{\mu mg}{\sqrt{\mu^{2}+1}}$$
+$$F_{min}=\frac{\mu mg}{\sqrt{\mu^{2}+1}}$$
 {% endnote %}
 <img align="right" src="894625/Q1.jpg" style="width: 200px;margin-left: 20px;" alt=""/>
 【题目2】
@@ -85,16 +85,16 @@ $$a=\frac{F(cos\alpha +\mu sin\alpha)}{m}-\mu g$$
 $$a=\frac{F}{m}\sqrt{1+\mu^{2}}sin(\alpha +\phi)-\mu g$$
 $$tan\phi=\frac{1}{\mu}$$
 当$\alpha+\phi=\frac{\pi}{2}$，即$tan\alpha=cot\phi=\mu$时
-$$a\_{max}=\frac{F}{m}\sqrt{1+\mu^{2}}-\mu g$$
+$$a_{max}=\frac{F}{m}\sqrt{1+\mu^{2}}-\mu g$$
 $$\alpha=arctan\mu$$
 {% endnote %}
 
 {% note light %}
 【解2】
 刚刚是平衡力，现在不是了怎么办？
-简单，我们将 $F$ 分出一部分，$F\_{1}$用来加速，剩下的 $F\_{0}$就照样按平衡分析。
-因为加速度肯定向右，所以 $F\_{1}$也肯定向右，它越大加速度也就越大。
-那么为了找出最大加速度时的角度，我们以 $F$ 为半径，转动这个 $F$ ，看看何时 $F\_{1}$ 最大。
+简单，我们将 $F$ 分出一部分，$F_{1}$用来加速，剩下的 $F_{0}$就照样按平衡分析。
+因为加速度肯定向右，所以 $F_{1}$也肯定向右，它越大加速度也就越大。
+那么为了找出最大加速度时的角度，我们以 $F$ 为半径，转动这个 $F$ ，看看何时 $F_{1}$ 最大。
 注意这里的 $R$ 的大小是可变的，因为 $F$ 会减轻支持力。但方向不变，为
 $$\phi = arctan \mu$$
 {% gi 2 1-1 %}
@@ -102,16 +102,16 @@ $$\phi = arctan \mu$$
 ![F方向变化时其他力大小的变化](894625/S3.jpg)
 {% endgi %}
 
-由图可见，当$F$运动到$P$点，也就是$R$的平行线的切点时，$F\_{1}$最大。
+由图可见，当$F$运动到$P$点，也就是$R$的平行线的切点时，$F_{1}$最大。
 由几何关系可以看出此时$\alpha=\phi$，也就是摩擦角。
 于是列式
-$$a\_{max}=\frac{F\_{1}}{m}\\$$
+$$a_{max}=\frac{F_{1}}{m}\\$$
 
 $$=\frac{\frac{F-mgsin\phi}{cos\phi}}{m}\\$$
 $$=\frac{F-mgsin\phi}{m cos\phi}\\$$
 $$=\frac{\frac{F}{cos\phi}-mgtan\phi}{m}\\$$
 $$=\frac{F}{mcos\theta}-gtan\theta\\$$
-$$a\_{max}=\frac{\sqrt{\mu^{2}+1}}{m}F-\mu g$$
+$$a_{max}=\frac{\sqrt{\mu^{2}+1}}{m}F-\mu g$$
 $$\alpha=\phi=arctan\mu$$
 {% endnote %}
 
