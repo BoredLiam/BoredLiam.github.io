@@ -5,7 +5,7 @@ comments: false
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/intro/logo.png">
-    <title>链接页面</title>
+    <title>链接页面(已停止支持)</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -60,7 +60,7 @@ comments: false
 <link rel="icon" href="https://xuewei2025.oss-cn-guangzhou.aliyuncs.com/intro/logo.png">
     <script type="module" src="https://boredliam.gz.bcebos.com/bundle.js"></script>
     <h1>学为课程链接</h1>
-
+    （链接已失效）
     <!-- 第一组：13节链接 -->
     <div class="link-group">
         <div class="group-title">1. 语文 (13节)</div>
