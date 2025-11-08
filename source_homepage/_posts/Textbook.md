@@ -1,5 +1,5 @@
 ---
-title: 
+title: 仿外研版英语排版
 date: 2025-09-24 22:54:32
 tags:
   - textbooks
@@ -7,7 +7,7 @@ tags:
   - 外研社
 categories:
   - study
-toc: true
+toc: false
 abbrlink: 3913555
 ---
 
