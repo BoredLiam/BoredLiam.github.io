@@ -1,5 +1,5 @@
 ---
-title: 【自学记录】Unit 1 You are who you are <br> 外研社《高中英语综合进阶1》（高中英语选修提高类教材）
+title: 【自学记录】Unit 1 You are who you are </br> 外研社《高中英语综合进阶1》（高中英语选修提高类教材）
 date: 2025-06-21 22:23:32
 tags:
   - textbooks
