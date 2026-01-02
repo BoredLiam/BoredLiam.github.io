@@ -11,7 +11,7 @@ comments: false
         <script type="text/javascript">
             function newyork () {
                 window.open(
-                'pop_up.html',
+                'tour/pop_up.html',
                 '单独窗口',
                 'height=300,width=600,top=300,left=200,toolbar=no,menubar=no,scrollbars=no,resizable=no,location=no,status=no,titlebar=no'
                 )
@@ -63,7 +63,7 @@ comments: false
             <div class="item" style="border-right: 0;"><img src="https://s21.ax1x.com/2024/06/16/pkwYKOS.png"><button onclick="page_print()">Print</button></div>
         </div>
         <div class="content" id="content">
-            <img src="pic/A.png" id="earth">
+            <img src="tour/pic/A.png" id="earth">
             <p>
                 Welcome to "Around the World in Eight Hours". I'm your tour guide, Robin. Have you noticed the "Tour" icon at the top of the page? Just click on it,and you can visit Asia, Africa, Europe, America and more in only eight hours!
             </p>
