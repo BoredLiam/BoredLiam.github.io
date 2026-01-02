@@ -14,7 +14,7 @@ comments: false
         </script>
     </head>
     <body style="background-color: #F2F3EE;margin: 0;">
-            <a id="enter" onclick="window.opener=null;window.open('','_self');window.close();" target="_blank" href="new_york.html"><img src="https://s21.ax1x.com/2024/06/16/pkwYpQK.png" onerror="notfound();"></a>
+            <a id="enter" onclick="window.opener=null;window.open('','_self');window.close();" target="_blank" href="new_york.html"><img src="https://s21.ax1x.com/2024/06/16/pkwYpQK.png" onerror="notfound();" style="height: 100vh;"></a>
         <style>
             #enter img{
                 position: relative;
