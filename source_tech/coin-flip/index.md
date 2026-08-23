@@ -6,6 +6,7 @@ comments: false
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link rel="icon" type="image/gif" href="icon.gif">
     <title>抛硬币</title>
     <style>
         :root {
