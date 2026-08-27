@@ -60,7 +60,7 @@ $$g''(t)=\frac{1}{t}>0$$
 $$\frac{g(a^x)+g(b^x)}{2}>g(\frac{a^{x}+b^{x}}{2})$$
 即
 $$\frac{a^x lna^{x}+b^x lnb^{x}}{2}>\frac{a^{x}+b^{x}}{2}ln\frac{a^{x}+b^{x}}{2}$$
-那么便证明了$\frac{\mathrm{d}y}{\mathrm{d}x}>0$
+那么便证明了$\displaystyle{\frac{\mathrm{d}y}{\mathrm{d}x}}>0$
 
 ## 证明2：$0$处的极限
 
