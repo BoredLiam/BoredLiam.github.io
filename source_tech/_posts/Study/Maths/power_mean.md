@@ -42,7 +42,7 @@ $$\frac{1}{y}\frac{\mathrm{d}y}{\mathrm{d}x}=-\frac{1}{x^2}ln\frac{a^{x}+b^{x}}{
 $$\frac{1}{y}\frac{\mathrm{d}y}{\mathrm{d}x}=-\frac{1}{x^2}ln\frac{a^{x}+b^{x}}{2}+\frac{1}{x}\frac{a^x lna+b^x lnb}{a^x+b^x}$$
 将$y$乘过去，并提取公因式
 $$\frac{\mathrm{d}y}{\mathrm{d}x}=(\frac{a^{x}+b^{x}}{2})^{\frac{1}{x}}\frac{1}{x^2}(\frac{a^x lna+b^x lnb}{a^x+b^x}x-ln\frac{a^{x}+b^{x}}{2})$$
-接下来提取出一个$\frac{2}{a^{x}+b^{x}}$放在括号外面，顺便把一个$x$放进对数里
+接下来提取出一个$\displaystyle{\frac{2}{a^{x}+b^{x}}}$放在括号外面，顺便把一个$x$放进对数里
 $$\frac{\mathrm{d}y}{\mathrm{d}x}=(\frac{a^{x}+b^{x}}{2})^{\frac{1}{x}}\frac{1}{x^2}\frac{2}{a^{x}+b^{x}}(\frac{a^x lna^{x}+b^x lnb^{x}}{2}-\frac{a^{x}+b^{x}}{2}ln\frac{a^{x}+b^{x}}{2})$$
 为什么这么做呢？别忘了我们是要证明导数大于$0$，此时分离出的前半部分显然有
 $$(\frac{a^{x}+b^{x}}{2})^{\frac{1}{x}}\frac{1}{x^2}\frac{2}{a^{x}+b^{x}}>0$$
