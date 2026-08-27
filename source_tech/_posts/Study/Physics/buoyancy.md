@@ -204,13 +204,13 @@ $$\Delta V_{物B}=\Delta V_{排B}-V_{m}$$
 $$=\frac{\Delta F_{浮B}}{\rho_{水}g}-\frac{m}{\rho}$$
 $$=\frac{m}{\rho_{水}}-\frac{m}{\rho}$$
 这里的$$m$$是m的质量，题目并没有给出，所以我们将其相比消去$$m$$
-$$\frac{\Delta V_{物A}}{\Delta V_{物B}}=\frac{\frac{m}{\rho_{水}}}{\frac{m}{\rho_{水}}-\frac{m}{\rho}}=\frac{\frac{1}{\rho_{水}}}{\frac{1}{\rho_{水}}-\frac{1}{\rho}}=\frac{\rho}{\rho-\rho_{水}}$$
+$$\frac{\Delta V_{物A}}{\Delta V_{物B}}=\frac{\displaystyle{\frac{m}{\rho_{水}}}}{\displaystyle{\frac{m}{\rho_{水}}-\frac{m}{\rho}}}=\frac{\displaystyle{\frac{1}{\rho_{水}}}}{\displaystyle{\frac{1}{\rho_{水}}-\frac{1}{\rho}}}=\frac{\rho}{\rho-\rho_{水}}$$
 我们可以发现，这条式子的推导中并未用到$$h$$，所以这条式子对于其他深度也是适用的。接下来我们用$$h$$将其化简。
-对于左边的$$\frac{\Delta V_{物A}}{\Delta V_{物B}}$$有
+对于左边的$\displaystyle{\frac{\Delta V_{物A}}{\Delta V_{物B}}}$有
 $$\frac{\Delta V_{物A}}{\Delta V_{物B}}=\frac{\Delta h_{A}S_{物}}{\Delta h_{B}S_{物}}=\frac{\Delta h_{A}}{\Delta h_{B}}=\frac{h_{1}-h_{2}}{h_{1}-h_{3}}$$
 于是联立两式得到
 $$\frac{\rho}{\rho-\rho_{水}}=\frac{h_{1}-h_{2}}{h_{1}-h_{3}}$$
-接着将$$\frac{\rho}{\rho-\rho_{水}}$$化为$$\frac{\rho}{\rho_{水}}$$的形式（比例的性质）
+接着将$\displaystyle{\frac{\rho}{\rho-\rho_{水}}}$化为$\displaystyle{\frac{\rho}{\rho_{水}}}$的形式（比例的性质）
 $$\frac{\rho}{\rho-(\rho-\rho_{水})}=\frac{h_{1}-h_{2}}{(h_{1}-h_{2})-(h_{1}-h_{3})}$$
 $$\frac{\rho}{\rho-\rho+\rho_{水}}=\frac{h_{1}-h_{2}}{h_{1}-h_{2}-h_{1}+h_{3}}$$
 $$\frac{\rho}{\rho_{水}}=\frac{h_{1}-h_{2}}{-h_{2}+h_{3}}$$

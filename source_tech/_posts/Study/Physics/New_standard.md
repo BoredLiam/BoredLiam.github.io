@@ -107,9 +107,9 @@ $$\phi = arctan \mu$$
 于是列式
 $$a_{max}=\frac{F_{1}}{m}\\$$
 
-$$=\frac{\frac{F-mgsin\phi}{cos\phi}}{m}\\$$
+$$=\frac{\displaystyle{\frac{F-mgsin\phi}{cos\phi}}}{m}\\$$
 $$=\frac{F-mgsin\phi}{m cos\phi}\\$$
-$$=\frac{\frac{F}{cos\phi}-mgtan\phi}{m}\\$$
+$$=\frac{\displaystyle{\frac{F}{cos\phi}}-mgtan\phi}{m}\\$$
 $$=\frac{F}{mcos\theta}-gtan\theta\\$$
 $$a_{max}=\frac{\sqrt{\mu^{2}+1}}{m}F-\mu g$$
 $$\alpha=\phi=arctan\mu$$
