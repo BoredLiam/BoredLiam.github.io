@@ -54,7 +54,7 @@ $$\frac{a^x lna^{x}+b^x lnb^{x}}{2}>\frac{a^{x}+b^{x}}{2}ln\frac{a^{x}+b^{x}}{2}
 因为
 $$g'(t)=lnt+1$$
 $$g''(t)=\frac{1}{t}>0$$
-说明$g(t)$为上凸函数
+说明$g(t)$为下凸函数
 
 那么
 $$\frac{g(a^x)+g(b^x)}{2}>g(\frac{a^{x}+b^{x}}{2})$$
