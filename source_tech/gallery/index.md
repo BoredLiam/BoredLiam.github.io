@@ -30,7 +30,7 @@ comments: false
   page1
   <a href="index2.html">2</a>
   <div class="gallery" id="imageContainer"></div>
-
+<!-- 
 <script>
   const imageContainer = document.getElementById('imageContainer');
 
@@ -89,7 +89,7 @@ comments: false
   }
   
   loadImagesUntil404();
-</script>
+</script> -->
 <a href="index2.html">2</a>
 </body>
 </html>

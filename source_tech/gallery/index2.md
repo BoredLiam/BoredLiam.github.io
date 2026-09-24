@@ -31,7 +31,7 @@ comments: false
     <a href="index3.html">3</a>
   <div class="gallery" id="imageContainer"></div>
 
-<script>
+<!-- <script>
   const imageContainer = document.getElementById('imageContainer');
 
   async function loadImagesUntil404() {
@@ -89,7 +89,7 @@ comments: false
   }
   
   loadImagesUntil404();
-</script>
+</script> -->
 <a href="index3.html">3</a>
 </body>
 </html>
