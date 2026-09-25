@@ -10,7 +10,7 @@ categories:
   - JavaScript
 toc: true
 abbrlink: 9809
-comment: 'valine'
+comment: 'waline'
 date: 2024-07-20 00:00:00
 ---
 [来学习吧：www.runoob.com](https://www.runoob.com/js/js-tutorial.html)

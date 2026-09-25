@@ -6,7 +6,7 @@ categories:
 - study
 - chemistry
 abbrlink: 45893165
-comment: 'valine'
+comment: 'waline'
 date: 2026-09-24
 ---
 

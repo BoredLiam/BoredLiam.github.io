@@ -10,7 +10,7 @@ toc: true
 hidden: false
 abbrlink: 24506
 date: 2024-07-11 00:00:00
-comment: 'valine'
+comment: 'waline'
 ---
 代码原作者：[cungudafa（CSDN）](https://cungudafa.blog.csdn.net/)，Valine 1.2.10至1.4.4的更改办法见[原文](https://blog.csdn.net/cungudafa/article/details/104638730)
 

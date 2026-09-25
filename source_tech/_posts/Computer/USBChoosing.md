@@ -7,7 +7,7 @@ categories:
 toc: true
 abbrlink: 42416
 date: 2023-08-24 00:00:00
-comment: 'valine'
+comment: 'waline'
 ---
 
 起因：我想买个U盘。
